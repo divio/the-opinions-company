@@ -609,10 +609,10 @@
 },
 {
     "model": "sessions.session",
-    "pk": "7jnrz0u447a6pgaphiteu3irj1kpkzsy",
+    "pk": "6w97njvboegcy2cgyeg5rlbq4uf59mmq",
     "fields": {
-        "session_data": "NGQ2MjFkNmNkZDU3MjA2YTBkYTY0MzAwMDA0MmMxYjcxODk3OWFkNTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzNTk0YWExOTkwOWEzNWFmOWNmMTI4NjViYjAyZmZkNGMxYzAzOTliIiwiY21zX3Rvb2xiYXJfZGlzYWJsZWQiOmZhbHNlLCJjbXNfZWRpdCI6ZmFsc2UsImNtc19wcmV2aWV3Ijp0cnVlLCJ3aXphcmRfd2l6YXJkX2NyZWF0ZV92aWV3Ijp7InN0ZXAiOm51bGwsInN0ZXBfZGF0YSI6e30sInN0ZXBfZmlsZXMiOnt9LCJleHRyYV9kYXRhIjp7fX0sImZpbGVyX2xhc3RfZm9sZGVyX2lkIjoiMSJ9",
-        "expire_date": "2018-07-17T12:41:03.825Z"
+        "session_data": "OWMxYWM1MDk3NTJjYzVjYmRlYjg5OTg4YjZhOGM0NWIyMDI5Zjg0OTp7ImNtc190b29sYmFyX2Rpc2FibGVkIjpmYWxzZSwiY21zX2VkaXQiOnRydWUsImNtc19wcmV2aWV3IjpmYWxzZSwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6IjM1OTRhYTE5OTA5YTM1YWY5Y2YxMjg2NWJiMDJmZmQ0YzFjMDM5OWIifQ==",
+        "expire_date": "2018-07-18T13:57:15.179Z"
     }
 },
 {
@@ -620,7 +620,7 @@
     "pk": 1,
     "fields": {
         "domain": "example.com",
-        "name": "example.com"
+        "name": "The Opinions Company"
     }
 },
 {
@@ -2535,6 +2535,15 @@
         "language": "en",
         "site": 1,
         "key": "cms_3.5.2_menu_nodes_en_1:public"
+    }
+},
+{
+    "model": "menus.cachekey",
+    "pk": 13,
+    "fields": {
+        "language": "en",
+        "site": 1,
+        "key": "cms_3.5.2_menu_nodes_en_1_1_user:draft"
     }
 },
 {
@@ -6656,7 +6665,7 @@
     "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$36000$aOJqAjuZ6gv1$zwBCs6l3AP1OJjOi7qiEC4GMzt5yriLsLFm0PdbJ4GY=",
-        "last_login": "2018-07-03T11:06:54.676Z",
+        "last_login": "2018-07-04T13:27:20.200Z",
         "is_superuser": true,
         "username": "admin",
         "first_name": "",
@@ -7005,6 +7014,32 @@
         "object_repr": "The Opinions Company",
         "action_flag": 2,
         "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2018-07-04T13:28:27.281Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "example.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2018-07-04T13:57:13.447Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "example.com",
+        "action_flag": 2,
+        "change_message": "[]"
     }
 },
 {
