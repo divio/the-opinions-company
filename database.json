@@ -620,7 +620,7 @@
     "pk": "iw4703uyqzgzjqcwiysmn20jwmi41wc0",
     "fields": {
         "session_data": "Njc0YzM5ZDUyOWI3MTk4Nzc3ZTA4OGZiMGJhMTJkYWNjNTU5MTliZjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzNTk0YWExOTkwOWEzNWFmOWNmMTI4NjViYjAyZmZkNGMxYzAzOTliIiwiY21zX3Rvb2xiYXJfZGlzYWJsZWQiOmZhbHNlLCJjbXNfZWRpdCI6ZmFsc2UsImNtc19wcmV2aWV3Ijp0cnVlfQ==",
-        "expire_date": "2018-07-19T08:28:34.759Z"
+        "expire_date": "2018-07-19T08:35:34.788Z"
     }
 },
 {
@@ -737,7 +737,7 @@
         "created_by": "admin",
         "changed_by": "admin",
         "creation_date": "2018-07-03T11:07:12.046Z",
-        "changed_date": "2018-07-05T08:28:33.993Z",
+        "changed_date": "2018-07-05T08:35:33.837Z",
         "publication_date": "2018-07-03T11:07:12.046Z",
         "publication_end_date": null,
         "in_navigation": true,
@@ -1366,10 +1366,10 @@
     "model": "cms.cmsplugin",
     "pk": 86,
     "fields": {
-        "path": "000R0002000100010002",
-        "depth": 5,
+        "path": "000O000200010002",
+        "depth": 4,
         "numchild": 0,
-        "placeholder": 18,
+        "placeholder": 2,
         "parent": 174,
         "position": 1,
         "language": "en",
@@ -1382,10 +1382,10 @@
     "model": "cms.cmsplugin",
     "pk": 87,
     "fields": {
-        "path": "000R0002000100020002",
-        "depth": 5,
+        "path": "000O000200020002",
+        "depth": 4,
         "numchild": 0,
-        "placeholder": 18,
+        "placeholder": 2,
         "parent": 176,
         "position": 1,
         "language": "en",
@@ -1398,10 +1398,10 @@
     "model": "cms.cmsplugin",
     "pk": 88,
     "fields": {
-        "path": "000R0002000100030002",
-        "depth": 5,
+        "path": "000O000200030002",
+        "depth": 4,
         "numchild": 0,
-        "placeholder": 18,
+        "placeholder": 2,
         "parent": 178,
         "position": 1,
         "language": "en",
@@ -1590,12 +1590,12 @@
     "model": "cms.cmsplugin",
     "pk": 148,
     "fields": {
-        "path": "000M",
-        "depth": 1,
+        "path": "000R00020002",
+        "depth": 3,
         "numchild": 3,
-        "placeholder": 2,
-        "parent": null,
-        "position": 1,
+        "placeholder": 18,
+        "parent": 181,
+        "position": 0,
         "language": "en",
         "plugin_type": "Bootstrap4GridRowPlugin",
         "creation_date": "2018-07-05T06:49:59.506Z",
@@ -1606,10 +1606,10 @@
     "model": "cms.cmsplugin",
     "pk": 149,
     "fields": {
-        "path": "000M0001",
-        "depth": 2,
+        "path": "000R000200020001",
+        "depth": 4,
         "numchild": 1,
-        "placeholder": 2,
+        "placeholder": 18,
         "parent": 148,
         "position": 0,
         "language": "en",
@@ -1640,7 +1640,7 @@
     "fields": {
         "path": "000O",
         "depth": 1,
-        "numchild": 1,
+        "numchild": 2,
         "placeholder": 2,
         "parent": null,
         "position": 0,
@@ -1654,10 +1654,10 @@
     "model": "cms.cmsplugin",
     "pk": 154,
     "fields": {
-        "path": "000M00010001",
-        "depth": 3,
+        "path": "000R0002000200010001",
+        "depth": 5,
         "numchild": 0,
-        "placeholder": 2,
+        "placeholder": 18,
         "parent": 149,
         "position": 0,
         "language": "en",
@@ -1670,10 +1670,10 @@
     "model": "cms.cmsplugin",
     "pk": 157,
     "fields": {
-        "path": "000M0002",
-        "depth": 2,
+        "path": "000R000200020002",
+        "depth": 4,
         "numchild": 1,
-        "placeholder": 2,
+        "placeholder": 18,
         "parent": 148,
         "position": 1,
         "language": "en",
@@ -1686,10 +1686,10 @@
     "model": "cms.cmsplugin",
     "pk": 158,
     "fields": {
-        "path": "000M00020001",
-        "depth": 3,
+        "path": "000R0002000200020001",
+        "depth": 5,
         "numchild": 0,
-        "placeholder": 2,
+        "placeholder": 18,
         "parent": 157,
         "position": 0,
         "language": "en",
@@ -1702,10 +1702,10 @@
     "model": "cms.cmsplugin",
     "pk": 159,
     "fields": {
-        "path": "000M0003",
-        "depth": 2,
+        "path": "000R000200020003",
+        "depth": 4,
         "numchild": 1,
-        "placeholder": 2,
+        "placeholder": 18,
         "parent": 148,
         "position": 2,
         "language": "en",
@@ -1718,10 +1718,10 @@
     "model": "cms.cmsplugin",
     "pk": 160,
     "fields": {
-        "path": "000M00030001",
-        "depth": 3,
+        "path": "000R0002000200030001",
+        "depth": 5,
         "numchild": 0,
-        "placeholder": 2,
+        "placeholder": 18,
         "parent": 159,
         "position": 0,
         "language": "en",
@@ -1734,12 +1734,12 @@
     "model": "cms.cmsplugin",
     "pk": 173,
     "fields": {
-        "path": "000R00020001",
-        "depth": 3,
+        "path": "000O0002",
+        "depth": 2,
         "numchild": 3,
-        "placeholder": 18,
-        "parent": 181,
-        "position": 0,
+        "placeholder": 2,
+        "parent": 153,
+        "position": 1,
         "language": "en",
         "plugin_type": "Bootstrap4GridRowPlugin",
         "creation_date": "2018-07-05T06:49:59.506Z",
@@ -1750,10 +1750,10 @@
     "model": "cms.cmsplugin",
     "pk": 174,
     "fields": {
-        "path": "000R000200010001",
-        "depth": 4,
+        "path": "000O00020001",
+        "depth": 3,
         "numchild": 2,
-        "placeholder": 18,
+        "placeholder": 2,
         "parent": 173,
         "position": 0,
         "language": "en",
@@ -1766,10 +1766,10 @@
     "model": "cms.cmsplugin",
     "pk": 175,
     "fields": {
-        "path": "000R0002000100010001",
-        "depth": 5,
+        "path": "000O000200010001",
+        "depth": 4,
         "numchild": 0,
-        "placeholder": 18,
+        "placeholder": 2,
         "parent": 174,
         "position": 0,
         "language": "en",
@@ -1782,10 +1782,10 @@
     "model": "cms.cmsplugin",
     "pk": 176,
     "fields": {
-        "path": "000R000200010002",
-        "depth": 4,
+        "path": "000O00020002",
+        "depth": 3,
         "numchild": 2,
-        "placeholder": 18,
+        "placeholder": 2,
         "parent": 173,
         "position": 1,
         "language": "en",
@@ -1798,10 +1798,10 @@
     "model": "cms.cmsplugin",
     "pk": 177,
     "fields": {
-        "path": "000R0002000100020001",
-        "depth": 5,
+        "path": "000O000200020001",
+        "depth": 4,
         "numchild": 0,
-        "placeholder": 18,
+        "placeholder": 2,
         "parent": 176,
         "position": 0,
         "language": "en",
@@ -1814,10 +1814,10 @@
     "model": "cms.cmsplugin",
     "pk": 178,
     "fields": {
-        "path": "000R000200010003",
-        "depth": 4,
+        "path": "000O00020003",
+        "depth": 3,
         "numchild": 2,
-        "placeholder": 18,
+        "placeholder": 2,
         "parent": 173,
         "position": 2,
         "language": "en",
@@ -1830,10 +1830,10 @@
     "model": "cms.cmsplugin",
     "pk": 179,
     "fields": {
-        "path": "000R0002000100030001",
-        "depth": 5,
+        "path": "000O000200030001",
+        "depth": 4,
         "numchild": 0,
-        "placeholder": 18,
+        "placeholder": 2,
         "parent": 178,
         "position": 0,
         "language": "en",
@@ -2340,153 +2340,201 @@
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 295,
+    "pk": 318,
     "fields": {
         "path": "001F",
         "depth": 1,
-        "numchild": 3,
-        "placeholder": 3,
-        "parent": null,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4GridRowPlugin",
-        "creation_date": "2018-07-05T06:49:59.506Z",
-        "changed_date": "2018-07-05T08:28:34.126Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 296,
-    "fields": {
-        "path": "001F0001",
-        "depth": 2,
-        "numchild": 1,
-        "placeholder": 3,
-        "parent": 295,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4GridColumnPlugin",
-        "creation_date": "2018-07-05T06:49:59.518Z",
-        "changed_date": "2018-07-05T08:28:34.128Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 297,
-    "fields": {
-        "path": "001F00010001",
-        "depth": 3,
-        "numchild": 0,
-        "placeholder": 3,
-        "parent": 296,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-05T06:51:25.112Z",
-        "changed_date": "2018-07-05T08:28:34.177Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 298,
-    "fields": {
-        "path": "001F0002",
-        "depth": 2,
-        "numchild": 1,
-        "placeholder": 3,
-        "parent": 295,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4GridColumnPlugin",
-        "creation_date": "2018-07-05T06:49:59.518Z",
-        "changed_date": "2018-07-05T08:28:34.141Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 299,
-    "fields": {
-        "path": "001F00020001",
-        "depth": 3,
-        "numchild": 0,
-        "placeholder": 3,
-        "parent": 298,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-05T06:51:25.112Z",
-        "changed_date": "2018-07-05T08:28:34.185Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 300,
-    "fields": {
-        "path": "001F0003",
-        "depth": 2,
-        "numchild": 1,
-        "placeholder": 3,
-        "parent": 295,
-        "position": 2,
-        "language": "en",
-        "plugin_type": "Bootstrap4GridColumnPlugin",
-        "creation_date": "2018-07-05T06:49:59.518Z",
-        "changed_date": "2018-07-05T08:28:34.153Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 301,
-    "fields": {
-        "path": "001F00030001",
-        "depth": 3,
-        "numchild": 0,
-        "placeholder": 3,
-        "parent": 300,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-05T06:51:25.112Z",
-        "changed_date": "2018-07-05T08:28:34.193Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 302,
-    "fields": {
-        "path": "001G",
-        "depth": 1,
-        "numchild": 1,
+        "numchild": 2,
         "placeholder": 3,
         "parent": null,
         "position": 0,
         "language": "en",
         "plugin_type": "StylePlugin",
         "creation_date": "2018-07-05T06:51:01.093Z",
-        "changed_date": "2018-07-05T08:28:34.165Z"
+        "changed_date": "2018-07-05T08:35:33.979Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 303,
+    "pk": 319,
     "fields": {
-        "path": "001G0001",
+        "path": "001F0001",
         "depth": 2,
         "numchild": 0,
         "placeholder": 3,
-        "parent": 302,
+        "parent": 318,
         "position": 0,
         "language": "en",
         "plugin_type": "TextPlugin",
         "creation_date": "2018-07-05T06:50:09.783Z",
-        "changed_date": "2018-07-05T08:28:34.201Z"
+        "changed_date": "2018-07-05T08:35:34.070Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 304,
+    "pk": 320,
     "fields": {
-        "path": "001H",
+        "path": "001F0002",
+        "depth": 2,
+        "numchild": 3,
+        "placeholder": 3,
+        "parent": 318,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridRowPlugin",
+        "creation_date": "2018-07-05T06:49:59.506Z",
+        "changed_date": "2018-07-05T08:35:34.004Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 321,
+    "fields": {
+        "path": "001F00020001",
+        "depth": 3,
+        "numchild": 2,
+        "placeholder": 3,
+        "parent": 320,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridColumnPlugin",
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T08:35:34.008Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 322,
+    "fields": {
+        "path": "001F000200010001",
+        "depth": 4,
+        "numchild": 0,
+        "placeholder": 3,
+        "parent": 321,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T08:35:34.081Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 323,
+    "fields": {
+        "path": "001F000200010002",
+        "depth": 4,
+        "numchild": 0,
+        "placeholder": 3,
+        "parent": 321,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "PollPluginPublisher",
+        "creation_date": "2018-07-03T12:23:19.304Z",
+        "changed_date": "2018-07-05T08:35:34.026Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 324,
+    "fields": {
+        "path": "001F00020002",
+        "depth": 3,
+        "numchild": 2,
+        "placeholder": 3,
+        "parent": 320,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridColumnPlugin",
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T08:35:34.031Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 325,
+    "fields": {
+        "path": "001F000200020001",
+        "depth": 4,
+        "numchild": 0,
+        "placeholder": 3,
+        "parent": 324,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T08:35:34.090Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 326,
+    "fields": {
+        "path": "001F000200020002",
+        "depth": 4,
+        "numchild": 0,
+        "placeholder": 3,
+        "parent": 324,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "PollPluginPublisher",
+        "creation_date": "2018-07-03T12:24:30.986Z",
+        "changed_date": "2018-07-05T08:35:34.045Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 327,
+    "fields": {
+        "path": "001F00020003",
+        "depth": 3,
+        "numchild": 2,
+        "placeholder": 3,
+        "parent": 320,
+        "position": 2,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridColumnPlugin",
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T08:35:34.051Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 328,
+    "fields": {
+        "path": "001F000200030001",
+        "depth": 4,
+        "numchild": 0,
+        "placeholder": 3,
+        "parent": 327,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T08:35:34.099Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 329,
+    "fields": {
+        "path": "001F000200030002",
+        "depth": 4,
+        "numchild": 0,
+        "placeholder": 3,
+        "parent": 327,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "PollPluginPublisher",
+        "creation_date": "2018-07-03T12:24:58.098Z",
+        "changed_date": "2018-07-05T08:35:34.064Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 330,
+    "fields": {
+        "path": "001G",
         "depth": 1,
         "numchild": 1,
         "placeholder": 19,
@@ -2495,30 +2543,30 @@
         "language": "en",
         "plugin_type": "StylePlugin",
         "creation_date": "2018-07-05T08:03:08.117Z",
-        "changed_date": "2018-07-05T08:28:34.212Z"
+        "changed_date": "2018-07-05T08:35:34.114Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 305,
+    "pk": 331,
     "fields": {
-        "path": "001H0001",
+        "path": "001G0001",
         "depth": 2,
         "numchild": 0,
         "placeholder": 19,
-        "parent": 304,
+        "parent": 330,
         "position": 0,
         "language": "en",
         "plugin_type": "TextPlugin",
         "creation_date": "2018-07-05T07:55:22.174Z",
-        "changed_date": "2018-07-05T08:28:34.223Z"
+        "changed_date": "2018-07-05T08:35:34.129Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 306,
+    "pk": 332,
     "fields": {
-        "path": "001I",
+        "path": "001H",
         "depth": 1,
         "numchild": 1,
         "placeholder": 20,
@@ -2527,183 +2575,135 @@
         "language": "en",
         "plugin_type": "StylePlugin",
         "creation_date": "2018-07-05T07:47:33.938Z",
-        "changed_date": "2018-07-05T08:28:34.243Z"
+        "changed_date": "2018-07-05T08:35:34.157Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 307,
+    "pk": 333,
     "fields": {
-        "path": "001I0001",
+        "path": "001H0001",
         "depth": 2,
         "numchild": 1,
         "placeholder": 20,
-        "parent": 306,
+        "parent": 332,
         "position": 1,
         "language": "en",
         "plugin_type": "StylePlugin",
         "creation_date": "2018-07-05T07:49:25.071Z",
-        "changed_date": "2018-07-05T08:28:34.245Z"
+        "changed_date": "2018-07-05T08:35:34.160Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 308,
+    "pk": 334,
     "fields": {
-        "path": "001I00010001",
+        "path": "001H00010001",
         "depth": 3,
         "numchild": 3,
         "placeholder": 20,
-        "parent": 307,
+        "parent": 333,
         "position": 0,
         "language": "en",
         "plugin_type": "Bootstrap4GridRowPlugin",
         "creation_date": "2018-07-05T06:49:59.506Z",
-        "changed_date": "2018-07-05T08:28:34.248Z"
+        "changed_date": "2018-07-05T08:35:34.166Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 309,
+    "pk": 335,
     "fields": {
-        "path": "001I000100010001",
+        "path": "001H000100010001",
         "depth": 4,
-        "numchild": 2,
+        "numchild": 1,
         "placeholder": 20,
-        "parent": 308,
+        "parent": 334,
         "position": 0,
         "language": "en",
         "plugin_type": "Bootstrap4GridColumnPlugin",
         "creation_date": "2018-07-05T06:49:59.518Z",
-        "changed_date": "2018-07-05T08:28:34.251Z"
+        "changed_date": "2018-07-05T08:35:34.171Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 310,
+    "pk": 336,
     "fields": {
-        "path": "001I0001000100010001",
+        "path": "001H0001000100010001",
         "depth": 5,
         "numchild": 0,
         "placeholder": 20,
-        "parent": 309,
+        "parent": 335,
         "position": 0,
         "language": "en",
         "plugin_type": "TextPlugin",
         "creation_date": "2018-07-05T06:51:25.112Z",
-        "changed_date": "2018-07-05T08:28:34.290Z"
+        "changed_date": "2018-07-05T08:35:34.219Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 311,
+    "pk": 337,
     "fields": {
-        "path": "001I0001000100010002",
-        "depth": 5,
-        "numchild": 0,
-        "placeholder": 20,
-        "parent": 309,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "PollPluginPublisher",
-        "creation_date": "2018-07-03T12:23:19.304Z",
-        "changed_date": "2018-07-05T08:28:34.261Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 312,
-    "fields": {
-        "path": "001I000100010002",
+        "path": "001H000100010002",
         "depth": 4,
-        "numchild": 2,
+        "numchild": 1,
         "placeholder": 20,
-        "parent": 308,
+        "parent": 334,
         "position": 1,
         "language": "en",
         "plugin_type": "Bootstrap4GridColumnPlugin",
         "creation_date": "2018-07-05T06:49:59.518Z",
-        "changed_date": "2018-07-05T08:28:34.264Z"
+        "changed_date": "2018-07-05T08:35:34.186Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 313,
+    "pk": 338,
     "fields": {
-        "path": "001I0001000100020001",
+        "path": "001H0001000100020001",
         "depth": 5,
         "numchild": 0,
         "placeholder": 20,
-        "parent": 312,
+        "parent": 337,
         "position": 0,
         "language": "en",
         "plugin_type": "TextPlugin",
         "creation_date": "2018-07-05T06:51:25.112Z",
-        "changed_date": "2018-07-05T08:28:34.295Z"
+        "changed_date": "2018-07-05T08:35:34.229Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 314,
+    "pk": 339,
     "fields": {
-        "path": "001I0001000100020002",
-        "depth": 5,
-        "numchild": 0,
-        "placeholder": 20,
-        "parent": 312,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "PollPluginPublisher",
-        "creation_date": "2018-07-03T12:24:30.986Z",
-        "changed_date": "2018-07-05T08:28:34.274Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 315,
-    "fields": {
-        "path": "001I000100010003",
+        "path": "001H000100010003",
         "depth": 4,
-        "numchild": 2,
+        "numchild": 1,
         "placeholder": 20,
-        "parent": 308,
+        "parent": 334,
         "position": 2,
         "language": "en",
         "plugin_type": "Bootstrap4GridColumnPlugin",
         "creation_date": "2018-07-05T06:49:59.518Z",
-        "changed_date": "2018-07-05T08:28:34.277Z"
+        "changed_date": "2018-07-05T08:35:34.202Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 316,
+    "pk": 340,
     "fields": {
-        "path": "001I0001000100030001",
+        "path": "001H0001000100030001",
         "depth": 5,
         "numchild": 0,
         "placeholder": 20,
-        "parent": 315,
+        "parent": 339,
         "position": 0,
         "language": "en",
         "plugin_type": "TextPlugin",
         "creation_date": "2018-07-05T06:51:25.112Z",
-        "changed_date": "2018-07-05T08:28:34.301Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 317,
-    "fields": {
-        "path": "001I0001000100030002",
-        "depth": 5,
-        "numchild": 0,
-        "placeholder": 20,
-        "parent": 315,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "PollPluginPublisher",
-        "creation_date": "2018-07-03T12:24:58.098Z",
-        "changed_date": "2018-07-05T08:28:34.286Z"
+        "changed_date": "2018-07-05T08:35:34.239Z"
     }
 },
 {
@@ -2967,7 +2967,7 @@
 },
 {
     "model": "menus.cachekey",
-    "pk": 30,
+    "pk": 32,
     "fields": {
         "language": "en",
         "site": 1,
@@ -3095,58 +3095,58 @@
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 297,
-    "fields": {
-        "body": "<h4 class=\"service-heading\">We all need opinions</h4>\n\n<p class=\"text-muted\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis ipsum. Duis tincidunt aliquam lacus at pretium. Sed ultricies purus non dui suscipit egestas. Integer sed laoreet nisl.\u00a0</p>"
-    }
-},
-{
-    "model": "djangocms_text_ckeditor.text",
-    "pk": 299,
-    "fields": {
-        "body": "<h4 class=\"service-heading\">We have the best opinions</h4>\n\n<p class=\"text-muted\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>"
-    }
-},
-{
-    "model": "djangocms_text_ckeditor.text",
-    "pk": 301,
-    "fields": {
-        "body": "<h4 class=\"service-heading\">We use our opinions wisely</h4>\n\n<p class=\"text-muted\">They're totally great, you'll love them.\u00a0Nunc fringilla venenatis purus eu efficitur. Pellentesque at malesuada nisl. Maecenas a velit vitae justo gravida fringilla a quis massa.</p>"
-    }
-},
-{
-    "model": "djangocms_text_ckeditor.text",
-    "pk": 303,
+    "pk": 319,
     "fields": {
         "body": "<h2 class=\"section-heading text-uppercase\">Our opinions</h2>\n\n<h3 class=\"section-subheading text-muted\">Because everyone has an opinion (and wants to share it)</h3>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 305,
-    "fields": {
-        "body": "<h1 class=\"intro-lead-in\">Welcome to our company!</h1>\n\n<p class=\"intro-heading text-uppercase\">It's nice to meet you</p>\n\n<p><a class=\"btn btn-primary btn-xl text-uppercase js-scroll-trigger\" href=\"#start\">Our opinions</a></p>"
-    }
-},
-{
-    "model": "djangocms_text_ckeditor.text",
-    "pk": 310,
+    "pk": 322,
     "fields": {
         "body": "<h4 class=\"service-heading\">Poll of the day</h4>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 313,
+    "pk": 325,
     "fields": {
         "body": "<h4 class=\"service-heading\">Best question ever</h4>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 316,
+    "pk": 328,
     "fields": {
         "body": "<h4 class=\"service-heading\">What next?</h4>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 331,
+    "fields": {
+        "body": "<h1 class=\"intro-lead-in\">Welcome to our company!</h1>\n\n<p class=\"intro-heading text-uppercase\">It's nice to meet you</p>\n\n<p><a class=\"btn btn-primary btn-xl text-uppercase js-scroll-trigger\" href=\"#start\">Our opinions</a></p>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 336,
+    "fields": {
+        "body": "<h4 class=\"service-heading\">We all need opinions</h4>\n\n<p class=\"text-muted\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis ipsum. Duis tincidunt aliquam lacus at pretium. Sed ultricies purus non dui suscipit egestas. Integer sed laoreet nisl.\u00a0</p>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 338,
+    "fields": {
+        "body": "<h4 class=\"service-heading\">We have the best opinions</h4>\n\n<p class=\"text-muted\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 340,
+    "fields": {
+        "body": "<h4 class=\"service-heading\">We use our opinions wisely</h4>\n\n<p class=\"text-muted\">They're totally great, you'll love them.\u00a0Nunc fringilla venenatis purus eu efficitur. Pellentesque at malesuada nisl. Maecenas a velit vitae justo gravida fringilla a quis massa.</p>"
     }
 },
 {
@@ -3952,7 +3952,7 @@
 },
 {
     "model": "djangocms_style.style",
-    "pk": 302,
+    "pk": 318,
     "fields": {
         "template": "default",
         "label": "",
@@ -3973,7 +3973,7 @@
 },
 {
     "model": "djangocms_style.style",
-    "pk": 304,
+    "pk": 330,
     "fields": {
         "template": "default",
         "label": "",
@@ -3994,7 +3994,7 @@
 },
 {
     "model": "djangocms_style.style",
-    "pk": 306,
+    "pk": 332,
     "fields": {
         "template": "default",
         "label": "",
@@ -4015,7 +4015,7 @@
 },
 {
     "model": "djangocms_style.style",
-    "pk": 307,
+    "pk": 333,
     "fields": {
         "template": "default",
         "label": "",
@@ -4080,7 +4080,7 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridrow",
-    "pk": 295,
+    "pk": 320,
     "fields": {
         "vertical_alignment": "",
         "horizontal_alignment": "",
@@ -4091,7 +4091,7 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridrow",
-    "pk": 308,
+    "pk": 334,
     "fields": {
         "vertical_alignment": "",
         "horizontal_alignment": "",
@@ -4548,7 +4548,7 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 296,
+    "pk": 321,
     "fields": {
         "column_type": "col",
         "column_size": 6,
@@ -4581,7 +4581,7 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 298,
+    "pk": 324,
     "fields": {
         "column_type": "col",
         "column_size": 6,
@@ -4614,7 +4614,7 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 300,
+    "pk": 327,
     "fields": {
         "column_type": "col",
         "column_size": 6,
@@ -4647,7 +4647,7 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 309,
+    "pk": 335,
     "fields": {
         "column_type": "col",
         "column_size": 6,
@@ -4680,7 +4680,7 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 312,
+    "pk": 337,
     "fields": {
         "column_type": "col",
         "column_size": 6,
@@ -4713,7 +4713,7 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 315,
+    "pk": 339,
     "fields": {
         "column_type": "col",
         "column_size": 6,
@@ -4975,21 +4975,21 @@
 },
 {
     "model": "polls_cms_integration.pollpluginmodel",
-    "pk": 311,
+    "pk": 323,
     "fields": {
         "poll": 3
     }
 },
 {
     "model": "polls_cms_integration.pollpluginmodel",
-    "pk": 314,
+    "pk": 326,
     "fields": {
         "poll": 1
     }
 },
 {
     "model": "polls_cms_integration.pollpluginmodel",
-    "pk": 317,
+    "pk": 329,
     "fields": {
         "poll": 6
     }
@@ -7958,6 +7958,19 @@
     "pk": 53,
     "fields": {
         "action_time": "2018-07-05T08:28:34.312Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "1",
+        "object_repr": "The Opinions Company",
+        "action_flag": 2,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2018-07-05T08:35:34.254Z",
         "user": 1,
         "content_type": 2,
         "object_id": "1",
