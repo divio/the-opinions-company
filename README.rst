@@ -42,7 +42,7 @@ Dump database to a JSON file (if required)
 If you have made some additional changes to the database that you'd like to load into the Divio
 Cloud project, you can dump them with::
 
-    python manage.py dumpdata --indent 4 > database.json
+    python manage.py dumpdata --natural-foreign --natural-primary --indent 4 > database.json
 
 
 Migrate to Divio Cloud
@@ -219,19 +219,6 @@ in the::
 section so that they will be added.
 
 
-Copy site templates
-~~~~~~~~~~~~~~~~~~~
-
-Copy the two templates ``base.html`` and ``content.html`` template from
-``the_opinions_company/templates`` in the original project to ``templates`` in the Divio project.
-
-Copy the ``CMS_TEMPLATES`` setting to the Divio project (it must be *after* the ``aldryn_addons.settings.load(locals())`` line).
-
-    CMS_TEMPLATES = (
-        ('content.html', 'Standard'),
-    )
-
-
 Transfer other settings
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -248,4 +235,53 @@ local version of the project, the form values are stored in
 
 Amend the dictionary to include the template::
 
-    "cms_templates": "[('content.html', 'Standard')]",
+    "cms_templates": "[('content.html', 'Content')]",
+
+
+Prepare the Postgres database of the Divio project
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Run migrations::
+
+    docker-compose run --rm web python manage.py migrate
+
+Note that if you have done anything else to this database, you will need to restore it to its
+newly-migrated state::
+
+    docker exec <database container id> dropdb -U postgres db --if-exists
+    docker exec <database container id> createdb -U postgres db
+    docker exec <database container id> psql -U postgres --dbname=db -c "CREATE EXTENSION IF NOT EXISTS hstore"
+    docker-compose run --rm web python manage.py migrate
+
+
+Now you can import the dumped JSON data::
+
+    docker-compose run --rm web python manage.py loaddata database.json
+
+
+Copy site templates
+~~~~~~~~~~~~~~~~~~~
+
+Next, we need to Copy the two templates ``base.html`` and ``content.html`` template from
+``the_opinions_company/templates`` in the original project to ``templates`` in the Divio project.
+
+
+Copy static files
+~~~~~~~~~~~~~~~~~
+
+Copy all the folders in ``the_opinions_company/static`` to ``static``.
+
+
+Copy media
+~~~~~~~~~~
+
+Copy ``media`` into the ``data`` directory of the Divio project.
+
+
+Start the runserver
+~~~~~~~~~~~~~~~~~~~
+
+::
+
+    docker-compose up
+

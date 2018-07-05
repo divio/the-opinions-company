@@ -1,3 +1,5 @@
+# django CMS
+
 #django-cms>=3.5,<3.6
 -e git+git@github.com:divio/django-cms.git#egg=django-cms
 
@@ -13,14 +15,14 @@ djangocms-file>=2.0,<3.0
 djangocms-picture>=2.0,<3.0
 django-filer>=1.3
 djangocms-bootstrap4==1.0.0
-djangocms-admin-style>=1.2,<1.3
 
-# Django dependencies
+# Django dependencies (installed by django CMS)
 
 Django<2.0
 django-classy-tags>=0.7
 django-sekizai>=0.9
 django-treebeard>=4.0,<5.0
+djangocms-admin-style>=1.2,<1.3
 
 # Python dependencies
 

@@ -639,7 +639,9 @@
         "depth": 1,
         "numchild": 0,
         "parent": null,
-        "site": 1
+        "site": [
+            "example.com"
+        ]
     }
 },
 {
@@ -650,7 +652,9 @@
         "depth": 1,
         "numchild": 0,
         "parent": null,
-        "site": 1
+        "site": [
+            "example.com"
+        ]
     }
 },
 {
@@ -661,7 +665,9 @@
         "depth": 1,
         "numchild": 0,
         "parent": null,
-        "site": 1
+        "site": [
+            "example.com"
+        ]
     }
 },
 {
@@ -672,7 +678,9 @@
         "depth": 1,
         "numchild": 2,
         "parent": null,
-        "site": 1
+        "site": [
+            "example.com"
+        ]
     }
 },
 {
@@ -683,7 +691,9 @@
         "depth": 2,
         "numchild": 0,
         "parent": 4,
-        "site": 1
+        "site": [
+            "example.com"
+        ]
     }
 },
 {
@@ -694,7 +704,9 @@
         "depth": 2,
         "numchild": 0,
         "parent": 4,
-        "site": 1
+        "site": [
+            "example.com"
+        ]
     }
 },
 {
@@ -2975,6 +2987,15 @@
     }
 },
 {
+    "model": "menus.cachekey",
+    "pk": 33,
+    "fields": {
+        "language": "en",
+        "site": 1,
+        "key": "cms_3.5.2_menu_nodes_en_1:public"
+    }
+},
+{
     "model": "djangocms_text_ckeditor.text",
     "pk": 99,
     "fields": {
@@ -3155,7 +3176,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public/b8/fe/b8feffdf-e63f-4160-a90b-5a1cc9b758ae/arctic_ocean.png",
-        "modified": "2018-07-05T08:19:57.191Z"
+        "modified": "2018-07-05T12:01:36.650Z"
     }
 },
 {
@@ -3164,7 +3185,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public/46/26/4626b447-95a0-44a8-abd2-fc833435b441/mercator_north_pole_1595.jpg",
-        "modified": "2018-07-05T08:20:20.651Z"
+        "modified": "2018-07-05T12:01:36.621Z"
     }
 },
 {
@@ -3173,7 +3194,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public/83/67/8367547b-d331-4e88-93e8-df80bf03eecc/pole-south.gif",
-        "modified": "2018-07-05T06:37:00.279Z"
+        "modified": "2018-07-05T12:01:36.679Z"
     }
 },
 {
@@ -3182,7 +3203,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public/cc/d1/ccd1570b-1adb-4240-b4f5-fba7626613bc/660px-antarctica_6400px_from_blue_marble.jpg",
-        "modified": "2018-07-05T08:20:25.147Z"
+        "modified": "2018-07-05T12:01:36.749Z"
     }
 },
 {
@@ -3601,7 +3622,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/b8/fe/b8feffdf-e63f-4160-a90b-5a1cc9b758ae/arctic_ocean.png__329x330_q85_subject_location-165,165_subsampling-2.jpg",
-        "modified": "2018-07-05T06:37:00.163Z",
+        "modified": "2018-07-05T12:01:36.653Z",
         "source": 1
     }
 },
@@ -3611,7 +3632,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/46/26/4626b447-95a0-44a8-abd2-fc833435b441/mercator_north_pole_1595.jpg__600x567_q85_subject_location-0,0_subsampling-2.jpg",
-        "modified": "2018-07-05T06:37:00.252Z",
+        "modified": "2018-07-05T12:01:36.624Z",
         "source": 2
     }
 },
@@ -3621,7 +3642,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/83/67/8367547b-d331-4e88-93e8-df80bf03eecc/pole-south.gif__330x330_q85_subject_location-165,165_subsampling-2.png",
-        "modified": "2018-07-05T06:37:00.282Z",
+        "modified": "2018-07-05T12:01:36.682Z",
         "source": 3
     }
 },
@@ -3631,7 +3652,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/cc/d1/ccd1570b-1adb-4240-b4f5-fba7626613bc/660px-antarctica_6400px_from_blue_marble.jpg__660x660_q85_subject_location-330,330_subsampling-2.jpg",
-        "modified": "2018-07-05T06:37:00.348Z",
+        "modified": "2018-07-05T12:01:36.752Z",
         "source": 4
     }
 },
@@ -5221,7 +5242,10 @@
     "pk": 1,
     "fields": {
         "name": "Can use Structure mode",
-        "content_type": 1,
+        "content_type": [
+            "cms",
+            "placeholder"
+        ],
         "codename": "use_structure"
     }
 },
@@ -5230,7 +5254,10 @@
     "pk": 2,
     "fields": {
         "name": "Can change page",
-        "content_type": 2,
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "codename": "change_page"
     }
 },
@@ -5239,7 +5266,10 @@
     "pk": 3,
     "fields": {
         "name": "Can add permission",
-        "content_type": 3,
+        "content_type": [
+            "auth",
+            "permission"
+        ],
         "codename": "add_permission"
     }
 },
@@ -5248,7 +5278,10 @@
     "pk": 4,
     "fields": {
         "name": "Can change permission",
-        "content_type": 3,
+        "content_type": [
+            "auth",
+            "permission"
+        ],
         "codename": "change_permission"
     }
 },
@@ -5257,7 +5290,10 @@
     "pk": 5,
     "fields": {
         "name": "Can delete permission",
-        "content_type": 3,
+        "content_type": [
+            "auth",
+            "permission"
+        ],
         "codename": "delete_permission"
     }
 },
@@ -5266,7 +5302,10 @@
     "pk": 6,
     "fields": {
         "name": "Can add group",
-        "content_type": 4,
+        "content_type": [
+            "auth",
+            "group"
+        ],
         "codename": "add_group"
     }
 },
@@ -5275,7 +5314,10 @@
     "pk": 7,
     "fields": {
         "name": "Can change group",
-        "content_type": 4,
+        "content_type": [
+            "auth",
+            "group"
+        ],
         "codename": "change_group"
     }
 },
@@ -5284,7 +5326,10 @@
     "pk": 8,
     "fields": {
         "name": "Can delete group",
-        "content_type": 4,
+        "content_type": [
+            "auth",
+            "group"
+        ],
         "codename": "delete_group"
     }
 },
@@ -5293,7 +5338,10 @@
     "pk": 9,
     "fields": {
         "name": "Can add user",
-        "content_type": 5,
+        "content_type": [
+            "auth",
+            "user"
+        ],
         "codename": "add_user"
     }
 },
@@ -5302,7 +5350,10 @@
     "pk": 10,
     "fields": {
         "name": "Can change user",
-        "content_type": 5,
+        "content_type": [
+            "auth",
+            "user"
+        ],
         "codename": "change_user"
     }
 },
@@ -5311,7 +5362,10 @@
     "pk": 11,
     "fields": {
         "name": "Can delete user",
-        "content_type": 5,
+        "content_type": [
+            "auth",
+            "user"
+        ],
         "codename": "delete_user"
     }
 },
@@ -5320,7 +5374,10 @@
     "pk": 12,
     "fields": {
         "name": "Can add content type",
-        "content_type": 6,
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
         "codename": "add_contenttype"
     }
 },
@@ -5329,7 +5386,10 @@
     "pk": 13,
     "fields": {
         "name": "Can change content type",
-        "content_type": 6,
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
         "codename": "change_contenttype"
     }
 },
@@ -5338,7 +5398,10 @@
     "pk": 14,
     "fields": {
         "name": "Can delete content type",
-        "content_type": 6,
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
         "codename": "delete_contenttype"
     }
 },
@@ -5347,7 +5410,10 @@
     "pk": 15,
     "fields": {
         "name": "Can add session",
-        "content_type": 7,
+        "content_type": [
+            "sessions",
+            "session"
+        ],
         "codename": "add_session"
     }
 },
@@ -5356,7 +5422,10 @@
     "pk": 16,
     "fields": {
         "name": "Can change session",
-        "content_type": 7,
+        "content_type": [
+            "sessions",
+            "session"
+        ],
         "codename": "change_session"
     }
 },
@@ -5365,7 +5434,10 @@
     "pk": 17,
     "fields": {
         "name": "Can delete session",
-        "content_type": 7,
+        "content_type": [
+            "sessions",
+            "session"
+        ],
         "codename": "delete_session"
     }
 },
@@ -5374,7 +5446,10 @@
     "pk": 18,
     "fields": {
         "name": "Can add log entry",
-        "content_type": 8,
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
         "codename": "add_logentry"
     }
 },
@@ -5383,7 +5458,10 @@
     "pk": 19,
     "fields": {
         "name": "Can change log entry",
-        "content_type": 8,
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
         "codename": "change_logentry"
     }
 },
@@ -5392,7 +5470,10 @@
     "pk": 20,
     "fields": {
         "name": "Can delete log entry",
-        "content_type": 8,
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
         "codename": "delete_logentry"
     }
 },
@@ -5401,7 +5482,10 @@
     "pk": 21,
     "fields": {
         "name": "Can add site",
-        "content_type": 9,
+        "content_type": [
+            "sites",
+            "site"
+        ],
         "codename": "add_site"
     }
 },
@@ -5410,7 +5494,10 @@
     "pk": 22,
     "fields": {
         "name": "Can change site",
-        "content_type": 9,
+        "content_type": [
+            "sites",
+            "site"
+        ],
         "codename": "change_site"
     }
 },
@@ -5419,7 +5506,10 @@
     "pk": 23,
     "fields": {
         "name": "Can delete site",
-        "content_type": 9,
+        "content_type": [
+            "sites",
+            "site"
+        ],
         "codename": "delete_site"
     }
 },
@@ -5428,7 +5518,10 @@
     "pk": 24,
     "fields": {
         "name": "Can add cms plugin",
-        "content_type": 10,
+        "content_type": [
+            "cms",
+            "cmsplugin"
+        ],
         "codename": "add_cmsplugin"
     }
 },
@@ -5437,7 +5530,10 @@
     "pk": 25,
     "fields": {
         "name": "Can change cms plugin",
-        "content_type": 10,
+        "content_type": [
+            "cms",
+            "cmsplugin"
+        ],
         "codename": "change_cmsplugin"
     }
 },
@@ -5446,7 +5542,10 @@
     "pk": 26,
     "fields": {
         "name": "Can delete cms plugin",
-        "content_type": 10,
+        "content_type": [
+            "cms",
+            "cmsplugin"
+        ],
         "codename": "delete_cmsplugin"
     }
 },
@@ -5455,7 +5554,10 @@
     "pk": 27,
     "fields": {
         "name": "Can add alias plugin model",
-        "content_type": 11,
+        "content_type": [
+            "cms",
+            "aliaspluginmodel"
+        ],
         "codename": "add_aliaspluginmodel"
     }
 },
@@ -5464,7 +5566,10 @@
     "pk": 28,
     "fields": {
         "name": "Can change alias plugin model",
-        "content_type": 11,
+        "content_type": [
+            "cms",
+            "aliaspluginmodel"
+        ],
         "codename": "change_aliaspluginmodel"
     }
 },
@@ -5473,7 +5578,10 @@
     "pk": 29,
     "fields": {
         "name": "Can delete alias plugin model",
-        "content_type": 11,
+        "content_type": [
+            "cms",
+            "aliaspluginmodel"
+        ],
         "codename": "delete_aliaspluginmodel"
     }
 },
@@ -5482,7 +5590,10 @@
     "pk": 30,
     "fields": {
         "name": "Can add Page global permission",
-        "content_type": 12,
+        "content_type": [
+            "cms",
+            "globalpagepermission"
+        ],
         "codename": "add_globalpagepermission"
     }
 },
@@ -5491,7 +5602,10 @@
     "pk": 31,
     "fields": {
         "name": "Can change Page global permission",
-        "content_type": 12,
+        "content_type": [
+            "cms",
+            "globalpagepermission"
+        ],
         "codename": "change_globalpagepermission"
     }
 },
@@ -5500,7 +5614,10 @@
     "pk": 32,
     "fields": {
         "name": "Can delete Page global permission",
-        "content_type": 12,
+        "content_type": [
+            "cms",
+            "globalpagepermission"
+        ],
         "codename": "delete_globalpagepermission"
     }
 },
@@ -5509,7 +5626,10 @@
     "pk": 33,
     "fields": {
         "name": "Can add page",
-        "content_type": 2,
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "codename": "add_page"
     }
 },
@@ -5518,7 +5638,10 @@
     "pk": 34,
     "fields": {
         "name": "Can delete page",
-        "content_type": 2,
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "codename": "delete_page"
     }
 },
@@ -5527,7 +5650,10 @@
     "pk": 35,
     "fields": {
         "name": "Can view page",
-        "content_type": 2,
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "codename": "view_page"
     }
 },
@@ -5536,7 +5662,10 @@
     "pk": 36,
     "fields": {
         "name": "Can publish page",
-        "content_type": 2,
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "codename": "publish_page"
     }
 },
@@ -5545,7 +5674,10 @@
     "pk": 37,
     "fields": {
         "name": "Can edit static placeholders",
-        "content_type": 2,
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "codename": "edit_static_placeholder"
     }
 },
@@ -5554,7 +5686,10 @@
     "pk": 38,
     "fields": {
         "name": "Can add Page permission",
-        "content_type": 13,
+        "content_type": [
+            "cms",
+            "pagepermission"
+        ],
         "codename": "add_pagepermission"
     }
 },
@@ -5563,7 +5698,10 @@
     "pk": 39,
     "fields": {
         "name": "Can change Page permission",
-        "content_type": 13,
+        "content_type": [
+            "cms",
+            "pagepermission"
+        ],
         "codename": "change_pagepermission"
     }
 },
@@ -5572,7 +5710,10 @@
     "pk": 40,
     "fields": {
         "name": "Can delete Page permission",
-        "content_type": 13,
+        "content_type": [
+            "cms",
+            "pagepermission"
+        ],
         "codename": "delete_pagepermission"
     }
 },
@@ -5581,7 +5722,10 @@
     "pk": 41,
     "fields": {
         "name": "Can add User (page)",
-        "content_type": 14,
+        "content_type": [
+            "cms",
+            "pageuser"
+        ],
         "codename": "add_pageuser"
     }
 },
@@ -5590,7 +5734,10 @@
     "pk": 42,
     "fields": {
         "name": "Can change User (page)",
-        "content_type": 14,
+        "content_type": [
+            "cms",
+            "pageuser"
+        ],
         "codename": "change_pageuser"
     }
 },
@@ -5599,7 +5746,10 @@
     "pk": 43,
     "fields": {
         "name": "Can delete User (page)",
-        "content_type": 14,
+        "content_type": [
+            "cms",
+            "pageuser"
+        ],
         "codename": "delete_pageuser"
     }
 },
@@ -5608,7 +5758,10 @@
     "pk": 44,
     "fields": {
         "name": "Can add User group (page)",
-        "content_type": 15,
+        "content_type": [
+            "cms",
+            "pageusergroup"
+        ],
         "codename": "add_pageusergroup"
     }
 },
@@ -5617,7 +5770,10 @@
     "pk": 45,
     "fields": {
         "name": "Can change User group (page)",
-        "content_type": 15,
+        "content_type": [
+            "cms",
+            "pageusergroup"
+        ],
         "codename": "change_pageusergroup"
     }
 },
@@ -5626,7 +5782,10 @@
     "pk": 46,
     "fields": {
         "name": "Can delete User group (page)",
-        "content_type": 15,
+        "content_type": [
+            "cms",
+            "pageusergroup"
+        ],
         "codename": "delete_pageusergroup"
     }
 },
@@ -5635,7 +5794,10 @@
     "pk": 47,
     "fields": {
         "name": "Can add placeholder",
-        "content_type": 1,
+        "content_type": [
+            "cms",
+            "placeholder"
+        ],
         "codename": "add_placeholder"
     }
 },
@@ -5644,7 +5806,10 @@
     "pk": 48,
     "fields": {
         "name": "Can change placeholder",
-        "content_type": 1,
+        "content_type": [
+            "cms",
+            "placeholder"
+        ],
         "codename": "change_placeholder"
     }
 },
@@ -5653,7 +5818,10 @@
     "pk": 49,
     "fields": {
         "name": "Can delete placeholder",
-        "content_type": 1,
+        "content_type": [
+            "cms",
+            "placeholder"
+        ],
         "codename": "delete_placeholder"
     }
 },
@@ -5662,7 +5830,10 @@
     "pk": 50,
     "fields": {
         "name": "Can add placeholder reference",
-        "content_type": 16,
+        "content_type": [
+            "cms",
+            "placeholderreference"
+        ],
         "codename": "add_placeholderreference"
     }
 },
@@ -5671,7 +5842,10 @@
     "pk": 51,
     "fields": {
         "name": "Can change placeholder reference",
-        "content_type": 16,
+        "content_type": [
+            "cms",
+            "placeholderreference"
+        ],
         "codename": "change_placeholderreference"
     }
 },
@@ -5680,7 +5854,10 @@
     "pk": 52,
     "fields": {
         "name": "Can delete placeholder reference",
-        "content_type": 16,
+        "content_type": [
+            "cms",
+            "placeholderreference"
+        ],
         "codename": "delete_placeholderreference"
     }
 },
@@ -5689,7 +5866,10 @@
     "pk": 53,
     "fields": {
         "name": "Can add static placeholder",
-        "content_type": 17,
+        "content_type": [
+            "cms",
+            "staticplaceholder"
+        ],
         "codename": "add_staticplaceholder"
     }
 },
@@ -5698,7 +5878,10 @@
     "pk": 54,
     "fields": {
         "name": "Can change static placeholder",
-        "content_type": 17,
+        "content_type": [
+            "cms",
+            "staticplaceholder"
+        ],
         "codename": "change_staticplaceholder"
     }
 },
@@ -5707,7 +5890,10 @@
     "pk": 55,
     "fields": {
         "name": "Can delete static placeholder",
-        "content_type": 17,
+        "content_type": [
+            "cms",
+            "staticplaceholder"
+        ],
         "codename": "delete_staticplaceholder"
     }
 },
@@ -5716,7 +5902,10 @@
     "pk": 56,
     "fields": {
         "name": "Can add title",
-        "content_type": 18,
+        "content_type": [
+            "cms",
+            "title"
+        ],
         "codename": "add_title"
     }
 },
@@ -5725,7 +5914,10 @@
     "pk": 57,
     "fields": {
         "name": "Can change title",
-        "content_type": 18,
+        "content_type": [
+            "cms",
+            "title"
+        ],
         "codename": "change_title"
     }
 },
@@ -5734,7 +5926,10 @@
     "pk": 58,
     "fields": {
         "name": "Can delete title",
-        "content_type": 18,
+        "content_type": [
+            "cms",
+            "title"
+        ],
         "codename": "delete_title"
     }
 },
@@ -5743,7 +5938,10 @@
     "pk": 59,
     "fields": {
         "name": "Can add user setting",
-        "content_type": 19,
+        "content_type": [
+            "cms",
+            "usersettings"
+        ],
         "codename": "add_usersettings"
     }
 },
@@ -5752,7 +5950,10 @@
     "pk": 60,
     "fields": {
         "name": "Can change user setting",
-        "content_type": 19,
+        "content_type": [
+            "cms",
+            "usersettings"
+        ],
         "codename": "change_usersettings"
     }
 },
@@ -5761,7 +5962,10 @@
     "pk": 61,
     "fields": {
         "name": "Can delete user setting",
-        "content_type": 19,
+        "content_type": [
+            "cms",
+            "usersettings"
+        ],
         "codename": "delete_usersettings"
     }
 },
@@ -5770,7 +5974,10 @@
     "pk": 62,
     "fields": {
         "name": "Can add urlconf revision",
-        "content_type": 20,
+        "content_type": [
+            "cms",
+            "urlconfrevision"
+        ],
         "codename": "add_urlconfrevision"
     }
 },
@@ -5779,7 +5986,10 @@
     "pk": 63,
     "fields": {
         "name": "Can change urlconf revision",
-        "content_type": 20,
+        "content_type": [
+            "cms",
+            "urlconfrevision"
+        ],
         "codename": "change_urlconfrevision"
     }
 },
@@ -5788,7 +5998,10 @@
     "pk": 64,
     "fields": {
         "name": "Can delete urlconf revision",
-        "content_type": 20,
+        "content_type": [
+            "cms",
+            "urlconfrevision"
+        ],
         "codename": "delete_urlconfrevision"
     }
 },
@@ -5797,7 +6010,10 @@
     "pk": 65,
     "fields": {
         "name": "Can add cache key",
-        "content_type": 23,
+        "content_type": [
+            "menus",
+            "cachekey"
+        ],
         "codename": "add_cachekey"
     }
 },
@@ -5806,7 +6022,10 @@
     "pk": 66,
     "fields": {
         "name": "Can change cache key",
-        "content_type": 23,
+        "content_type": [
+            "menus",
+            "cachekey"
+        ],
         "codename": "change_cachekey"
     }
 },
@@ -5815,7 +6034,10 @@
     "pk": 67,
     "fields": {
         "name": "Can delete cache key",
-        "content_type": 23,
+        "content_type": [
+            "menus",
+            "cachekey"
+        ],
         "codename": "delete_cachekey"
     }
 },
@@ -5824,7 +6046,10 @@
     "pk": 68,
     "fields": {
         "name": "Can add text",
-        "content_type": 24,
+        "content_type": [
+            "djangocms_text_ckeditor",
+            "text"
+        ],
         "codename": "add_text"
     }
 },
@@ -5833,7 +6058,10 @@
     "pk": 69,
     "fields": {
         "name": "Can change text",
-        "content_type": 24,
+        "content_type": [
+            "djangocms_text_ckeditor",
+            "text"
+        ],
         "codename": "change_text"
     }
 },
@@ -5842,7 +6070,10 @@
     "pk": 70,
     "fields": {
         "name": "Can delete text",
-        "content_type": 24,
+        "content_type": [
+            "djangocms_text_ckeditor",
+            "text"
+        ],
         "codename": "delete_text"
     }
 },
@@ -5851,7 +6082,10 @@
     "pk": 71,
     "fields": {
         "name": "Can add clipboard",
-        "content_type": 25,
+        "content_type": [
+            "filer",
+            "clipboard"
+        ],
         "codename": "add_clipboard"
     }
 },
@@ -5860,7 +6094,10 @@
     "pk": 72,
     "fields": {
         "name": "Can change clipboard",
-        "content_type": 25,
+        "content_type": [
+            "filer",
+            "clipboard"
+        ],
         "codename": "change_clipboard"
     }
 },
@@ -5869,7 +6106,10 @@
     "pk": 73,
     "fields": {
         "name": "Can delete clipboard",
-        "content_type": 25,
+        "content_type": [
+            "filer",
+            "clipboard"
+        ],
         "codename": "delete_clipboard"
     }
 },
@@ -5878,7 +6118,10 @@
     "pk": 74,
     "fields": {
         "name": "Can add clipboard item",
-        "content_type": 26,
+        "content_type": [
+            "filer",
+            "clipboarditem"
+        ],
         "codename": "add_clipboarditem"
     }
 },
@@ -5887,7 +6130,10 @@
     "pk": 75,
     "fields": {
         "name": "Can change clipboard item",
-        "content_type": 26,
+        "content_type": [
+            "filer",
+            "clipboarditem"
+        ],
         "codename": "change_clipboarditem"
     }
 },
@@ -5896,7 +6142,10 @@
     "pk": 76,
     "fields": {
         "name": "Can delete clipboard item",
-        "content_type": 26,
+        "content_type": [
+            "filer",
+            "clipboarditem"
+        ],
         "codename": "delete_clipboarditem"
     }
 },
@@ -5905,7 +6154,10 @@
     "pk": 77,
     "fields": {
         "name": "Can add file",
-        "content_type": 27,
+        "content_type": [
+            "filer",
+            "file"
+        ],
         "codename": "add_file"
     }
 },
@@ -5914,7 +6166,10 @@
     "pk": 78,
     "fields": {
         "name": "Can change file",
-        "content_type": 27,
+        "content_type": [
+            "filer",
+            "file"
+        ],
         "codename": "change_file"
     }
 },
@@ -5923,7 +6178,10 @@
     "pk": 79,
     "fields": {
         "name": "Can delete file",
-        "content_type": 27,
+        "content_type": [
+            "filer",
+            "file"
+        ],
         "codename": "delete_file"
     }
 },
@@ -5932,7 +6190,10 @@
     "pk": 80,
     "fields": {
         "name": "Can add Folder",
-        "content_type": 28,
+        "content_type": [
+            "filer",
+            "folder"
+        ],
         "codename": "add_folder"
     }
 },
@@ -5941,7 +6202,10 @@
     "pk": 81,
     "fields": {
         "name": "Can change Folder",
-        "content_type": 28,
+        "content_type": [
+            "filer",
+            "folder"
+        ],
         "codename": "change_folder"
     }
 },
@@ -5950,7 +6214,10 @@
     "pk": 82,
     "fields": {
         "name": "Can delete Folder",
-        "content_type": 28,
+        "content_type": [
+            "filer",
+            "folder"
+        ],
         "codename": "delete_folder"
     }
 },
@@ -5959,7 +6226,10 @@
     "pk": 83,
     "fields": {
         "name": "Can use directory listing",
-        "content_type": 28,
+        "content_type": [
+            "filer",
+            "folder"
+        ],
         "codename": "can_use_directory_listing"
     }
 },
@@ -5968,7 +6238,10 @@
     "pk": 84,
     "fields": {
         "name": "Can add folder permission",
-        "content_type": 29,
+        "content_type": [
+            "filer",
+            "folderpermission"
+        ],
         "codename": "add_folderpermission"
     }
 },
@@ -5977,7 +6250,10 @@
     "pk": 85,
     "fields": {
         "name": "Can change folder permission",
-        "content_type": 29,
+        "content_type": [
+            "filer",
+            "folderpermission"
+        ],
         "codename": "change_folderpermission"
     }
 },
@@ -5986,7 +6262,10 @@
     "pk": 86,
     "fields": {
         "name": "Can delete folder permission",
-        "content_type": 29,
+        "content_type": [
+            "filer",
+            "folderpermission"
+        ],
         "codename": "delete_folderpermission"
     }
 },
@@ -5995,7 +6274,10 @@
     "pk": 87,
     "fields": {
         "name": "Can add image",
-        "content_type": 30,
+        "content_type": [
+            "filer",
+            "image"
+        ],
         "codename": "add_image"
     }
 },
@@ -6004,7 +6286,10 @@
     "pk": 88,
     "fields": {
         "name": "Can change image",
-        "content_type": 30,
+        "content_type": [
+            "filer",
+            "image"
+        ],
         "codename": "change_image"
     }
 },
@@ -6013,7 +6298,10 @@
     "pk": 89,
     "fields": {
         "name": "Can delete image",
-        "content_type": 30,
+        "content_type": [
+            "filer",
+            "image"
+        ],
         "codename": "delete_image"
     }
 },
@@ -6022,7 +6310,10 @@
     "pk": 90,
     "fields": {
         "name": "Can add thumbnail option",
-        "content_type": 31,
+        "content_type": [
+            "filer",
+            "thumbnailoption"
+        ],
         "codename": "add_thumbnailoption"
     }
 },
@@ -6031,7 +6322,10 @@
     "pk": 91,
     "fields": {
         "name": "Can change thumbnail option",
-        "content_type": 31,
+        "content_type": [
+            "filer",
+            "thumbnailoption"
+        ],
         "codename": "change_thumbnailoption"
     }
 },
@@ -6040,7 +6334,10 @@
     "pk": 92,
     "fields": {
         "name": "Can delete thumbnail option",
-        "content_type": 31,
+        "content_type": [
+            "filer",
+            "thumbnailoption"
+        ],
         "codename": "delete_thumbnailoption"
     }
 },
@@ -6049,7 +6346,10 @@
     "pk": 93,
     "fields": {
         "name": "Can add source",
-        "content_type": 32,
+        "content_type": [
+            "easy_thumbnails",
+            "source"
+        ],
         "codename": "add_source"
     }
 },
@@ -6058,7 +6358,10 @@
     "pk": 94,
     "fields": {
         "name": "Can change source",
-        "content_type": 32,
+        "content_type": [
+            "easy_thumbnails",
+            "source"
+        ],
         "codename": "change_source"
     }
 },
@@ -6067,7 +6370,10 @@
     "pk": 95,
     "fields": {
         "name": "Can delete source",
-        "content_type": 32,
+        "content_type": [
+            "easy_thumbnails",
+            "source"
+        ],
         "codename": "delete_source"
     }
 },
@@ -6076,7 +6382,10 @@
     "pk": 96,
     "fields": {
         "name": "Can add thumbnail",
-        "content_type": 33,
+        "content_type": [
+            "easy_thumbnails",
+            "thumbnail"
+        ],
         "codename": "add_thumbnail"
     }
 },
@@ -6085,7 +6394,10 @@
     "pk": 97,
     "fields": {
         "name": "Can change thumbnail",
-        "content_type": 33,
+        "content_type": [
+            "easy_thumbnails",
+            "thumbnail"
+        ],
         "codename": "change_thumbnail"
     }
 },
@@ -6094,7 +6406,10 @@
     "pk": 98,
     "fields": {
         "name": "Can delete thumbnail",
-        "content_type": 33,
+        "content_type": [
+            "easy_thumbnails",
+            "thumbnail"
+        ],
         "codename": "delete_thumbnail"
     }
 },
@@ -6103,7 +6418,10 @@
     "pk": 99,
     "fields": {
         "name": "Can add thumbnail dimensions",
-        "content_type": 34,
+        "content_type": [
+            "easy_thumbnails",
+            "thumbnaildimensions"
+        ],
         "codename": "add_thumbnaildimensions"
     }
 },
@@ -6112,7 +6430,10 @@
     "pk": 100,
     "fields": {
         "name": "Can change thumbnail dimensions",
-        "content_type": 34,
+        "content_type": [
+            "easy_thumbnails",
+            "thumbnaildimensions"
+        ],
         "codename": "change_thumbnaildimensions"
     }
 },
@@ -6121,7 +6442,10 @@
     "pk": 101,
     "fields": {
         "name": "Can delete thumbnail dimensions",
-        "content_type": 34,
+        "content_type": [
+            "easy_thumbnails",
+            "thumbnaildimensions"
+        ],
         "codename": "delete_thumbnaildimensions"
     }
 },
@@ -6130,7 +6454,10 @@
     "pk": 102,
     "fields": {
         "name": "Can add file",
-        "content_type": 35,
+        "content_type": [
+            "djangocms_file",
+            "file"
+        ],
         "codename": "add_file"
     }
 },
@@ -6139,7 +6466,10 @@
     "pk": 103,
     "fields": {
         "name": "Can change file",
-        "content_type": 35,
+        "content_type": [
+            "djangocms_file",
+            "file"
+        ],
         "codename": "change_file"
     }
 },
@@ -6148,7 +6478,10 @@
     "pk": 104,
     "fields": {
         "name": "Can delete file",
-        "content_type": 35,
+        "content_type": [
+            "djangocms_file",
+            "file"
+        ],
         "codename": "delete_file"
     }
 },
@@ -6157,7 +6490,10 @@
     "pk": 105,
     "fields": {
         "name": "Can add folder",
-        "content_type": 36,
+        "content_type": [
+            "djangocms_file",
+            "folder"
+        ],
         "codename": "add_folder"
     }
 },
@@ -6166,7 +6502,10 @@
     "pk": 106,
     "fields": {
         "name": "Can change folder",
-        "content_type": 36,
+        "content_type": [
+            "djangocms_file",
+            "folder"
+        ],
         "codename": "change_folder"
     }
 },
@@ -6175,7 +6514,10 @@
     "pk": 107,
     "fields": {
         "name": "Can delete folder",
-        "content_type": 36,
+        "content_type": [
+            "djangocms_file",
+            "folder"
+        ],
         "codename": "delete_folder"
     }
 },
@@ -6184,7 +6526,10 @@
     "pk": 108,
     "fields": {
         "name": "Can add link",
-        "content_type": 37,
+        "content_type": [
+            "djangocms_link",
+            "link"
+        ],
         "codename": "add_link"
     }
 },
@@ -6193,7 +6538,10 @@
     "pk": 109,
     "fields": {
         "name": "Can change link",
-        "content_type": 37,
+        "content_type": [
+            "djangocms_link",
+            "link"
+        ],
         "codename": "change_link"
     }
 },
@@ -6202,7 +6550,10 @@
     "pk": 110,
     "fields": {
         "name": "Can delete link",
-        "content_type": 37,
+        "content_type": [
+            "djangocms_link",
+            "link"
+        ],
         "codename": "delete_link"
     }
 },
@@ -6211,7 +6562,10 @@
     "pk": 111,
     "fields": {
         "name": "Can add picture",
-        "content_type": 38,
+        "content_type": [
+            "djangocms_picture",
+            "picture"
+        ],
         "codename": "add_picture"
     }
 },
@@ -6220,7 +6574,10 @@
     "pk": 112,
     "fields": {
         "name": "Can change picture",
-        "content_type": 38,
+        "content_type": [
+            "djangocms_picture",
+            "picture"
+        ],
         "codename": "change_picture"
     }
 },
@@ -6229,7 +6586,10 @@
     "pk": 113,
     "fields": {
         "name": "Can delete picture",
-        "content_type": 38,
+        "content_type": [
+            "djangocms_picture",
+            "picture"
+        ],
         "codename": "delete_picture"
     }
 },
@@ -6238,7 +6598,10 @@
     "pk": 114,
     "fields": {
         "name": "Can add style",
-        "content_type": 39,
+        "content_type": [
+            "djangocms_style",
+            "style"
+        ],
         "codename": "add_style"
     }
 },
@@ -6247,7 +6610,10 @@
     "pk": 115,
     "fields": {
         "name": "Can change style",
-        "content_type": 39,
+        "content_type": [
+            "djangocms_style",
+            "style"
+        ],
         "codename": "change_style"
     }
 },
@@ -6256,7 +6622,10 @@
     "pk": 116,
     "fields": {
         "name": "Can delete style",
-        "content_type": 39,
+        "content_type": [
+            "djangocms_style",
+            "style"
+        ],
         "codename": "delete_style"
     }
 },
@@ -6265,7 +6634,10 @@
     "pk": 117,
     "fields": {
         "name": "Can add Snippet",
-        "content_type": 40,
+        "content_type": [
+            "djangocms_snippet",
+            "snippet"
+        ],
         "codename": "add_snippet"
     }
 },
@@ -6274,7 +6646,10 @@
     "pk": 118,
     "fields": {
         "name": "Can change Snippet",
-        "content_type": 40,
+        "content_type": [
+            "djangocms_snippet",
+            "snippet"
+        ],
         "codename": "change_snippet"
     }
 },
@@ -6283,7 +6658,10 @@
     "pk": 119,
     "fields": {
         "name": "Can delete Snippet",
-        "content_type": 40,
+        "content_type": [
+            "djangocms_snippet",
+            "snippet"
+        ],
         "codename": "delete_snippet"
     }
 },
@@ -6292,7 +6670,10 @@
     "pk": 120,
     "fields": {
         "name": "Can add Snippet",
-        "content_type": 41,
+        "content_type": [
+            "djangocms_snippet",
+            "snippetptr"
+        ],
         "codename": "add_snippetptr"
     }
 },
@@ -6301,7 +6682,10 @@
     "pk": 121,
     "fields": {
         "name": "Can change Snippet",
-        "content_type": 41,
+        "content_type": [
+            "djangocms_snippet",
+            "snippetptr"
+        ],
         "codename": "change_snippetptr"
     }
 },
@@ -6310,7 +6694,10 @@
     "pk": 122,
     "fields": {
         "name": "Can delete Snippet",
-        "content_type": 41,
+        "content_type": [
+            "djangocms_snippet",
+            "snippetptr"
+        ],
         "codename": "delete_snippetptr"
     }
 },
@@ -6319,7 +6706,10 @@
     "pk": 123,
     "fields": {
         "name": "Can add google map",
-        "content_type": 42,
+        "content_type": [
+            "djangocms_googlemap",
+            "googlemap"
+        ],
         "codename": "add_googlemap"
     }
 },
@@ -6328,7 +6718,10 @@
     "pk": 124,
     "fields": {
         "name": "Can change google map",
-        "content_type": 42,
+        "content_type": [
+            "djangocms_googlemap",
+            "googlemap"
+        ],
         "codename": "change_googlemap"
     }
 },
@@ -6337,7 +6730,10 @@
     "pk": 125,
     "fields": {
         "name": "Can delete google map",
-        "content_type": 42,
+        "content_type": [
+            "djangocms_googlemap",
+            "googlemap"
+        ],
         "codename": "delete_googlemap"
     }
 },
@@ -6346,7 +6742,10 @@
     "pk": 126,
     "fields": {
         "name": "Can add google map marker",
-        "content_type": 43,
+        "content_type": [
+            "djangocms_googlemap",
+            "googlemapmarker"
+        ],
         "codename": "add_googlemapmarker"
     }
 },
@@ -6355,7 +6754,10 @@
     "pk": 127,
     "fields": {
         "name": "Can change google map marker",
-        "content_type": 43,
+        "content_type": [
+            "djangocms_googlemap",
+            "googlemapmarker"
+        ],
         "codename": "change_googlemapmarker"
     }
 },
@@ -6364,7 +6766,10 @@
     "pk": 128,
     "fields": {
         "name": "Can delete google map marker",
-        "content_type": 43,
+        "content_type": [
+            "djangocms_googlemap",
+            "googlemapmarker"
+        ],
         "codename": "delete_googlemapmarker"
     }
 },
@@ -6373,7 +6778,10 @@
     "pk": 129,
     "fields": {
         "name": "Can add google map route",
-        "content_type": 44,
+        "content_type": [
+            "djangocms_googlemap",
+            "googlemaproute"
+        ],
         "codename": "add_googlemaproute"
     }
 },
@@ -6382,7 +6790,10 @@
     "pk": 130,
     "fields": {
         "name": "Can change google map route",
-        "content_type": 44,
+        "content_type": [
+            "djangocms_googlemap",
+            "googlemaproute"
+        ],
         "codename": "change_googlemaproute"
     }
 },
@@ -6391,7 +6802,10 @@
     "pk": 131,
     "fields": {
         "name": "Can delete google map route",
-        "content_type": 44,
+        "content_type": [
+            "djangocms_googlemap",
+            "googlemaproute"
+        ],
         "codename": "delete_googlemaproute"
     }
 },
@@ -6400,7 +6814,10 @@
     "pk": 132,
     "fields": {
         "name": "Can add video player",
-        "content_type": 45,
+        "content_type": [
+            "djangocms_video",
+            "videoplayer"
+        ],
         "codename": "add_videoplayer"
     }
 },
@@ -6409,7 +6826,10 @@
     "pk": 133,
     "fields": {
         "name": "Can change video player",
-        "content_type": 45,
+        "content_type": [
+            "djangocms_video",
+            "videoplayer"
+        ],
         "codename": "change_videoplayer"
     }
 },
@@ -6418,7 +6838,10 @@
     "pk": 134,
     "fields": {
         "name": "Can delete video player",
-        "content_type": 45,
+        "content_type": [
+            "djangocms_video",
+            "videoplayer"
+        ],
         "codename": "delete_videoplayer"
     }
 },
@@ -6427,7 +6850,10 @@
     "pk": 135,
     "fields": {
         "name": "Can add video source",
-        "content_type": 46,
+        "content_type": [
+            "djangocms_video",
+            "videosource"
+        ],
         "codename": "add_videosource"
     }
 },
@@ -6436,7 +6862,10 @@
     "pk": 136,
     "fields": {
         "name": "Can change video source",
-        "content_type": 46,
+        "content_type": [
+            "djangocms_video",
+            "videosource"
+        ],
         "codename": "change_videosource"
     }
 },
@@ -6445,7 +6874,10 @@
     "pk": 137,
     "fields": {
         "name": "Can delete video source",
-        "content_type": 46,
+        "content_type": [
+            "djangocms_video",
+            "videosource"
+        ],
         "codename": "delete_videosource"
     }
 },
@@ -6454,7 +6886,10 @@
     "pk": 138,
     "fields": {
         "name": "Can add video track",
-        "content_type": 47,
+        "content_type": [
+            "djangocms_video",
+            "videotrack"
+        ],
         "codename": "add_videotrack"
     }
 },
@@ -6463,7 +6898,10 @@
     "pk": 139,
     "fields": {
         "name": "Can change video track",
-        "content_type": 47,
+        "content_type": [
+            "djangocms_video",
+            "videotrack"
+        ],
         "codename": "change_videotrack"
     }
 },
@@ -6472,7 +6910,10 @@
     "pk": 140,
     "fields": {
         "name": "Can delete video track",
-        "content_type": 47,
+        "content_type": [
+            "djangocms_video",
+            "videotrack"
+        ],
         "codename": "delete_videotrack"
     }
 },
@@ -6481,7 +6922,10 @@
     "pk": 141,
     "fields": {
         "name": "Can add icon",
-        "content_type": 48,
+        "content_type": [
+            "djangocms_icon",
+            "icon"
+        ],
         "codename": "add_icon"
     }
 },
@@ -6490,7 +6934,10 @@
     "pk": 142,
     "fields": {
         "name": "Can change icon",
-        "content_type": 48,
+        "content_type": [
+            "djangocms_icon",
+            "icon"
+        ],
         "codename": "change_icon"
     }
 },
@@ -6499,7 +6946,10 @@
     "pk": 143,
     "fields": {
         "name": "Can delete icon",
-        "content_type": 48,
+        "content_type": [
+            "djangocms_icon",
+            "icon"
+        ],
         "codename": "delete_icon"
     }
 },
@@ -6508,7 +6958,10 @@
     "pk": 144,
     "fields": {
         "name": "Can add bootstrap4 alerts",
-        "content_type": 49,
+        "content_type": [
+            "bootstrap4_alerts",
+            "bootstrap4alerts"
+        ],
         "codename": "add_bootstrap4alerts"
     }
 },
@@ -6517,7 +6970,10 @@
     "pk": 145,
     "fields": {
         "name": "Can change bootstrap4 alerts",
-        "content_type": 49,
+        "content_type": [
+            "bootstrap4_alerts",
+            "bootstrap4alerts"
+        ],
         "codename": "change_bootstrap4alerts"
     }
 },
@@ -6526,7 +6982,10 @@
     "pk": 146,
     "fields": {
         "name": "Can delete bootstrap4 alerts",
-        "content_type": 49,
+        "content_type": [
+            "bootstrap4_alerts",
+            "bootstrap4alerts"
+        ],
         "codename": "delete_bootstrap4alerts"
     }
 },
@@ -6535,7 +6994,10 @@
     "pk": 147,
     "fields": {
         "name": "Can add bootstrap4 badge",
-        "content_type": 50,
+        "content_type": [
+            "bootstrap4_badge",
+            "bootstrap4badge"
+        ],
         "codename": "add_bootstrap4badge"
     }
 },
@@ -6544,7 +7006,10 @@
     "pk": 148,
     "fields": {
         "name": "Can change bootstrap4 badge",
-        "content_type": 50,
+        "content_type": [
+            "bootstrap4_badge",
+            "bootstrap4badge"
+        ],
         "codename": "change_bootstrap4badge"
     }
 },
@@ -6553,7 +7018,10 @@
     "pk": 149,
     "fields": {
         "name": "Can delete bootstrap4 badge",
-        "content_type": 50,
+        "content_type": [
+            "bootstrap4_badge",
+            "bootstrap4badge"
+        ],
         "codename": "delete_bootstrap4badge"
     }
 },
@@ -6562,7 +7030,10 @@
     "pk": 150,
     "fields": {
         "name": "Can add bootstrap4 card",
-        "content_type": 51,
+        "content_type": [
+            "bootstrap4_card",
+            "bootstrap4card"
+        ],
         "codename": "add_bootstrap4card"
     }
 },
@@ -6571,7 +7042,10 @@
     "pk": 151,
     "fields": {
         "name": "Can change bootstrap4 card",
-        "content_type": 51,
+        "content_type": [
+            "bootstrap4_card",
+            "bootstrap4card"
+        ],
         "codename": "change_bootstrap4card"
     }
 },
@@ -6580,7 +7054,10 @@
     "pk": 152,
     "fields": {
         "name": "Can delete bootstrap4 card",
-        "content_type": 51,
+        "content_type": [
+            "bootstrap4_card",
+            "bootstrap4card"
+        ],
         "codename": "delete_bootstrap4card"
     }
 },
@@ -6589,7 +7066,10 @@
     "pk": 153,
     "fields": {
         "name": "Can add bootstrap4 card inner",
-        "content_type": 52,
+        "content_type": [
+            "bootstrap4_card",
+            "bootstrap4cardinner"
+        ],
         "codename": "add_bootstrap4cardinner"
     }
 },
@@ -6598,7 +7078,10 @@
     "pk": 154,
     "fields": {
         "name": "Can change bootstrap4 card inner",
-        "content_type": 52,
+        "content_type": [
+            "bootstrap4_card",
+            "bootstrap4cardinner"
+        ],
         "codename": "change_bootstrap4cardinner"
     }
 },
@@ -6607,7 +7090,10 @@
     "pk": 155,
     "fields": {
         "name": "Can delete bootstrap4 card inner",
-        "content_type": 52,
+        "content_type": [
+            "bootstrap4_card",
+            "bootstrap4cardinner"
+        ],
         "codename": "delete_bootstrap4cardinner"
     }
 },
@@ -6616,7 +7102,10 @@
     "pk": 156,
     "fields": {
         "name": "Can add bootstrap4 carousel",
-        "content_type": 53,
+        "content_type": [
+            "bootstrap4_carousel",
+            "bootstrap4carousel"
+        ],
         "codename": "add_bootstrap4carousel"
     }
 },
@@ -6625,7 +7114,10 @@
     "pk": 157,
     "fields": {
         "name": "Can change bootstrap4 carousel",
-        "content_type": 53,
+        "content_type": [
+            "bootstrap4_carousel",
+            "bootstrap4carousel"
+        ],
         "codename": "change_bootstrap4carousel"
     }
 },
@@ -6634,7 +7126,10 @@
     "pk": 158,
     "fields": {
         "name": "Can delete bootstrap4 carousel",
-        "content_type": 53,
+        "content_type": [
+            "bootstrap4_carousel",
+            "bootstrap4carousel"
+        ],
         "codename": "delete_bootstrap4carousel"
     }
 },
@@ -6643,7 +7138,10 @@
     "pk": 159,
     "fields": {
         "name": "Can add bootstrap4 carousel slide",
-        "content_type": 54,
+        "content_type": [
+            "bootstrap4_carousel",
+            "bootstrap4carouselslide"
+        ],
         "codename": "add_bootstrap4carouselslide"
     }
 },
@@ -6652,7 +7150,10 @@
     "pk": 160,
     "fields": {
         "name": "Can change bootstrap4 carousel slide",
-        "content_type": 54,
+        "content_type": [
+            "bootstrap4_carousel",
+            "bootstrap4carouselslide"
+        ],
         "codename": "change_bootstrap4carouselslide"
     }
 },
@@ -6661,7 +7162,10 @@
     "pk": 161,
     "fields": {
         "name": "Can delete bootstrap4 carousel slide",
-        "content_type": 54,
+        "content_type": [
+            "bootstrap4_carousel",
+            "bootstrap4carouselslide"
+        ],
         "codename": "delete_bootstrap4carouselslide"
     }
 },
@@ -6670,7 +7174,10 @@
     "pk": 162,
     "fields": {
         "name": "Can add bootstrap4 collapse",
-        "content_type": 55,
+        "content_type": [
+            "bootstrap4_collapse",
+            "bootstrap4collapse"
+        ],
         "codename": "add_bootstrap4collapse"
     }
 },
@@ -6679,7 +7186,10 @@
     "pk": 163,
     "fields": {
         "name": "Can change bootstrap4 collapse",
-        "content_type": 55,
+        "content_type": [
+            "bootstrap4_collapse",
+            "bootstrap4collapse"
+        ],
         "codename": "change_bootstrap4collapse"
     }
 },
@@ -6688,7 +7198,10 @@
     "pk": 164,
     "fields": {
         "name": "Can delete bootstrap4 collapse",
-        "content_type": 55,
+        "content_type": [
+            "bootstrap4_collapse",
+            "bootstrap4collapse"
+        ],
         "codename": "delete_bootstrap4collapse"
     }
 },
@@ -6697,7 +7210,10 @@
     "pk": 165,
     "fields": {
         "name": "Can add bootstrap4 collapse container",
-        "content_type": 56,
+        "content_type": [
+            "bootstrap4_collapse",
+            "bootstrap4collapsecontainer"
+        ],
         "codename": "add_bootstrap4collapsecontainer"
     }
 },
@@ -6706,7 +7222,10 @@
     "pk": 166,
     "fields": {
         "name": "Can change bootstrap4 collapse container",
-        "content_type": 56,
+        "content_type": [
+            "bootstrap4_collapse",
+            "bootstrap4collapsecontainer"
+        ],
         "codename": "change_bootstrap4collapsecontainer"
     }
 },
@@ -6715,7 +7234,10 @@
     "pk": 167,
     "fields": {
         "name": "Can delete bootstrap4 collapse container",
-        "content_type": 56,
+        "content_type": [
+            "bootstrap4_collapse",
+            "bootstrap4collapsecontainer"
+        ],
         "codename": "delete_bootstrap4collapsecontainer"
     }
 },
@@ -6724,7 +7246,10 @@
     "pk": 168,
     "fields": {
         "name": "Can add bootstrap4 collapse trigger",
-        "content_type": 57,
+        "content_type": [
+            "bootstrap4_collapse",
+            "bootstrap4collapsetrigger"
+        ],
         "codename": "add_bootstrap4collapsetrigger"
     }
 },
@@ -6733,7 +7258,10 @@
     "pk": 169,
     "fields": {
         "name": "Can change bootstrap4 collapse trigger",
-        "content_type": 57,
+        "content_type": [
+            "bootstrap4_collapse",
+            "bootstrap4collapsetrigger"
+        ],
         "codename": "change_bootstrap4collapsetrigger"
     }
 },
@@ -6742,7 +7270,10 @@
     "pk": 170,
     "fields": {
         "name": "Can delete bootstrap4 collapse trigger",
-        "content_type": 57,
+        "content_type": [
+            "bootstrap4_collapse",
+            "bootstrap4collapsetrigger"
+        ],
         "codename": "delete_bootstrap4collapsetrigger"
     }
 },
@@ -6751,7 +7282,10 @@
     "pk": 171,
     "fields": {
         "name": "Can add bootstrap4 blockquote",
-        "content_type": 58,
+        "content_type": [
+            "bootstrap4_content",
+            "bootstrap4blockquote"
+        ],
         "codename": "add_bootstrap4blockquote"
     }
 },
@@ -6760,7 +7294,10 @@
     "pk": 172,
     "fields": {
         "name": "Can change bootstrap4 blockquote",
-        "content_type": 58,
+        "content_type": [
+            "bootstrap4_content",
+            "bootstrap4blockquote"
+        ],
         "codename": "change_bootstrap4blockquote"
     }
 },
@@ -6769,7 +7306,10 @@
     "pk": 173,
     "fields": {
         "name": "Can delete bootstrap4 blockquote",
-        "content_type": 58,
+        "content_type": [
+            "bootstrap4_content",
+            "bootstrap4blockquote"
+        ],
         "codename": "delete_bootstrap4blockquote"
     }
 },
@@ -6778,7 +7318,10 @@
     "pk": 174,
     "fields": {
         "name": "Can add bootstrap4 code",
-        "content_type": 59,
+        "content_type": [
+            "bootstrap4_content",
+            "bootstrap4code"
+        ],
         "codename": "add_bootstrap4code"
     }
 },
@@ -6787,7 +7330,10 @@
     "pk": 175,
     "fields": {
         "name": "Can change bootstrap4 code",
-        "content_type": 59,
+        "content_type": [
+            "bootstrap4_content",
+            "bootstrap4code"
+        ],
         "codename": "change_bootstrap4code"
     }
 },
@@ -6796,7 +7342,10 @@
     "pk": 176,
     "fields": {
         "name": "Can delete bootstrap4 code",
-        "content_type": 59,
+        "content_type": [
+            "bootstrap4_content",
+            "bootstrap4code"
+        ],
         "codename": "delete_bootstrap4code"
     }
 },
@@ -6805,7 +7354,10 @@
     "pk": 177,
     "fields": {
         "name": "Can add bootstrap4 figure",
-        "content_type": 60,
+        "content_type": [
+            "bootstrap4_content",
+            "bootstrap4figure"
+        ],
         "codename": "add_bootstrap4figure"
     }
 },
@@ -6814,7 +7366,10 @@
     "pk": 178,
     "fields": {
         "name": "Can change bootstrap4 figure",
-        "content_type": 60,
+        "content_type": [
+            "bootstrap4_content",
+            "bootstrap4figure"
+        ],
         "codename": "change_bootstrap4figure"
     }
 },
@@ -6823,7 +7378,10 @@
     "pk": 179,
     "fields": {
         "name": "Can delete bootstrap4 figure",
-        "content_type": 60,
+        "content_type": [
+            "bootstrap4_content",
+            "bootstrap4figure"
+        ],
         "codename": "delete_bootstrap4figure"
     }
 },
@@ -6832,7 +7390,10 @@
     "pk": 180,
     "fields": {
         "name": "Can add bootstrap4 grid column",
-        "content_type": 61,
+        "content_type": [
+            "bootstrap4_grid",
+            "bootstrap4gridcolumn"
+        ],
         "codename": "add_bootstrap4gridcolumn"
     }
 },
@@ -6841,7 +7402,10 @@
     "pk": 181,
     "fields": {
         "name": "Can change bootstrap4 grid column",
-        "content_type": 61,
+        "content_type": [
+            "bootstrap4_grid",
+            "bootstrap4gridcolumn"
+        ],
         "codename": "change_bootstrap4gridcolumn"
     }
 },
@@ -6850,7 +7414,10 @@
     "pk": 182,
     "fields": {
         "name": "Can delete bootstrap4 grid column",
-        "content_type": 61,
+        "content_type": [
+            "bootstrap4_grid",
+            "bootstrap4gridcolumn"
+        ],
         "codename": "delete_bootstrap4gridcolumn"
     }
 },
@@ -6859,7 +7426,10 @@
     "pk": 183,
     "fields": {
         "name": "Can add bootstrap4 grid container",
-        "content_type": 62,
+        "content_type": [
+            "bootstrap4_grid",
+            "bootstrap4gridcontainer"
+        ],
         "codename": "add_bootstrap4gridcontainer"
     }
 },
@@ -6868,7 +7438,10 @@
     "pk": 184,
     "fields": {
         "name": "Can change bootstrap4 grid container",
-        "content_type": 62,
+        "content_type": [
+            "bootstrap4_grid",
+            "bootstrap4gridcontainer"
+        ],
         "codename": "change_bootstrap4gridcontainer"
     }
 },
@@ -6877,7 +7450,10 @@
     "pk": 185,
     "fields": {
         "name": "Can delete bootstrap4 grid container",
-        "content_type": 62,
+        "content_type": [
+            "bootstrap4_grid",
+            "bootstrap4gridcontainer"
+        ],
         "codename": "delete_bootstrap4gridcontainer"
     }
 },
@@ -6886,7 +7462,10 @@
     "pk": 186,
     "fields": {
         "name": "Can add bootstrap4 grid row",
-        "content_type": 63,
+        "content_type": [
+            "bootstrap4_grid",
+            "bootstrap4gridrow"
+        ],
         "codename": "add_bootstrap4gridrow"
     }
 },
@@ -6895,7 +7474,10 @@
     "pk": 187,
     "fields": {
         "name": "Can change bootstrap4 grid row",
-        "content_type": 63,
+        "content_type": [
+            "bootstrap4_grid",
+            "bootstrap4gridrow"
+        ],
         "codename": "change_bootstrap4gridrow"
     }
 },
@@ -6904,7 +7486,10 @@
     "pk": 188,
     "fields": {
         "name": "Can delete bootstrap4 grid row",
-        "content_type": 63,
+        "content_type": [
+            "bootstrap4_grid",
+            "bootstrap4gridrow"
+        ],
         "codename": "delete_bootstrap4gridrow"
     }
 },
@@ -6913,7 +7498,10 @@
     "pk": 189,
     "fields": {
         "name": "Can add bootstrap4 jumbotron",
-        "content_type": 64,
+        "content_type": [
+            "bootstrap4_jumbotron",
+            "bootstrap4jumbotron"
+        ],
         "codename": "add_bootstrap4jumbotron"
     }
 },
@@ -6922,7 +7510,10 @@
     "pk": 190,
     "fields": {
         "name": "Can change bootstrap4 jumbotron",
-        "content_type": 64,
+        "content_type": [
+            "bootstrap4_jumbotron",
+            "bootstrap4jumbotron"
+        ],
         "codename": "change_bootstrap4jumbotron"
     }
 },
@@ -6931,7 +7522,10 @@
     "pk": 191,
     "fields": {
         "name": "Can delete bootstrap4 jumbotron",
-        "content_type": 64,
+        "content_type": [
+            "bootstrap4_jumbotron",
+            "bootstrap4jumbotron"
+        ],
         "codename": "delete_bootstrap4jumbotron"
     }
 },
@@ -6940,7 +7534,10 @@
     "pk": 192,
     "fields": {
         "name": "Can add bootstrap4 link",
-        "content_type": 65,
+        "content_type": [
+            "bootstrap4_link",
+            "bootstrap4link"
+        ],
         "codename": "add_bootstrap4link"
     }
 },
@@ -6949,7 +7546,10 @@
     "pk": 193,
     "fields": {
         "name": "Can change bootstrap4 link",
-        "content_type": 65,
+        "content_type": [
+            "bootstrap4_link",
+            "bootstrap4link"
+        ],
         "codename": "change_bootstrap4link"
     }
 },
@@ -6958,7 +7558,10 @@
     "pk": 194,
     "fields": {
         "name": "Can delete bootstrap4 link",
-        "content_type": 65,
+        "content_type": [
+            "bootstrap4_link",
+            "bootstrap4link"
+        ],
         "codename": "delete_bootstrap4link"
     }
 },
@@ -6967,7 +7570,10 @@
     "pk": 195,
     "fields": {
         "name": "Can add bootstrap4 list group",
-        "content_type": 66,
+        "content_type": [
+            "bootstrap4_listgroup",
+            "bootstrap4listgroup"
+        ],
         "codename": "add_bootstrap4listgroup"
     }
 },
@@ -6976,7 +7582,10 @@
     "pk": 196,
     "fields": {
         "name": "Can change bootstrap4 list group",
-        "content_type": 66,
+        "content_type": [
+            "bootstrap4_listgroup",
+            "bootstrap4listgroup"
+        ],
         "codename": "change_bootstrap4listgroup"
     }
 },
@@ -6985,7 +7594,10 @@
     "pk": 197,
     "fields": {
         "name": "Can delete bootstrap4 list group",
-        "content_type": 66,
+        "content_type": [
+            "bootstrap4_listgroup",
+            "bootstrap4listgroup"
+        ],
         "codename": "delete_bootstrap4listgroup"
     }
 },
@@ -6994,7 +7606,10 @@
     "pk": 198,
     "fields": {
         "name": "Can add bootstrap4 list group item",
-        "content_type": 67,
+        "content_type": [
+            "bootstrap4_listgroup",
+            "bootstrap4listgroupitem"
+        ],
         "codename": "add_bootstrap4listgroupitem"
     }
 },
@@ -7003,7 +7618,10 @@
     "pk": 199,
     "fields": {
         "name": "Can change bootstrap4 list group item",
-        "content_type": 67,
+        "content_type": [
+            "bootstrap4_listgroup",
+            "bootstrap4listgroupitem"
+        ],
         "codename": "change_bootstrap4listgroupitem"
     }
 },
@@ -7012,7 +7630,10 @@
     "pk": 200,
     "fields": {
         "name": "Can delete bootstrap4 list group item",
-        "content_type": 67,
+        "content_type": [
+            "bootstrap4_listgroup",
+            "bootstrap4listgroupitem"
+        ],
         "codename": "delete_bootstrap4listgroupitem"
     }
 },
@@ -7021,7 +7642,10 @@
     "pk": 201,
     "fields": {
         "name": "Can add bootstrap4 media",
-        "content_type": 68,
+        "content_type": [
+            "bootstrap4_media",
+            "bootstrap4media"
+        ],
         "codename": "add_bootstrap4media"
     }
 },
@@ -7030,7 +7654,10 @@
     "pk": 202,
     "fields": {
         "name": "Can change bootstrap4 media",
-        "content_type": 68,
+        "content_type": [
+            "bootstrap4_media",
+            "bootstrap4media"
+        ],
         "codename": "change_bootstrap4media"
     }
 },
@@ -7039,7 +7666,10 @@
     "pk": 203,
     "fields": {
         "name": "Can delete bootstrap4 media",
-        "content_type": 68,
+        "content_type": [
+            "bootstrap4_media",
+            "bootstrap4media"
+        ],
         "codename": "delete_bootstrap4media"
     }
 },
@@ -7048,7 +7678,10 @@
     "pk": 204,
     "fields": {
         "name": "Can add bootstrap4 media body",
-        "content_type": 69,
+        "content_type": [
+            "bootstrap4_media",
+            "bootstrap4mediabody"
+        ],
         "codename": "add_bootstrap4mediabody"
     }
 },
@@ -7057,7 +7690,10 @@
     "pk": 205,
     "fields": {
         "name": "Can change bootstrap4 media body",
-        "content_type": 69,
+        "content_type": [
+            "bootstrap4_media",
+            "bootstrap4mediabody"
+        ],
         "codename": "change_bootstrap4mediabody"
     }
 },
@@ -7066,7 +7702,10 @@
     "pk": 206,
     "fields": {
         "name": "Can delete bootstrap4 media body",
-        "content_type": 69,
+        "content_type": [
+            "bootstrap4_media",
+            "bootstrap4mediabody"
+        ],
         "codename": "delete_bootstrap4mediabody"
     }
 },
@@ -7075,7 +7714,10 @@
     "pk": 207,
     "fields": {
         "name": "Can add bootstrap4 picture",
-        "content_type": 70,
+        "content_type": [
+            "bootstrap4_picture",
+            "bootstrap4picture"
+        ],
         "codename": "add_bootstrap4picture"
     }
 },
@@ -7084,7 +7726,10 @@
     "pk": 208,
     "fields": {
         "name": "Can change bootstrap4 picture",
-        "content_type": 70,
+        "content_type": [
+            "bootstrap4_picture",
+            "bootstrap4picture"
+        ],
         "codename": "change_bootstrap4picture"
     }
 },
@@ -7093,7 +7738,10 @@
     "pk": 209,
     "fields": {
         "name": "Can delete bootstrap4 picture",
-        "content_type": 70,
+        "content_type": [
+            "bootstrap4_picture",
+            "bootstrap4picture"
+        ],
         "codename": "delete_bootstrap4picture"
     }
 },
@@ -7102,7 +7750,10 @@
     "pk": 210,
     "fields": {
         "name": "Can add bootstrap4 tab",
-        "content_type": 71,
+        "content_type": [
+            "bootstrap4_tabs",
+            "bootstrap4tab"
+        ],
         "codename": "add_bootstrap4tab"
     }
 },
@@ -7111,7 +7762,10 @@
     "pk": 211,
     "fields": {
         "name": "Can change bootstrap4 tab",
-        "content_type": 71,
+        "content_type": [
+            "bootstrap4_tabs",
+            "bootstrap4tab"
+        ],
         "codename": "change_bootstrap4tab"
     }
 },
@@ -7120,7 +7774,10 @@
     "pk": 212,
     "fields": {
         "name": "Can delete bootstrap4 tab",
-        "content_type": 71,
+        "content_type": [
+            "bootstrap4_tabs",
+            "bootstrap4tab"
+        ],
         "codename": "delete_bootstrap4tab"
     }
 },
@@ -7129,7 +7786,10 @@
     "pk": 213,
     "fields": {
         "name": "Can add bootstrap4 tab item",
-        "content_type": 72,
+        "content_type": [
+            "bootstrap4_tabs",
+            "bootstrap4tabitem"
+        ],
         "codename": "add_bootstrap4tabitem"
     }
 },
@@ -7138,7 +7798,10 @@
     "pk": 214,
     "fields": {
         "name": "Can change bootstrap4 tab item",
-        "content_type": 72,
+        "content_type": [
+            "bootstrap4_tabs",
+            "bootstrap4tabitem"
+        ],
         "codename": "change_bootstrap4tabitem"
     }
 },
@@ -7147,7 +7810,10 @@
     "pk": 215,
     "fields": {
         "name": "Can delete bootstrap4 tab item",
-        "content_type": 72,
+        "content_type": [
+            "bootstrap4_tabs",
+            "bootstrap4tabitem"
+        ],
         "codename": "delete_bootstrap4tabitem"
     }
 },
@@ -7156,7 +7822,10 @@
     "pk": 216,
     "fields": {
         "name": "Can add bootstrap4 spacing",
-        "content_type": 73,
+        "content_type": [
+            "bootstrap4_utilities",
+            "bootstrap4spacing"
+        ],
         "codename": "add_bootstrap4spacing"
     }
 },
@@ -7165,7 +7834,10 @@
     "pk": 217,
     "fields": {
         "name": "Can change bootstrap4 spacing",
-        "content_type": 73,
+        "content_type": [
+            "bootstrap4_utilities",
+            "bootstrap4spacing"
+        ],
         "codename": "change_bootstrap4spacing"
     }
 },
@@ -7174,7 +7846,10 @@
     "pk": 218,
     "fields": {
         "name": "Can delete bootstrap4 spacing",
-        "content_type": 73,
+        "content_type": [
+            "bootstrap4_utilities",
+            "bootstrap4spacing"
+        ],
         "codename": "delete_bootstrap4spacing"
     }
 },
@@ -7183,7 +7858,10 @@
     "pk": 219,
     "fields": {
         "name": "Can add poll plugin model",
-        "content_type": 74,
+        "content_type": [
+            "polls_cms_integration",
+            "pollpluginmodel"
+        ],
         "codename": "add_pollpluginmodel"
     }
 },
@@ -7192,7 +7870,10 @@
     "pk": 220,
     "fields": {
         "name": "Can change poll plugin model",
-        "content_type": 74,
+        "content_type": [
+            "polls_cms_integration",
+            "pollpluginmodel"
+        ],
         "codename": "change_pollpluginmodel"
     }
 },
@@ -7201,7 +7882,10 @@
     "pk": 221,
     "fields": {
         "name": "Can delete poll plugin model",
-        "content_type": 74,
+        "content_type": [
+            "polls_cms_integration",
+            "pollpluginmodel"
+        ],
         "codename": "delete_pollpluginmodel"
     }
 },
@@ -7210,7 +7894,10 @@
     "pk": 222,
     "fields": {
         "name": "Can add choice",
-        "content_type": 75,
+        "content_type": [
+            "polls",
+            "choice"
+        ],
         "codename": "add_choice"
     }
 },
@@ -7219,7 +7906,10 @@
     "pk": 223,
     "fields": {
         "name": "Can change choice",
-        "content_type": 75,
+        "content_type": [
+            "polls",
+            "choice"
+        ],
         "codename": "change_choice"
     }
 },
@@ -7228,7 +7918,10 @@
     "pk": 224,
     "fields": {
         "name": "Can delete choice",
-        "content_type": 75,
+        "content_type": [
+            "polls",
+            "choice"
+        ],
         "codename": "delete_choice"
     }
 },
@@ -7237,7 +7930,10 @@
     "pk": 225,
     "fields": {
         "name": "Can add poll",
-        "content_type": 76,
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "codename": "add_poll"
     }
 },
@@ -7246,7 +7942,10 @@
     "pk": 226,
     "fields": {
         "name": "Can change poll",
-        "content_type": 76,
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "codename": "change_poll"
     }
 },
@@ -7255,7 +7954,10 @@
     "pk": 227,
     "fields": {
         "name": "Can delete poll",
-        "content_type": 76,
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "codename": "delete_poll"
     }
 },
@@ -7282,8 +7984,13 @@
     "pk": 1,
     "fields": {
         "action_time": "2018-07-03T11:07:36.952Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "3",
         "object_repr": "Our methods",
         "action_flag": 1,
@@ -7295,8 +8002,13 @@
     "pk": 2,
     "fields": {
         "action_time": "2018-07-03T11:07:52.975Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "4",
         "object_repr": "All our opinion polls",
         "action_flag": 1,
@@ -7308,8 +8020,13 @@
     "pk": 3,
     "fields": {
         "action_time": "2018-07-03T11:28:16.064Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "4",
         "object_repr": "All our opinion polls",
         "action_flag": 2,
@@ -7321,8 +8038,13 @@
     "pk": 4,
     "fields": {
         "action_time": "2018-07-03T11:28:22.803Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "4",
         "object_repr": "All our opinion polls",
         "action_flag": 2,
@@ -7334,8 +8056,13 @@
     "pk": 5,
     "fields": {
         "action_time": "2018-07-03T11:28:57.672Z",
-        "user": 1,
-        "content_type": 76,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "object_id": "1",
         "object_repr": "Your favourite browser",
         "action_flag": 1,
@@ -7347,8 +8074,13 @@
     "pk": 6,
     "fields": {
         "action_time": "2018-07-03T11:30:16.004Z",
-        "user": 1,
-        "content_type": 76,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "object_id": "1",
         "object_repr": "Your favourite browser",
         "action_flag": 2,
@@ -7360,8 +8092,13 @@
     "pk": 7,
     "fields": {
         "action_time": "2018-07-03T11:30:44.640Z",
-        "user": 1,
-        "content_type": 76,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "object_id": "2",
         "object_repr": "Your place or mine?",
         "action_flag": 1,
@@ -7373,8 +8110,13 @@
     "pk": 8,
     "fields": {
         "action_time": "2018-07-03T11:31:21.215Z",
-        "user": 1,
-        "content_type": 76,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "object_id": "3",
         "object_repr": "Country or western",
         "action_flag": 1,
@@ -7386,8 +8128,13 @@
     "pk": 9,
     "fields": {
         "action_time": "2018-07-03T11:32:50.069Z",
-        "user": 1,
-        "content_type": 76,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "object_id": "4",
         "object_repr": "Teen heartthrob",
         "action_flag": 1,
@@ -7399,8 +8146,13 @@
     "pk": 10,
     "fields": {
         "action_time": "2018-07-03T11:33:42.449Z",
-        "user": 1,
-        "content_type": 76,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "object_id": "4",
         "object_repr": "Teen heartthrob",
         "action_flag": 2,
@@ -7412,8 +8164,13 @@
     "pk": 11,
     "fields": {
         "action_time": "2018-07-03T11:34:52.105Z",
-        "user": 1,
-        "content_type": 76,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "object_id": "5",
         "object_repr": "Choose a topic",
         "action_flag": 1,
@@ -7425,8 +8182,13 @@
     "pk": 12,
     "fields": {
         "action_time": "2018-07-03T11:34:55.130Z",
-        "user": 1,
-        "content_type": 76,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "object_id": "5",
         "object_repr": "Choose a topic",
         "action_flag": 2,
@@ -7438,8 +8200,13 @@
     "pk": 13,
     "fields": {
         "action_time": "2018-07-03T12:22:37.842Z",
-        "user": 1,
-        "content_type": 76,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "object_id": "4",
         "object_repr": "Your teen heartthrob",
         "action_flag": 2,
@@ -7451,8 +8218,13 @@
     "pk": 14,
     "fields": {
         "action_time": "2018-07-03T12:22:58.192Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "1",
         "object_repr": "The Opinions Company",
         "action_flag": 2,
@@ -7464,8 +8236,13 @@
     "pk": 15,
     "fields": {
         "action_time": "2018-07-03T12:24:13.171Z",
-        "user": 1,
-        "content_type": 24,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "djangocms_text_ckeditor",
+            "text"
+        ],
         "object_id": "32",
         "object_repr": "They're totally great,...",
         "action_flag": 3,
@@ -7477,8 +8254,13 @@
     "pk": 16,
     "fields": {
         "action_time": "2018-07-03T12:24:45.314Z",
-        "user": 1,
-        "content_type": 24,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "djangocms_text_ckeditor",
+            "text"
+        ],
         "object_id": "44",
         "object_repr": "They're totally great,...",
         "action_flag": 3,
@@ -7490,8 +8272,13 @@
     "pk": 17,
     "fields": {
         "action_time": "2018-07-03T12:25:54.675Z",
-        "user": 1,
-        "content_type": 76,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "object_id": "5",
         "object_repr": "We need more...",
         "action_flag": 2,
@@ -7503,8 +8290,13 @@
     "pk": 18,
     "fields": {
         "action_time": "2018-07-03T12:26:07.966Z",
-        "user": 1,
-        "content_type": 76,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "object_id": "6",
         "object_repr": "Choose a topic",
         "action_flag": 1,
@@ -7516,8 +8308,13 @@
     "pk": 19,
     "fields": {
         "action_time": "2018-07-03T12:26:28.808Z",
-        "user": 1,
-        "content_type": 76,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "polls",
+            "poll"
+        ],
         "object_id": "6",
         "object_repr": "Choose a topic",
         "action_flag": 2,
@@ -7529,8 +8326,13 @@
     "pk": 20,
     "fields": {
         "action_time": "2018-07-03T12:26:46.109Z",
-        "user": 1,
-        "content_type": 24,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "djangocms_text_ckeditor",
+            "text"
+        ],
         "object_id": "50",
         "object_repr": "They're totally great,...",
         "action_flag": 3,
@@ -7542,8 +8344,13 @@
     "pk": 21,
     "fields": {
         "action_time": "2018-07-03T12:31:51.401Z",
-        "user": 1,
-        "content_type": 30,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "filer",
+            "image"
+        ],
         "object_id": "4",
         "object_repr": "South poll ice cap",
         "action_flag": 2,
@@ -7555,8 +8362,13 @@
     "pk": 22,
     "fields": {
         "action_time": "2018-07-03T12:32:02.893Z",
-        "user": 1,
-        "content_type": 30,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "filer",
+            "image"
+        ],
         "object_id": "2",
         "object_repr": "North pole (Mercator map)",
         "action_flag": 2,
@@ -7568,8 +8380,13 @@
     "pk": 23,
     "fields": {
         "action_time": "2018-07-03T12:32:14.190Z",
-        "user": 1,
-        "content_type": 30,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "filer",
+            "image"
+        ],
         "object_id": "3",
         "object_repr": "South pole",
         "action_flag": 2,
@@ -7581,8 +8398,13 @@
     "pk": 24,
     "fields": {
         "action_time": "2018-07-03T12:32:28.285Z",
-        "user": 1,
-        "content_type": 30,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "filer",
+            "image"
+        ],
         "object_id": "1",
         "object_repr": "North pole",
         "action_flag": 2,
@@ -7594,8 +8416,13 @@
     "pk": 25,
     "fields": {
         "action_time": "2018-07-03T12:40:35.440Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "3",
         "object_repr": "Our methods",
         "action_flag": 2,
@@ -7607,8 +8434,13 @@
     "pk": 26,
     "fields": {
         "action_time": "2018-07-03T12:41:03.419Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "1",
         "object_repr": "The Opinions Company",
         "action_flag": 2,
@@ -7620,8 +8452,13 @@
     "pk": 27,
     "fields": {
         "action_time": "2018-07-04T13:28:27.281Z",
-        "user": 1,
-        "content_type": 9,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
         "object_id": "1",
         "object_repr": "example.com",
         "action_flag": 2,
@@ -7633,8 +8470,13 @@
     "pk": 28,
     "fields": {
         "action_time": "2018-07-04T13:57:13.447Z",
-        "user": 1,
-        "content_type": 9,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
         "object_id": "1",
         "object_repr": "example.com",
         "action_flag": 2,
@@ -7646,8 +8488,13 @@
     "pk": 29,
     "fields": {
         "action_time": "2018-07-05T06:19:20.341Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "7",
         "object_repr": "Footer",
         "action_flag": 1,
@@ -7659,8 +8506,13 @@
     "pk": 30,
     "fields": {
         "action_time": "2018-07-05T06:19:25.741Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "7",
         "object_repr": "Footer",
         "action_flag": 2,
@@ -7672,8 +8524,13 @@
     "pk": 31,
     "fields": {
         "action_time": "2018-07-05T06:19:37.839Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "8",
         "object_repr": "Terms of Service",
         "action_flag": 1,
@@ -7685,8 +8542,13 @@
     "pk": 32,
     "fields": {
         "action_time": "2018-07-05T06:19:43.711Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "9",
         "object_repr": "Contact",
         "action_flag": 1,
@@ -7698,8 +8560,13 @@
     "pk": 33,
     "fields": {
         "action_time": "2018-07-05T06:19:52.791Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "7",
         "object_repr": "Footer",
         "action_flag": 2,
@@ -7711,8 +8578,13 @@
     "pk": 34,
     "fields": {
         "action_time": "2018-07-05T06:19:54.886Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "9",
         "object_repr": "Contact",
         "action_flag": 2,
@@ -7724,8 +8596,13 @@
     "pk": 35,
     "fields": {
         "action_time": "2018-07-05T06:19:56.647Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "8",
         "object_repr": "Terms of Service",
         "action_flag": 2,
@@ -7737,8 +8614,13 @@
     "pk": 36,
     "fields": {
         "action_time": "2018-07-05T06:20:01.667Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "7",
         "object_repr": "Footer",
         "action_flag": 2,
@@ -7750,8 +8632,13 @@
     "pk": 37,
     "fields": {
         "action_time": "2018-07-05T06:37:42.583Z",
-        "user": 1,
-        "content_type": 9,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
         "object_id": "1",
         "object_repr": "example.com",
         "action_flag": 2,
@@ -7763,8 +8650,13 @@
     "pk": 38,
     "fields": {
         "action_time": "2018-07-05T06:52:19.048Z",
-        "user": 1,
-        "content_type": 61,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "bootstrap4_grid",
+            "bootstrap4gridcolumn"
+        ],
         "object_id": "150",
         "object_repr": "150",
         "action_flag": 3,
@@ -7776,8 +8668,13 @@
     "pk": 39,
     "fields": {
         "action_time": "2018-07-05T06:52:22.302Z",
-        "user": 1,
-        "content_type": 61,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "bootstrap4_grid",
+            "bootstrap4gridcolumn"
+        ],
         "object_id": "151",
         "object_repr": "151",
         "action_flag": 3,
@@ -7789,8 +8686,13 @@
     "pk": 40,
     "fields": {
         "action_time": "2018-07-05T07:39:37.544Z",
-        "user": 1,
-        "content_type": 64,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "bootstrap4_jumbotron",
+            "bootstrap4jumbotron"
+        ],
         "object_id": "1",
         "object_repr": "1",
         "action_flag": 3,
@@ -7802,8 +8704,13 @@
     "pk": 41,
     "fields": {
         "action_time": "2018-07-05T07:40:36.455Z",
-        "user": 1,
-        "content_type": 63,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "bootstrap4_grid",
+            "bootstrap4gridrow"
+        ],
         "object_id": "3",
         "object_repr": "3",
         "action_flag": 3,
@@ -7815,8 +8722,13 @@
     "pk": 42,
     "fields": {
         "action_time": "2018-07-05T07:45:48.664Z",
-        "user": 1,
-        "content_type": 63,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "bootstrap4_grid",
+            "bootstrap4gridrow"
+        ],
         "object_id": "21",
         "object_repr": "21",
         "action_flag": 3,
@@ -7828,8 +8740,13 @@
     "pk": 43,
     "fields": {
         "action_time": "2018-07-05T07:53:54.218Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "1",
         "object_repr": "The Opinions Company",
         "action_flag": 2,
@@ -7841,8 +8758,13 @@
     "pk": 44,
     "fields": {
         "action_time": "2018-07-05T07:55:36.736Z",
-        "user": 1,
-        "content_type": 24,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "djangocms_text_ckeditor",
+            "text"
+        ],
         "object_id": "203",
         "object_repr": "asdfasdf",
         "action_flag": 3,
@@ -7854,8 +8776,13 @@
     "pk": 45,
     "fields": {
         "action_time": "2018-07-05T08:16:11.243Z",
-        "user": 1,
-        "content_type": 24,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "djangocms_text_ckeditor",
+            "text"
+        ],
         "object_id": "51",
         "object_repr": "Maecenas nec ex...",
         "action_flag": 3,
@@ -7867,8 +8794,13 @@
     "pk": 46,
     "fields": {
         "action_time": "2018-07-05T08:17:24.698Z",
-        "user": 1,
-        "content_type": 73,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "bootstrap4_utilities",
+            "bootstrap4spacing"
+        ],
         "object_id": "208",
         "object_repr": "208",
         "action_flag": 3,
@@ -7880,8 +8812,13 @@
     "pk": 47,
     "fields": {
         "action_time": "2018-07-05T08:18:08.380Z",
-        "user": 1,
-        "content_type": 63,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "bootstrap4_grid",
+            "bootstrap4gridrow"
+        ],
         "object_id": "224",
         "object_repr": "224",
         "action_flag": 3,
@@ -7893,8 +8830,13 @@
     "pk": 48,
     "fields": {
         "action_time": "2018-07-05T08:19:38.442Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "3",
         "object_repr": "Our methods",
         "action_flag": 2,
@@ -7906,8 +8848,13 @@
     "pk": 49,
     "fields": {
         "action_time": "2018-07-05T08:20:33.070Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "3",
         "object_repr": "Our methods",
         "action_flag": 2,
@@ -7919,8 +8866,13 @@
     "pk": 50,
     "fields": {
         "action_time": "2018-07-05T08:25:55.361Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "1",
         "object_repr": "The Opinions Company",
         "action_flag": 2,
@@ -7932,8 +8884,13 @@
     "pk": 51,
     "fields": {
         "action_time": "2018-07-05T08:27:32.140Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "9",
         "object_repr": "Contact",
         "action_flag": 2,
@@ -7945,8 +8902,13 @@
     "pk": 52,
     "fields": {
         "action_time": "2018-07-05T08:28:00.744Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "8",
         "object_repr": "Terms of Service",
         "action_flag": 2,
@@ -7958,8 +8920,13 @@
     "pk": 53,
     "fields": {
         "action_time": "2018-07-05T08:28:34.312Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "1",
         "object_repr": "The Opinions Company",
         "action_flag": 2,
@@ -7971,8 +8938,13 @@
     "pk": 54,
     "fields": {
         "action_time": "2018-07-05T08:35:34.254Z",
-        "user": 1,
-        "content_type": 2,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cms",
+            "page"
+        ],
         "object_id": "1",
         "object_repr": "The Opinions Company",
         "action_flag": 2,
@@ -7983,7 +8955,9 @@
     "model": "cms.usersettings",
     "pk": 1,
     "fields": {
-        "user": 1,
+        "user": [
+            "admin"
+        ],
         "language": "en",
         "clipboard": 1
     }
@@ -7994,7 +8968,9 @@
     "fields": {
         "parent": null,
         "name": "Poles",
-        "owner": 1,
+        "owner": [
+            "admin"
+        ],
         "uploaded_at": "2018-07-03T12:31:13.143Z",
         "created_at": "2018-07-03T12:31:13.143Z",
         "modified_at": "2018-07-03T12:31:13.143Z",
@@ -8008,7 +8984,10 @@
     "model": "filer.file",
     "pk": 1,
     "fields": {
-        "polymorphic_ctype": 30,
+        "polymorphic_ctype": [
+            "filer",
+            "image"
+        ],
         "folder": 1,
         "file": "filer_public/b8/fe/b8feffdf-e63f-4160-a90b-5a1cc9b758ae/arctic_ocean.png",
         "_file_size": 14541,
@@ -8017,7 +8996,9 @@
         "original_filename": "Arctic_Ocean.png",
         "name": "North pole",
         "description": "",
-        "owner": 1,
+        "owner": [
+            "admin"
+        ],
         "uploaded_at": "2018-07-03T12:31:17.585Z",
         "modified_at": "2018-07-03T12:32:28.283Z",
         "is_public": true
@@ -8027,7 +9008,10 @@
     "model": "filer.file",
     "pk": 2,
     "fields": {
-        "polymorphic_ctype": 30,
+        "polymorphic_ctype": [
+            "filer",
+            "image"
+        ],
         "folder": 1,
         "file": "filer_public/46/26/4626b447-95a0-44a8-abd2-fc833435b441/mercator_north_pole_1595.jpg",
         "_file_size": 166017,
@@ -8036,7 +9020,9 @@
         "original_filename": "Mercator_north_pole_1595.jpg",
         "name": "North pole (Mercator map)",
         "description": "",
-        "owner": 1,
+        "owner": [
+            "admin"
+        ],
         "uploaded_at": "2018-07-03T12:31:24.927Z",
         "modified_at": "2018-07-03T12:32:02.891Z",
         "is_public": true
@@ -8046,7 +9032,10 @@
     "model": "filer.file",
     "pk": 3,
     "fields": {
-        "polymorphic_ctype": 30,
+        "polymorphic_ctype": [
+            "filer",
+            "image"
+        ],
         "folder": 1,
         "file": "filer_public/83/67/8367547b-d331-4e88-93e8-df80bf03eecc/pole-south.gif",
         "_file_size": 11423,
@@ -8055,7 +9044,9 @@
         "original_filename": "Pole-south.gif",
         "name": "South pole",
         "description": "",
-        "owner": 1,
+        "owner": [
+            "admin"
+        ],
         "uploaded_at": "2018-07-03T12:31:27.241Z",
         "modified_at": "2018-07-03T12:32:14.188Z",
         "is_public": true
@@ -8065,7 +9056,10 @@
     "model": "filer.file",
     "pk": 4,
     "fields": {
-        "polymorphic_ctype": 30,
+        "polymorphic_ctype": [
+            "filer",
+            "image"
+        ],
         "folder": 1,
         "file": "filer_public/cc/d1/ccd1570b-1adb-4240-b4f5-fba7626613bc/660px-antarctica_6400px_from_blue_marble.jpg",
         "_file_size": 61398,
@@ -8074,7 +9068,9 @@
         "original_filename": "660px-Antarctica_6400px_from_Blue_Marble.jpg",
         "name": "South poll ice cap",
         "description": "",
-        "owner": 1,
+        "owner": [
+            "admin"
+        ],
         "uploaded_at": "2018-07-03T12:31:33.820Z",
         "modified_at": "2018-07-03T12:31:51.399Z",
         "is_public": true
@@ -8084,7 +9080,9 @@
     "model": "filer.clipboard",
     "pk": 1,
     "fields": {
-        "user": 1
+        "user": [
+            "admin"
+        ]
     }
 },
 {
