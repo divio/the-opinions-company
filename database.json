@@ -616,6 +616,14 @@
     }
 },
 {
+    "model": "sessions.session",
+    "pk": "iw4703uyqzgzjqcwiysmn20jwmi41wc0",
+    "fields": {
+        "session_data": "Njc0YzM5ZDUyOWI3MTk4Nzc3ZTA4OGZiMGJhMTJkYWNjNTU5MTliZjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzNTk0YWExOTkwOWEzNWFmOWNmMTI4NjViYjAyZmZkNGMxYzAzOTliIiwiY21zX3Rvb2xiYXJfZGlzYWJsZWQiOmZhbHNlLCJjbXNfZWRpdCI6ZmFsc2UsImNtc19wcmV2aWV3Ijp0cnVlfQ==",
+        "expire_date": "2018-07-19T08:28:34.759Z"
+    }
+},
+{
     "model": "sites.site",
     "pk": 1,
     "fields": {
@@ -657,6 +665,39 @@
     }
 },
 {
+    "model": "cms.treenode",
+    "pk": 4,
+    "fields": {
+        "path": "0004",
+        "depth": 1,
+        "numchild": 2,
+        "parent": null,
+        "site": 1
+    }
+},
+{
+    "model": "cms.treenode",
+    "pk": 5,
+    "fields": {
+        "path": "00040002",
+        "depth": 2,
+        "numchild": 0,
+        "parent": 4,
+        "site": 1
+    }
+},
+{
+    "model": "cms.treenode",
+    "pk": 6,
+    "fields": {
+        "path": "00040001",
+        "depth": 2,
+        "numchild": 0,
+        "parent": 4,
+        "site": 1
+    }
+},
+{
     "model": "cms.page",
     "pk": 1,
     "fields": {
@@ -683,7 +724,9 @@
         "is_page_type": false,
         "node": 1,
         "placeholders": [
-            2
+            2,
+            15,
+            18
         ]
     }
 },
@@ -694,7 +737,7 @@
         "created_by": "admin",
         "changed_by": "admin",
         "creation_date": "2018-07-03T11:07:12.046Z",
-        "changed_date": "2018-07-03T12:41:02.967Z",
+        "changed_date": "2018-07-05T08:28:33.993Z",
         "publication_date": "2018-07-03T11:07:12.046Z",
         "publication_end_date": null,
         "in_navigation": true,
@@ -714,7 +757,9 @@
         "is_page_type": false,
         "node": 1,
         "placeholders": [
-            3
+            3,
+            19,
+            20
         ]
     }
 },
@@ -745,7 +790,9 @@
         "is_page_type": false,
         "node": 2,
         "placeholders": [
-            4
+            4,
+            16,
+            23
         ]
     }
 },
@@ -776,7 +823,9 @@
         "is_page_type": false,
         "node": 3,
         "placeholders": [
-            5
+            5,
+            17,
+            26
         ]
     }
 },
@@ -807,7 +856,9 @@
         "is_page_type": false,
         "node": 3,
         "placeholders": [
-            6
+            6,
+            24,
+            25
         ]
     }
 },
@@ -818,7 +869,7 @@
         "created_by": "admin",
         "changed_by": "admin",
         "creation_date": "2018-07-03T12:40:35.291Z",
-        "changed_date": "2018-07-03T12:40:35.291Z",
+        "changed_date": "2018-07-05T08:20:32.819Z",
         "publication_date": "2018-07-03T12:40:35.290Z",
         "publication_end_date": null,
         "in_navigation": true,
@@ -838,7 +889,204 @@
         "is_page_type": false,
         "node": 2,
         "placeholders": [
-            7
+            7,
+            21,
+            22
+        ]
+    }
+},
+{
+    "model": "cms.page",
+    "pk": 7,
+    "fields": {
+        "created_by": "admin",
+        "changed_by": "admin",
+        "creation_date": "2018-07-05T06:19:20.320Z",
+        "changed_date": "2018-07-05T06:19:58.386Z",
+        "publication_date": "2018-07-05T06:19:52.751Z",
+        "publication_end_date": null,
+        "in_navigation": false,
+        "soft_root": false,
+        "reverse_id": "footer",
+        "navigation_extenders": null,
+        "template": "INHERIT",
+        "login_required": false,
+        "limit_visibility_in_menu": null,
+        "is_home": false,
+        "application_urls": "",
+        "application_namespace": null,
+        "publisher_is_draft": true,
+        "publisher_public": 10,
+        "languages": "en",
+        "xframe_options": 0,
+        "is_page_type": false,
+        "node": 4,
+        "placeholders": [
+            8,
+            14
+        ]
+    }
+},
+{
+    "model": "cms.page",
+    "pk": 8,
+    "fields": {
+        "created_by": "admin",
+        "changed_by": "admin",
+        "creation_date": "2018-07-05T06:19:37.823Z",
+        "changed_date": "2018-07-05T06:19:37.838Z",
+        "publication_date": "2018-07-05T06:19:56.630Z",
+        "publication_end_date": null,
+        "in_navigation": true,
+        "soft_root": false,
+        "reverse_id": null,
+        "navigation_extenders": null,
+        "template": "INHERIT",
+        "login_required": false,
+        "limit_visibility_in_menu": null,
+        "is_home": false,
+        "application_urls": null,
+        "application_namespace": null,
+        "publisher_is_draft": true,
+        "publisher_public": 12,
+        "languages": "en",
+        "xframe_options": 0,
+        "is_page_type": false,
+        "node": 5,
+        "placeholders": [
+            9,
+            31,
+            32
+        ]
+    }
+},
+{
+    "model": "cms.page",
+    "pk": 9,
+    "fields": {
+        "created_by": "admin",
+        "changed_by": "admin",
+        "creation_date": "2018-07-05T06:19:43.693Z",
+        "changed_date": "2018-07-05T06:19:43.708Z",
+        "publication_date": "2018-07-05T06:19:54.864Z",
+        "publication_end_date": null,
+        "in_navigation": true,
+        "soft_root": false,
+        "reverse_id": null,
+        "navigation_extenders": null,
+        "template": "content.html",
+        "login_required": false,
+        "limit_visibility_in_menu": null,
+        "is_home": false,
+        "application_urls": null,
+        "application_namespace": null,
+        "publisher_is_draft": true,
+        "publisher_public": 11,
+        "languages": "en",
+        "xframe_options": 0,
+        "is_page_type": false,
+        "node": 6,
+        "placeholders": [
+            10,
+            27,
+            28
+        ]
+    }
+},
+{
+    "model": "cms.page",
+    "pk": 10,
+    "fields": {
+        "created_by": "admin",
+        "changed_by": "admin",
+        "creation_date": "2018-07-05T06:19:52.751Z",
+        "changed_date": "2018-07-05T06:20:01.623Z",
+        "publication_date": "2018-07-05T06:19:52.751Z",
+        "publication_end_date": null,
+        "in_navigation": false,
+        "soft_root": false,
+        "reverse_id": "footer",
+        "navigation_extenders": null,
+        "template": "INHERIT",
+        "login_required": false,
+        "limit_visibility_in_menu": null,
+        "is_home": false,
+        "application_urls": "",
+        "application_namespace": null,
+        "publisher_is_draft": false,
+        "publisher_public": 7,
+        "languages": "en",
+        "xframe_options": 0,
+        "is_page_type": false,
+        "node": 4,
+        "placeholders": [
+            11
+        ]
+    }
+},
+{
+    "model": "cms.page",
+    "pk": 11,
+    "fields": {
+        "created_by": "admin",
+        "changed_by": "admin",
+        "creation_date": "2018-07-05T06:19:54.864Z",
+        "changed_date": "2018-07-05T08:27:32.102Z",
+        "publication_date": "2018-07-05T06:19:54.864Z",
+        "publication_end_date": null,
+        "in_navigation": true,
+        "soft_root": false,
+        "reverse_id": null,
+        "navigation_extenders": null,
+        "template": "content.html",
+        "login_required": false,
+        "limit_visibility_in_menu": null,
+        "is_home": false,
+        "application_urls": null,
+        "application_namespace": null,
+        "publisher_is_draft": false,
+        "publisher_public": 9,
+        "languages": "en",
+        "xframe_options": 0,
+        "is_page_type": false,
+        "node": 6,
+        "placeholders": [
+            12,
+            29,
+            30
+        ]
+    }
+},
+{
+    "model": "cms.page",
+    "pk": 12,
+    "fields": {
+        "created_by": "admin",
+        "changed_by": "admin",
+        "creation_date": "2018-07-05T06:19:56.630Z",
+        "changed_date": "2018-07-05T08:28:00.698Z",
+        "publication_date": "2018-07-05T06:19:56.630Z",
+        "publication_end_date": null,
+        "in_navigation": true,
+        "soft_root": false,
+        "reverse_id": null,
+        "navigation_extenders": null,
+        "template": "INHERIT",
+        "login_required": false,
+        "limit_visibility_in_menu": null,
+        "is_home": false,
+        "application_urls": null,
+        "application_namespace": null,
+        "publisher_is_draft": false,
+        "publisher_public": 8,
+        "languages": "en",
+        "xframe_options": 0,
+        "is_page_type": false,
+        "node": 5,
+        "placeholders": [
+            13,
+            33,
+            34
         ]
     }
 },
@@ -899,527 +1147,231 @@
     }
 },
 {
-    "model": "cms.cmsplugin",
-    "pk": 1,
-    "fields": {
-        "path": "0001",
-        "depth": 1,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": null,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4JumbotronPlugin",
-        "creation_date": "2018-07-03T11:09:10.281Z",
-        "changed_date": "2018-07-03T11:09:10.284Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 2,
-    "fields": {
-        "path": "00010001",
-        "depth": 2,
-        "numchild": 0,
-        "placeholder": 2,
-        "parent": 1,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:09:14.440Z",
-        "changed_date": "2018-07-03T11:09:34.092Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 3,
-    "fields": {
-        "path": "0002",
-        "depth": 1,
-        "numchild": 2,
-        "placeholder": 2,
-        "parent": null,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4GridRowPlugin",
-        "creation_date": "2018-07-03T11:16:56.103Z",
-        "changed_date": "2018-07-03T11:16:56.107Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 4,
-    "fields": {
-        "path": "00020001",
-        "depth": 2,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 3,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4GridColumnPlugin",
-        "creation_date": "2018-07-03T11:16:56.109Z",
-        "changed_date": "2018-07-03T11:22:24.909Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 5,
-    "fields": {
-        "path": "00020002",
-        "depth": 2,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 3,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4GridColumnPlugin",
-        "creation_date": "2018-07-03T11:16:56.114Z",
-        "changed_date": "2018-07-03T11:22:36.535Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 6,
-    "fields": {
-        "path": "000200010001",
-        "depth": 3,
-        "numchild": 2,
-        "placeholder": 2,
-        "parent": 4,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardPlugin",
-        "creation_date": "2018-07-03T11:17:06.336Z",
-        "changed_date": "2018-07-03T11:17:06.339Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 7,
-    "fields": {
-        "path": "0002000100010001",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 6,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:15.922Z",
-        "changed_date": "2018-07-03T11:17:15.925Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
+    "model": "cms.placeholder",
     "pk": 8,
     "fields": {
-        "path": "0002000100010002",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 6,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:24.787Z",
-        "changed_date": "2018-07-03T11:17:24.791Z"
+        "slot": "content",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
+    "model": "cms.placeholder",
     "pk": 9,
     "fields": {
-        "path": "00020001000100010001",
-        "depth": 5,
-        "numchild": 0,
-        "placeholder": 2,
-        "parent": 7,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:17:34.962Z",
-        "changed_date": "2018-07-03T11:17:53.115Z"
+        "slot": "content",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
+    "model": "cms.placeholder",
     "pk": 10,
     "fields": {
-        "path": "00020001000100020001",
-        "depth": 5,
-        "numchild": 0,
-        "placeholder": 2,
-        "parent": 8,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:20:06.637Z",
-        "changed_date": "2018-07-03T11:20:09.909Z"
+        "slot": "content",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
+    "model": "cms.placeholder",
+    "pk": 11,
+    "fields": {
+        "slot": "content",
+        "default_width": null
+    }
+},
+{
+    "model": "cms.placeholder",
+    "pk": 12,
+    "fields": {
+        "slot": "content",
+        "default_width": null
+    }
+},
+{
+    "model": "cms.placeholder",
+    "pk": 13,
+    "fields": {
+        "slot": "content",
+        "default_width": null
+    }
+},
+{
+    "model": "cms.placeholder",
+    "pk": 14,
+    "fields": {
+        "slot": "Feature",
+        "default_width": null
+    }
+},
+{
+    "model": "cms.placeholder",
+    "pk": 15,
+    "fields": {
+        "slot": "Feature",
+        "default_width": null
+    }
+},
+{
+    "model": "cms.placeholder",
     "pk": 16,
     "fields": {
-        "path": "000200020001",
-        "depth": 3,
-        "numchild": 2,
-        "placeholder": 2,
-        "parent": 5,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardPlugin",
-        "creation_date": "2018-07-03T11:17:06.336Z",
-        "changed_date": "2018-07-03T11:21:44.300Z"
+        "slot": "Feature",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
+    "model": "cms.placeholder",
     "pk": 17,
     "fields": {
-        "path": "0002000200010001",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 16,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:15.922Z",
-        "changed_date": "2018-07-03T11:20:31.070Z"
+        "slot": "Feature",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
+    "model": "cms.placeholder",
     "pk": 18,
     "fields": {
-        "path": "00020002000100010001",
-        "depth": 5,
-        "numchild": 0,
-        "placeholder": 2,
-        "parent": 17,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:17:34.962Z",
-        "changed_date": "2018-07-03T11:20:47.065Z"
+        "slot": "Fullwidth",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
+    "model": "cms.placeholder",
     "pk": 19,
     "fields": {
-        "path": "0002000200010002",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 16,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:24.787Z",
-        "changed_date": "2018-07-03T11:20:31.085Z"
+        "slot": "Feature",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
+    "model": "cms.placeholder",
     "pk": 20,
     "fields": {
-        "path": "00020002000100020001",
-        "depth": 5,
-        "numchild": 0,
-        "placeholder": 2,
-        "parent": 19,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:20:06.637Z",
-        "changed_date": "2018-07-03T11:21:33.118Z"
+        "slot": "Fullwidth",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
+    "model": "cms.placeholder",
     "pk": 21,
     "fields": {
-        "path": "0004",
-        "depth": 1,
-        "numchild": 3,
-        "placeholder": 2,
-        "parent": null,
-        "position": 2,
-        "language": "en",
-        "plugin_type": "Bootstrap4GridRowPlugin",
-        "creation_date": "2018-07-03T11:23:19.685Z",
-        "changed_date": "2018-07-03T11:23:19.689Z"
+        "slot": "Fullwidth",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
+    "model": "cms.placeholder",
     "pk": 22,
     "fields": {
-        "path": "00040001",
-        "depth": 2,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 21,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4GridColumnPlugin",
-        "creation_date": "2018-07-03T11:23:19.690Z",
-        "changed_date": "2018-07-03T11:23:53.960Z"
+        "slot": "Feature",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
+    "model": "cms.placeholder",
+    "pk": 23,
+    "fields": {
+        "slot": "Fullwidth",
+        "default_width": null
+    }
+},
+{
+    "model": "cms.placeholder",
+    "pk": 24,
+    "fields": {
+        "slot": "Fullwidth",
+        "default_width": null
+    }
+},
+{
+    "model": "cms.placeholder",
+    "pk": 25,
+    "fields": {
+        "slot": "Feature",
+        "default_width": null
+    }
+},
+{
+    "model": "cms.placeholder",
+    "pk": 26,
+    "fields": {
+        "slot": "Fullwidth",
+        "default_width": null
+    }
+},
+{
+    "model": "cms.placeholder",
+    "pk": 27,
+    "fields": {
+        "slot": "Fullwidth",
+        "default_width": null
+    }
+},
+{
+    "model": "cms.placeholder",
     "pk": 28,
     "fields": {
-        "path": "000400010001",
-        "depth": 3,
-        "numchild": 2,
-        "placeholder": 2,
-        "parent": 22,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardPlugin",
-        "creation_date": "2018-07-03T11:17:06.336Z",
-        "changed_date": "2018-07-03T11:25:40.652Z"
+        "slot": "Feature",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
+    "model": "cms.placeholder",
     "pk": 29,
     "fields": {
-        "path": "0004000100010001",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 28,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:15.922Z",
-        "changed_date": "2018-07-03T11:24:04.825Z"
+        "slot": "Fullwidth",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
+    "model": "cms.placeholder",
     "pk": 30,
     "fields": {
-        "path": "00040001000100010001",
-        "depth": 5,
-        "numchild": 0,
-        "placeholder": 2,
-        "parent": 29,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:17:34.962Z",
-        "changed_date": "2018-07-03T11:26:43.044Z"
+        "slot": "Feature",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
+    "model": "cms.placeholder",
     "pk": 31,
     "fields": {
-        "path": "0004000100010002",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 28,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:24.787Z",
-        "changed_date": "2018-07-03T12:24:13.112Z"
+        "slot": "Fullwidth",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
-    "pk": 39,
+    "model": "cms.placeholder",
+    "pk": 32,
     "fields": {
-        "path": "00040002",
-        "depth": 2,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 21,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4GridColumnPlugin",
-        "creation_date": "2018-07-03T11:23:19.690Z",
-        "changed_date": "2018-07-03T11:24:30.383Z"
+        "slot": "Feature",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
-    "pk": 40,
+    "model": "cms.placeholder",
+    "pk": 33,
     "fields": {
-        "path": "000400020001",
-        "depth": 3,
-        "numchild": 2,
-        "placeholder": 2,
-        "parent": 39,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardPlugin",
-        "creation_date": "2018-07-03T11:17:06.336Z",
-        "changed_date": "2018-07-03T11:25:53.214Z"
+        "slot": "Fullwidth",
+        "default_width": null
     }
 },
 {
-    "model": "cms.cmsplugin",
-    "pk": 41,
+    "model": "cms.placeholder",
+    "pk": 34,
     "fields": {
-        "path": "0004000200010001",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 40,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:15.922Z",
-        "changed_date": "2018-07-03T11:24:30.395Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 42,
-    "fields": {
-        "path": "00040002000100010001",
-        "depth": 5,
-        "numchild": 0,
-        "placeholder": 2,
-        "parent": 41,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:17:34.962Z",
-        "changed_date": "2018-07-03T11:26:53.813Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 43,
-    "fields": {
-        "path": "0004000200010002",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 40,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:24.787Z",
-        "changed_date": "2018-07-03T12:24:45.258Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 45,
-    "fields": {
-        "path": "00040003",
-        "depth": 2,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 21,
-        "position": 2,
-        "language": "en",
-        "plugin_type": "Bootstrap4GridColumnPlugin",
-        "creation_date": "2018-07-03T11:23:19.690Z",
-        "changed_date": "2018-07-03T11:24:33.510Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 46,
-    "fields": {
-        "path": "000400030001",
-        "depth": 3,
-        "numchild": 2,
-        "placeholder": 2,
-        "parent": 45,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardPlugin",
-        "creation_date": "2018-07-03T11:17:06.336Z",
-        "changed_date": "2018-07-03T11:26:16.700Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 47,
-    "fields": {
-        "path": "0004000300010001",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 46,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:15.922Z",
-        "changed_date": "2018-07-03T11:24:33.522Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 48,
-    "fields": {
-        "path": "00040003000100010001",
-        "depth": 5,
-        "numchild": 0,
-        "placeholder": 2,
-        "parent": 47,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:17:34.962Z",
-        "changed_date": "2018-07-03T11:27:14.183Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 49,
-    "fields": {
-        "path": "0004000300010002",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 2,
-        "parent": 46,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:24.787Z",
-        "changed_date": "2018-07-03T12:26:46.047Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 51,
-    "fields": {
-        "path": "0006",
-        "depth": 1,
-        "numchild": 0,
-        "placeholder": 4,
-        "parent": null,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:27:30.141Z",
-        "changed_date": "2018-07-03T11:27:58.162Z"
+        "slot": "Feature",
+        "default_width": null
     }
 },
 {
     "model": "cms.cmsplugin",
     "pk": 86,
     "fields": {
-        "path": "00040001000100020002",
+        "path": "000R0002000100010002",
         "depth": 5,
         "numchild": 0,
-        "placeholder": 2,
-        "parent": 31,
-        "position": 0,
+        "placeholder": 18,
+        "parent": 174,
+        "position": 1,
         "language": "en",
         "plugin_type": "PollPluginPublisher",
         "creation_date": "2018-07-03T12:23:19.304Z",
@@ -1430,12 +1382,12 @@
     "model": "cms.cmsplugin",
     "pk": 87,
     "fields": {
-        "path": "00040002000100020002",
+        "path": "000R0002000100020002",
         "depth": 5,
         "numchild": 0,
-        "placeholder": 2,
-        "parent": 43,
-        "position": 0,
+        "placeholder": 18,
+        "parent": 176,
+        "position": 1,
         "language": "en",
         "plugin_type": "PollPluginPublisher",
         "creation_date": "2018-07-03T12:24:30.986Z",
@@ -1446,12 +1398,12 @@
     "model": "cms.cmsplugin",
     "pk": 88,
     "fields": {
-        "path": "00040003000100020002",
+        "path": "000R0002000100030002",
         "depth": 5,
         "numchild": 0,
-        "placeholder": 2,
-        "parent": 49,
-        "position": 0,
+        "placeholder": 18,
+        "parent": 178,
+        "position": 1,
         "language": "en",
         "plugin_type": "PollPluginPublisher",
         "creation_date": "2018-07-03T12:24:58.098Z",
@@ -1462,12 +1414,12 @@
     "model": "cms.cmsplugin",
     "pk": 89,
     "fields": {
-        "path": "000A",
-        "depth": 1,
+        "path": "001300010001",
+        "depth": 3,
         "numchild": 4,
-        "placeholder": 4,
-        "parent": null,
-        "position": 3,
+        "placeholder": 23,
+        "parent": 223,
+        "position": 1,
         "language": "en",
         "plugin_type": "Bootstrap4GridRowPlugin",
         "creation_date": "2018-07-03T12:32:51.876Z",
@@ -1478,12 +1430,12 @@
     "model": "cms.cmsplugin",
     "pk": 90,
     "fields": {
-        "path": "000A0001",
-        "depth": 2,
+        "path": "0013000100010001",
+        "depth": 4,
         "numchild": 1,
-        "placeholder": 4,
+        "placeholder": 23,
         "parent": 89,
-        "position": 0,
+        "position": 1,
         "language": "en",
         "plugin_type": "Bootstrap4GridColumnPlugin",
         "creation_date": "2018-07-03T12:32:51.880Z",
@@ -1494,12 +1446,12 @@
     "model": "cms.cmsplugin",
     "pk": 92,
     "fields": {
-        "path": "000A0002",
-        "depth": 2,
+        "path": "0013000100010002",
+        "depth": 4,
         "numchild": 1,
-        "placeholder": 4,
+        "placeholder": 23,
         "parent": 89,
-        "position": 1,
+        "position": 0,
         "language": "en",
         "plugin_type": "Bootstrap4GridColumnPlugin",
         "creation_date": "2018-07-03T12:32:51.880Z",
@@ -1510,10 +1462,10 @@
     "model": "cms.cmsplugin",
     "pk": 93,
     "fields": {
-        "path": "000A0003",
-        "depth": 2,
+        "path": "0013000100010003",
+        "depth": 4,
         "numchild": 1,
-        "placeholder": 4,
+        "placeholder": 23,
         "parent": 89,
         "position": 2,
         "language": "en",
@@ -1526,10 +1478,10 @@
     "model": "cms.cmsplugin",
     "pk": 94,
     "fields": {
-        "path": "000A0004",
-        "depth": 2,
+        "path": "0013000100010004",
+        "depth": 4,
         "numchild": 1,
-        "placeholder": 4,
+        "placeholder": 23,
         "parent": 89,
         "position": 3,
         "language": "en",
@@ -1542,10 +1494,10 @@
     "model": "cms.cmsplugin",
     "pk": 95,
     "fields": {
-        "path": "000A00010001",
-        "depth": 3,
+        "path": "00130001000100010001",
+        "depth": 5,
         "numchild": 0,
-        "placeholder": 4,
+        "placeholder": 23,
         "parent": 90,
         "position": 0,
         "language": "en",
@@ -1558,26 +1510,26 @@
     "model": "cms.cmsplugin",
     "pk": 96,
     "fields": {
-        "path": "000A00020001",
-        "depth": 3,
+        "path": "00130001000100020001",
+        "depth": 5,
         "numchild": 0,
-        "placeholder": 4,
+        "placeholder": 23,
         "parent": 92,
         "position": 0,
         "language": "en",
         "plugin_type": "Bootstrap4PicturePlugin",
         "creation_date": "2018-07-03T12:35:59.754Z",
-        "changed_date": "2018-07-03T12:35:59.761Z"
+        "changed_date": "2018-07-05T08:20:23.099Z"
     }
 },
 {
     "model": "cms.cmsplugin",
     "pk": 97,
     "fields": {
-        "path": "000A00030001",
-        "depth": 3,
+        "path": "00130001000100030001",
+        "depth": 5,
         "numchild": 0,
-        "placeholder": 4,
+        "placeholder": 23,
         "parent": 93,
         "position": 0,
         "language": "en",
@@ -1590,800 +1542,1168 @@
     "model": "cms.cmsplugin",
     "pk": 98,
     "fields": {
-        "path": "000A00040001",
-        "depth": 3,
+        "path": "00130001000100040001",
+        "depth": 5,
         "numchild": 0,
-        "placeholder": 4,
+        "placeholder": 23,
         "parent": 94,
         "position": 0,
         "language": "en",
         "plugin_type": "Bootstrap4PicturePlugin",
         "creation_date": "2018-07-03T12:37:03.325Z",
-        "changed_date": "2018-07-03T12:37:03.333Z"
+        "changed_date": "2018-07-05T08:20:27.001Z"
     }
 },
 {
     "model": "cms.cmsplugin",
     "pk": 99,
     "fields": {
-        "path": "000C",
-        "depth": 1,
+        "path": "001300010002",
+        "depth": 3,
         "numchild": 0,
-        "placeholder": 4,
-        "parent": null,
-        "position": 2,
+        "placeholder": 23,
+        "parent": 223,
+        "position": 0,
         "language": "en",
         "plugin_type": "TextPlugin",
         "creation_date": "2018-07-03T12:38:59.892Z",
-        "changed_date": "2018-07-03T12:39:56.005Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 100,
-    "fields": {
-        "path": "000D",
-        "depth": 1,
-        "numchild": 0,
-        "placeholder": 1,
-        "parent": null,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T12:38:59.892Z",
-        "changed_date": "2018-07-03T12:40:07.331Z"
+        "changed_date": "2018-07-05T08:19:30.369Z"
     }
 },
 {
     "model": "cms.cmsplugin",
     "pk": 101,
     "fields": {
-        "path": "000E",
-        "depth": 1,
+        "path": "00100001",
+        "depth": 2,
         "numchild": 0,
+        "placeholder": 4,
+        "parent": 209,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-03T12:38:59.892Z",
+        "changed_date": "2018-07-05T08:16:37.663Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 148,
+    "fields": {
+        "path": "000M",
+        "depth": 1,
+        "numchild": 3,
+        "placeholder": 2,
+        "parent": null,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridRowPlugin",
+        "creation_date": "2018-07-05T06:49:59.506Z",
+        "changed_date": "2018-07-05T06:52:22.231Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 149,
+    "fields": {
+        "path": "000M0001",
+        "depth": 2,
+        "numchild": 1,
+        "placeholder": 2,
+        "parent": 148,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridColumnPlugin",
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T06:52:12.352Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 152,
+    "fields": {
+        "path": "000O0001",
+        "depth": 2,
+        "numchild": 0,
+        "placeholder": 2,
+        "parent": 153,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T06:50:09.783Z",
+        "changed_date": "2018-07-05T06:53:50.347Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 153,
+    "fields": {
+        "path": "000O",
+        "depth": 1,
+        "numchild": 1,
+        "placeholder": 2,
+        "parent": null,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T06:51:01.093Z",
+        "changed_date": "2018-07-05T06:51:01.097Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 154,
+    "fields": {
+        "path": "000M00010001",
+        "depth": 3,
+        "numchild": 0,
+        "placeholder": 2,
+        "parent": 149,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T08:28:29.753Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 157,
+    "fields": {
+        "path": "000M0002",
+        "depth": 2,
+        "numchild": 1,
+        "placeholder": 2,
+        "parent": 148,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridColumnPlugin",
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T06:52:25.868Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 158,
+    "fields": {
+        "path": "000M00020001",
+        "depth": 3,
+        "numchild": 0,
+        "placeholder": 2,
+        "parent": 157,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T06:53:20.029Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 159,
+    "fields": {
+        "path": "000M0003",
+        "depth": 2,
+        "numchild": 1,
+        "placeholder": 2,
+        "parent": 148,
+        "position": 2,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridColumnPlugin",
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T06:52:27.500Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 160,
+    "fields": {
+        "path": "000M00030001",
+        "depth": 3,
+        "numchild": 0,
+        "placeholder": 2,
+        "parent": 159,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T06:53:38.838Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 173,
+    "fields": {
+        "path": "000R00020001",
+        "depth": 3,
+        "numchild": 3,
+        "placeholder": 18,
+        "parent": 181,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridRowPlugin",
+        "creation_date": "2018-07-05T06:49:59.506Z",
+        "changed_date": "2018-07-05T07:41:01.478Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 174,
+    "fields": {
+        "path": "000R000200010001",
+        "depth": 4,
+        "numchild": 2,
+        "placeholder": 18,
+        "parent": 173,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridColumnPlugin",
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T07:41:01.487Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 175,
+    "fields": {
+        "path": "000R0002000100010001",
+        "depth": 5,
+        "numchild": 0,
+        "placeholder": 18,
+        "parent": 174,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T07:44:44.134Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 176,
+    "fields": {
+        "path": "000R000200010002",
+        "depth": 4,
+        "numchild": 2,
+        "placeholder": 18,
+        "parent": 173,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridColumnPlugin",
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T07:41:01.511Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 177,
+    "fields": {
+        "path": "000R0002000100020001",
+        "depth": 5,
+        "numchild": 0,
+        "placeholder": 18,
+        "parent": 176,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T07:45:31.469Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 178,
+    "fields": {
+        "path": "000R000200010003",
+        "depth": 4,
+        "numchild": 2,
+        "placeholder": 18,
+        "parent": 173,
+        "position": 2,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridColumnPlugin",
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T07:41:01.531Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 179,
+    "fields": {
+        "path": "000R0002000100030001",
+        "depth": 5,
+        "numchild": 0,
+        "placeholder": 18,
+        "parent": 178,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T07:45:39.143Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 180,
+    "fields": {
+        "path": "000R",
+        "depth": 1,
+        "numchild": 1,
+        "placeholder": 18,
+        "parent": null,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T07:47:33.938Z",
+        "changed_date": "2018-07-05T07:53:49.423Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 181,
+    "fields": {
+        "path": "000R0002",
+        "depth": 2,
+        "numchild": 1,
+        "placeholder": 18,
+        "parent": 180,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T07:49:25.071Z",
+        "changed_date": "2018-07-05T07:49:25.075Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 206,
+    "fields": {
+        "path": "000Y0001",
+        "depth": 2,
+        "numchild": 0,
+        "placeholder": 15,
+        "parent": 207,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T07:55:22.174Z",
+        "changed_date": "2018-07-05T07:58:42.398Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 207,
+    "fields": {
+        "path": "000Y",
+        "depth": 1,
+        "numchild": 1,
+        "placeholder": 15,
+        "parent": null,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T08:03:08.117Z",
+        "changed_date": "2018-07-05T08:03:08.121Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 209,
+    "fields": {
+        "path": "0010",
+        "depth": 1,
+        "numchild": 1,
         "placeholder": 4,
         "parent": null,
         "position": 0,
         "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T12:38:59.892Z",
-        "changed_date": "2018-07-03T12:40:24.585Z"
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T08:16:48.675Z",
+        "changed_date": "2018-07-05T08:16:48.678Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 102,
+    "pk": 222,
     "fields": {
-        "path": "000F",
+        "path": "0013",
         "depth": 1,
-        "numchild": 0,
-        "placeholder": 7,
+        "numchild": 1,
+        "placeholder": 23,
         "parent": null,
         "position": 1,
         "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:27:30.141Z",
-        "changed_date": "2018-07-03T12:40:35.391Z"
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T07:47:33.938Z",
+        "changed_date": "2018-07-05T08:18:03.676Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 103,
+    "pk": 223,
     "fields": {
-        "path": "000G",
+        "path": "00130001",
+        "depth": 2,
+        "numchild": 2,
+        "placeholder": 23,
+        "parent": 222,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T07:49:25.071Z",
+        "changed_date": "2018-07-05T08:19:08.019Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 248,
+    "fields": {
+        "path": "0014",
         "depth": 1,
-        "numchild": 4,
+        "numchild": 1,
         "placeholder": 7,
         "parent": null,
-        "position": 3,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T08:16:48.675Z",
+        "changed_date": "2018-07-05T08:20:32.951Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 249,
+    "fields": {
+        "path": "00140001",
+        "depth": 2,
+        "numchild": 0,
+        "placeholder": 7,
+        "parent": 248,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-03T12:38:59.892Z",
+        "changed_date": "2018-07-05T08:20:32.964Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 250,
+    "fields": {
+        "path": "0015",
+        "depth": 1,
+        "numchild": 1,
+        "placeholder": 21,
+        "parent": null,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T07:47:33.938Z",
+        "changed_date": "2018-07-05T08:20:32.989Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 251,
+    "fields": {
+        "path": "00150001",
+        "depth": 2,
+        "numchild": 2,
+        "placeholder": 21,
+        "parent": 250,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T07:49:25.071Z",
+        "changed_date": "2018-07-05T08:20:32.991Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 252,
+    "fields": {
+        "path": "001500010001",
+        "depth": 3,
+        "numchild": 4,
+        "placeholder": 21,
+        "parent": 251,
+        "position": 1,
         "language": "en",
         "plugin_type": "Bootstrap4GridRowPlugin",
         "creation_date": "2018-07-03T12:32:51.876Z",
-        "changed_date": "2018-07-03T12:40:35.333Z"
+        "changed_date": "2018-07-05T08:20:32.995Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 104,
+    "pk": 253,
     "fields": {
-        "path": "000G0001",
-        "depth": 2,
+        "path": "0015000100010001",
+        "depth": 4,
         "numchild": 1,
-        "placeholder": 7,
-        "parent": 103,
-        "position": 0,
+        "placeholder": 21,
+        "parent": 252,
+        "position": 1,
         "language": "en",
         "plugin_type": "Bootstrap4GridColumnPlugin",
         "creation_date": "2018-07-03T12:32:51.880Z",
-        "changed_date": "2018-07-03T12:40:35.335Z"
+        "changed_date": "2018-07-05T08:20:32.998Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 105,
+    "pk": 254,
     "fields": {
-        "path": "000G00010001",
-        "depth": 3,
+        "path": "00150001000100010001",
+        "depth": 5,
         "numchild": 0,
-        "placeholder": 7,
-        "parent": 104,
+        "placeholder": 21,
+        "parent": 253,
         "position": 0,
         "language": "en",
         "plugin_type": "Bootstrap4PicturePlugin",
         "creation_date": "2018-07-03T12:35:45.779Z",
-        "changed_date": "2018-07-03T12:40:35.339Z"
+        "changed_date": "2018-07-05T08:20:33.002Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 106,
+    "pk": 255,
     "fields": {
-        "path": "000G0002",
-        "depth": 2,
+        "path": "0015000100010002",
+        "depth": 4,
         "numchild": 1,
-        "placeholder": 7,
-        "parent": 103,
-        "position": 1,
+        "placeholder": 21,
+        "parent": 252,
+        "position": 0,
         "language": "en",
         "plugin_type": "Bootstrap4GridColumnPlugin",
         "creation_date": "2018-07-03T12:32:51.880Z",
-        "changed_date": "2018-07-03T12:40:35.346Z"
+        "changed_date": "2018-07-05T08:20:33.010Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 107,
+    "pk": 256,
     "fields": {
-        "path": "000G00020001",
-        "depth": 3,
+        "path": "00150001000100020001",
+        "depth": 5,
         "numchild": 0,
-        "placeholder": 7,
-        "parent": 106,
+        "placeholder": 21,
+        "parent": 255,
         "position": 0,
         "language": "en",
         "plugin_type": "Bootstrap4PicturePlugin",
         "creation_date": "2018-07-03T12:35:59.754Z",
-        "changed_date": "2018-07-03T12:40:35.349Z"
+        "changed_date": "2018-07-05T08:20:33.014Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 108,
+    "pk": 257,
     "fields": {
-        "path": "000G0003",
-        "depth": 2,
+        "path": "0015000100010003",
+        "depth": 4,
         "numchild": 1,
-        "placeholder": 7,
-        "parent": 103,
+        "placeholder": 21,
+        "parent": 252,
         "position": 2,
         "language": "en",
         "plugin_type": "Bootstrap4GridColumnPlugin",
         "creation_date": "2018-07-03T12:32:51.880Z",
-        "changed_date": "2018-07-03T12:40:35.354Z"
+        "changed_date": "2018-07-05T08:20:33.023Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 109,
+    "pk": 258,
     "fields": {
-        "path": "000G00030001",
-        "depth": 3,
+        "path": "00150001000100030001",
+        "depth": 5,
         "numchild": 0,
-        "placeholder": 7,
-        "parent": 108,
+        "placeholder": 21,
+        "parent": 257,
         "position": 0,
         "language": "en",
         "plugin_type": "Bootstrap4PicturePlugin",
         "creation_date": "2018-07-03T12:36:50.526Z",
-        "changed_date": "2018-07-03T12:40:35.357Z"
+        "changed_date": "2018-07-05T08:20:33.027Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 110,
+    "pk": 259,
     "fields": {
-        "path": "000G0004",
-        "depth": 2,
+        "path": "0015000100010004",
+        "depth": 4,
         "numchild": 1,
-        "placeholder": 7,
-        "parent": 103,
+        "placeholder": 21,
+        "parent": 252,
         "position": 3,
         "language": "en",
         "plugin_type": "Bootstrap4GridColumnPlugin",
         "creation_date": "2018-07-03T12:32:51.880Z",
-        "changed_date": "2018-07-03T12:40:35.361Z"
+        "changed_date": "2018-07-05T08:20:33.036Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 111,
+    "pk": 260,
     "fields": {
-        "path": "000G00040001",
-        "depth": 3,
+        "path": "00150001000100040001",
+        "depth": 5,
         "numchild": 0,
-        "placeholder": 7,
-        "parent": 110,
+        "placeholder": 21,
+        "parent": 259,
         "position": 0,
         "language": "en",
         "plugin_type": "Bootstrap4PicturePlugin",
         "creation_date": "2018-07-03T12:37:03.325Z",
-        "changed_date": "2018-07-03T12:40:35.364Z"
+        "changed_date": "2018-07-05T08:20:33.040Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 112,
+    "pk": 261,
     "fields": {
-        "path": "000H",
-        "depth": 1,
+        "path": "001500010002",
+        "depth": 3,
         "numchild": 0,
-        "placeholder": 7,
-        "parent": null,
-        "position": 2,
-        "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T12:38:59.892Z",
-        "changed_date": "2018-07-03T12:40:35.413Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 113,
-    "fields": {
-        "path": "000I",
-        "depth": 1,
-        "numchild": 0,
-        "placeholder": 7,
-        "parent": null,
+        "placeholder": 21,
+        "parent": 251,
         "position": 0,
         "language": "en",
         "plugin_type": "TextPlugin",
         "creation_date": "2018-07-03T12:38:59.892Z",
-        "changed_date": "2018-07-03T12:40:35.426Z"
+        "changed_date": "2018-07-05T08:20:33.058Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 114,
+    "pk": 285,
     "fields": {
-        "path": "000J",
+        "path": "001A",
         "depth": 1,
         "numchild": 1,
-        "placeholder": 3,
+        "placeholder": 1,
         "parent": null,
         "position": 0,
         "language": "en",
-        "plugin_type": "Bootstrap4JumbotronPlugin",
-        "creation_date": "2018-07-03T11:09:10.281Z",
-        "changed_date": "2018-07-03T12:41:03.121Z"
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T08:16:48.675Z",
+        "changed_date": "2018-07-05T08:27:20.614Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 115,
+    "pk": 286,
     "fields": {
-        "path": "000J0001",
+        "path": "001A0001",
         "depth": 2,
         "numchild": 0,
-        "placeholder": 3,
-        "parent": 114,
+        "placeholder": 1,
+        "parent": 285,
         "position": 0,
         "language": "en",
         "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:09:14.440Z",
-        "changed_date": "2018-07-03T12:41:03.316Z"
+        "creation_date": "2018-07-03T12:38:59.892Z",
+        "changed_date": "2018-07-05T08:27:20.648Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 116,
+    "pk": 287,
     "fields": {
-        "path": "000K",
+        "path": "001B",
         "depth": 1,
-        "numchild": 2,
-        "placeholder": 3,
+        "numchild": 1,
+        "placeholder": 10,
         "parent": null,
-        "position": 1,
+        "position": 0,
         "language": "en",
-        "plugin_type": "Bootstrap4GridRowPlugin",
-        "creation_date": "2018-07-03T11:16:56.103Z",
-        "changed_date": "2018-07-03T12:41:03.135Z"
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T08:16:48.675Z",
+        "changed_date": "2018-07-05T08:27:26.041Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 117,
+    "pk": 288,
     "fields": {
-        "path": "000K0001",
+        "path": "001B0001",
         "depth": 2,
-        "numchild": 1,
-        "placeholder": 3,
-        "parent": 116,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4GridColumnPlugin",
-        "creation_date": "2018-07-03T11:16:56.109Z",
-        "changed_date": "2018-07-03T12:41:03.138Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 118,
-    "fields": {
-        "path": "000K00010001",
-        "depth": 3,
-        "numchild": 2,
-        "placeholder": 3,
-        "parent": 117,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardPlugin",
-        "creation_date": "2018-07-03T11:17:06.336Z",
-        "changed_date": "2018-07-03T12:41:03.143Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 119,
-    "fields": {
-        "path": "000K000100010001",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 3,
-        "parent": 118,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:15.922Z",
-        "changed_date": "2018-07-03T12:41:03.146Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 120,
-    "fields": {
-        "path": "000K0001000100010001",
-        "depth": 5,
         "numchild": 0,
-        "placeholder": 3,
-        "parent": 119,
+        "placeholder": 10,
+        "parent": 287,
         "position": 0,
         "language": "en",
         "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:17:34.962Z",
-        "changed_date": "2018-07-03T12:41:03.328Z"
+        "creation_date": "2018-07-03T12:38:59.892Z",
+        "changed_date": "2018-07-05T08:27:30.297Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 121,
+    "pk": 289,
     "fields": {
-        "path": "000K000100010002",
-        "depth": 4,
+        "path": "001C",
+        "depth": 1,
         "numchild": 1,
-        "placeholder": 3,
-        "parent": 118,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:24.787Z",
-        "changed_date": "2018-07-03T12:41:03.160Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 122,
-    "fields": {
-        "path": "000K0001000100020001",
-        "depth": 5,
-        "numchild": 0,
-        "placeholder": 3,
-        "parent": 121,
+        "placeholder": 12,
+        "parent": null,
         "position": 0,
         "language": "en",
-        "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:20:06.637Z",
-        "changed_date": "2018-07-03T12:41:03.341Z"
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T08:16:48.675Z",
+        "changed_date": "2018-07-05T08:27:32.115Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 123,
+    "pk": 290,
     "fields": {
-        "path": "000K0002",
+        "path": "001C0001",
         "depth": 2,
-        "numchild": 1,
-        "placeholder": 3,
-        "parent": 116,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4GridColumnPlugin",
-        "creation_date": "2018-07-03T11:16:56.114Z",
-        "changed_date": "2018-07-03T12:41:03.175Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 124,
-    "fields": {
-        "path": "000K00020001",
-        "depth": 3,
-        "numchild": 2,
-        "placeholder": 3,
-        "parent": 123,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardPlugin",
-        "creation_date": "2018-07-03T11:17:06.336Z",
-        "changed_date": "2018-07-03T12:41:03.179Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 125,
-    "fields": {
-        "path": "000K000200010001",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 3,
-        "parent": 124,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:15.922Z",
-        "changed_date": "2018-07-03T12:41:03.184Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 126,
-    "fields": {
-        "path": "000K0002000100010001",
-        "depth": 5,
         "numchild": 0,
-        "placeholder": 3,
-        "parent": 125,
+        "placeholder": 12,
+        "parent": 289,
         "position": 0,
         "language": "en",
         "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:17:34.962Z",
-        "changed_date": "2018-07-03T12:41:03.353Z"
+        "creation_date": "2018-07-03T12:38:59.892Z",
+        "changed_date": "2018-07-05T08:27:32.124Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 127,
+    "pk": 291,
     "fields": {
-        "path": "000K000200010002",
-        "depth": 4,
+        "path": "001D",
+        "depth": 1,
         "numchild": 1,
-        "placeholder": 3,
-        "parent": 124,
-        "position": 1,
+        "placeholder": 9,
+        "parent": null,
+        "position": 0,
         "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:24.787Z",
-        "changed_date": "2018-07-03T12:41:03.196Z"
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T08:16:48.675Z",
+        "changed_date": "2018-07-05T08:27:53.402Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 128,
+    "pk": 292,
     "fields": {
-        "path": "000K0002000100020001",
-        "depth": 5,
+        "path": "001D0001",
+        "depth": 2,
         "numchild": 0,
-        "placeholder": 3,
-        "parent": 127,
+        "placeholder": 9,
+        "parent": 291,
         "position": 0,
         "language": "en",
         "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:20:06.637Z",
-        "changed_date": "2018-07-03T12:41:03.365Z"
+        "creation_date": "2018-07-03T12:38:59.892Z",
+        "changed_date": "2018-07-05T08:27:58.995Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 129,
+    "pk": 293,
     "fields": {
-        "path": "000L",
+        "path": "001E",
+        "depth": 1,
+        "numchild": 1,
+        "placeholder": 13,
+        "parent": null,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T08:16:48.675Z",
+        "changed_date": "2018-07-05T08:28:00.714Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 294,
+    "fields": {
+        "path": "001E0001",
+        "depth": 2,
+        "numchild": 0,
+        "placeholder": 13,
+        "parent": 293,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-03T12:38:59.892Z",
+        "changed_date": "2018-07-05T08:28:00.726Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 295,
+    "fields": {
+        "path": "001F",
         "depth": 1,
         "numchild": 3,
         "placeholder": 3,
         "parent": null,
-        "position": 2,
+        "position": 1,
         "language": "en",
         "plugin_type": "Bootstrap4GridRowPlugin",
-        "creation_date": "2018-07-03T11:23:19.685Z",
-        "changed_date": "2018-07-03T12:41:03.209Z"
+        "creation_date": "2018-07-05T06:49:59.506Z",
+        "changed_date": "2018-07-05T08:28:34.126Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 130,
+    "pk": 296,
     "fields": {
-        "path": "000L0001",
+        "path": "001F0001",
         "depth": 2,
         "numchild": 1,
         "placeholder": 3,
-        "parent": 129,
+        "parent": 295,
         "position": 0,
         "language": "en",
         "plugin_type": "Bootstrap4GridColumnPlugin",
-        "creation_date": "2018-07-03T11:23:19.690Z",
-        "changed_date": "2018-07-03T12:41:03.213Z"
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T08:28:34.128Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 131,
+    "pk": 297,
     "fields": {
-        "path": "000L00010001",
+        "path": "001F00010001",
         "depth": 3,
-        "numchild": 2,
-        "placeholder": 3,
-        "parent": 130,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardPlugin",
-        "creation_date": "2018-07-03T11:17:06.336Z",
-        "changed_date": "2018-07-03T12:41:03.218Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 132,
-    "fields": {
-        "path": "000L000100010001",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 3,
-        "parent": 131,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:15.922Z",
-        "changed_date": "2018-07-03T12:41:03.222Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 133,
-    "fields": {
-        "path": "000L0001000100010001",
-        "depth": 5,
         "numchild": 0,
         "placeholder": 3,
-        "parent": 132,
+        "parent": 296,
         "position": 0,
         "language": "en",
         "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:17:34.962Z",
-        "changed_date": "2018-07-03T12:41:03.377Z"
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T08:28:34.177Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 134,
+    "pk": 298,
     "fields": {
-        "path": "000L000100010002",
-        "depth": 4,
+        "path": "001F0002",
+        "depth": 2,
         "numchild": 1,
         "placeholder": 3,
-        "parent": 131,
+        "parent": 295,
         "position": 1,
         "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:24.787Z",
-        "changed_date": "2018-07-03T12:41:03.239Z"
+        "plugin_type": "Bootstrap4GridColumnPlugin",
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T08:28:34.141Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 135,
+    "pk": 299,
     "fields": {
-        "path": "000L0001000100020001",
-        "depth": 5,
+        "path": "001F00020001",
+        "depth": 3,
         "numchild": 0,
         "placeholder": 3,
-        "parent": 134,
+        "parent": 298,
         "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T08:28:34.185Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 300,
+    "fields": {
+        "path": "001F0003",
+        "depth": 2,
+        "numchild": 1,
+        "placeholder": 3,
+        "parent": 295,
+        "position": 2,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridColumnPlugin",
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T08:28:34.153Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 301,
+    "fields": {
+        "path": "001F00030001",
+        "depth": 3,
+        "numchild": 0,
+        "placeholder": 3,
+        "parent": 300,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T08:28:34.193Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 302,
+    "fields": {
+        "path": "001G",
+        "depth": 1,
+        "numchild": 1,
+        "placeholder": 3,
+        "parent": null,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T06:51:01.093Z",
+        "changed_date": "2018-07-05T08:28:34.165Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 303,
+    "fields": {
+        "path": "001G0001",
+        "depth": 2,
+        "numchild": 0,
+        "placeholder": 3,
+        "parent": 302,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T06:50:09.783Z",
+        "changed_date": "2018-07-05T08:28:34.201Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 304,
+    "fields": {
+        "path": "001H",
+        "depth": 1,
+        "numchild": 1,
+        "placeholder": 19,
+        "parent": null,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T08:03:08.117Z",
+        "changed_date": "2018-07-05T08:28:34.212Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 305,
+    "fields": {
+        "path": "001H0001",
+        "depth": 2,
+        "numchild": 0,
+        "placeholder": 19,
+        "parent": 304,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T07:55:22.174Z",
+        "changed_date": "2018-07-05T08:28:34.223Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 306,
+    "fields": {
+        "path": "001I",
+        "depth": 1,
+        "numchild": 1,
+        "placeholder": 20,
+        "parent": null,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T07:47:33.938Z",
+        "changed_date": "2018-07-05T08:28:34.243Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 307,
+    "fields": {
+        "path": "001I0001",
+        "depth": 2,
+        "numchild": 1,
+        "placeholder": 20,
+        "parent": 306,
+        "position": 1,
+        "language": "en",
+        "plugin_type": "StylePlugin",
+        "creation_date": "2018-07-05T07:49:25.071Z",
+        "changed_date": "2018-07-05T08:28:34.245Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 308,
+    "fields": {
+        "path": "001I00010001",
+        "depth": 3,
+        "numchild": 3,
+        "placeholder": 20,
+        "parent": 307,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridRowPlugin",
+        "creation_date": "2018-07-05T06:49:59.506Z",
+        "changed_date": "2018-07-05T08:28:34.248Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 309,
+    "fields": {
+        "path": "001I000100010001",
+        "depth": 4,
+        "numchild": 2,
+        "placeholder": 20,
+        "parent": 308,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "Bootstrap4GridColumnPlugin",
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T08:28:34.251Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 310,
+    "fields": {
+        "path": "001I0001000100010001",
+        "depth": 5,
+        "numchild": 0,
+        "placeholder": 20,
+        "parent": 309,
+        "position": 0,
+        "language": "en",
+        "plugin_type": "TextPlugin",
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T08:28:34.290Z"
+    }
+},
+{
+    "model": "cms.cmsplugin",
+    "pk": 311,
+    "fields": {
+        "path": "001I0001000100010002",
+        "depth": 5,
+        "numchild": 0,
+        "placeholder": 20,
+        "parent": 309,
+        "position": 1,
         "language": "en",
         "plugin_type": "PollPluginPublisher",
         "creation_date": "2018-07-03T12:23:19.304Z",
-        "changed_date": "2018-07-03T12:41:03.243Z"
+        "changed_date": "2018-07-05T08:28:34.261Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 136,
+    "pk": 312,
     "fields": {
-        "path": "000L0002",
-        "depth": 2,
-        "numchild": 1,
-        "placeholder": 3,
-        "parent": 129,
+        "path": "001I000100010002",
+        "depth": 4,
+        "numchild": 2,
+        "placeholder": 20,
+        "parent": 308,
         "position": 1,
         "language": "en",
         "plugin_type": "Bootstrap4GridColumnPlugin",
-        "creation_date": "2018-07-03T11:23:19.690Z",
-        "changed_date": "2018-07-03T12:41:03.247Z"
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T08:28:34.264Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 137,
+    "pk": 313,
     "fields": {
-        "path": "000L00020001",
-        "depth": 3,
-        "numchild": 2,
-        "placeholder": 3,
-        "parent": 136,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardPlugin",
-        "creation_date": "2018-07-03T11:17:06.336Z",
-        "changed_date": "2018-07-03T12:41:03.253Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 138,
-    "fields": {
-        "path": "000L000200010001",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 3,
-        "parent": 137,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:15.922Z",
-        "changed_date": "2018-07-03T12:41:03.256Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 139,
-    "fields": {
-        "path": "000L0002000100010001",
+        "path": "001I0001000100020001",
         "depth": 5,
         "numchild": 0,
-        "placeholder": 3,
-        "parent": 138,
+        "placeholder": 20,
+        "parent": 312,
         "position": 0,
         "language": "en",
         "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:17:34.962Z",
-        "changed_date": "2018-07-03T12:41:03.390Z"
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T08:28:34.295Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 140,
+    "pk": 314,
     "fields": {
-        "path": "000L000200010002",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 3,
-        "parent": 137,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:24.787Z",
-        "changed_date": "2018-07-03T12:41:03.272Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 141,
-    "fields": {
-        "path": "000L0002000100020001",
+        "path": "001I0001000100020002",
         "depth": 5,
         "numchild": 0,
-        "placeholder": 3,
-        "parent": 140,
-        "position": 0,
+        "placeholder": 20,
+        "parent": 312,
+        "position": 1,
         "language": "en",
         "plugin_type": "PollPluginPublisher",
         "creation_date": "2018-07-03T12:24:30.986Z",
-        "changed_date": "2018-07-03T12:41:03.276Z"
+        "changed_date": "2018-07-05T08:28:34.274Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 142,
+    "pk": 315,
     "fields": {
-        "path": "000L0003",
-        "depth": 2,
-        "numchild": 1,
-        "placeholder": 3,
-        "parent": 129,
+        "path": "001I000100010003",
+        "depth": 4,
+        "numchild": 2,
+        "placeholder": 20,
+        "parent": 308,
         "position": 2,
         "language": "en",
         "plugin_type": "Bootstrap4GridColumnPlugin",
-        "creation_date": "2018-07-03T11:23:19.690Z",
-        "changed_date": "2018-07-03T12:41:03.279Z"
+        "creation_date": "2018-07-05T06:49:59.518Z",
+        "changed_date": "2018-07-05T08:28:34.277Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 143,
+    "pk": 316,
     "fields": {
-        "path": "000L00030001",
-        "depth": 3,
-        "numchild": 2,
-        "placeholder": 3,
-        "parent": 142,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardPlugin",
-        "creation_date": "2018-07-03T11:17:06.336Z",
-        "changed_date": "2018-07-03T12:41:03.285Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 144,
-    "fields": {
-        "path": "000L000300010001",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 3,
-        "parent": 143,
-        "position": 0,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:15.922Z",
-        "changed_date": "2018-07-03T12:41:03.288Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 145,
-    "fields": {
-        "path": "000L0003000100010001",
+        "path": "001I0001000100030001",
         "depth": 5,
         "numchild": 0,
-        "placeholder": 3,
-        "parent": 144,
+        "placeholder": 20,
+        "parent": 315,
         "position": 0,
         "language": "en",
         "plugin_type": "TextPlugin",
-        "creation_date": "2018-07-03T11:17:34.962Z",
-        "changed_date": "2018-07-03T12:41:03.407Z"
+        "creation_date": "2018-07-05T06:51:25.112Z",
+        "changed_date": "2018-07-05T08:28:34.301Z"
     }
 },
 {
     "model": "cms.cmsplugin",
-    "pk": 146,
+    "pk": 317,
     "fields": {
-        "path": "000L000300010002",
-        "depth": 4,
-        "numchild": 1,
-        "placeholder": 3,
-        "parent": 143,
-        "position": 1,
-        "language": "en",
-        "plugin_type": "Bootstrap4CardInnerPlugin",
-        "creation_date": "2018-07-03T11:17:24.787Z",
-        "changed_date": "2018-07-03T12:41:03.304Z"
-    }
-},
-{
-    "model": "cms.cmsplugin",
-    "pk": 147,
-    "fields": {
-        "path": "000L0003000100020001",
+        "path": "001I0001000100030002",
         "depth": 5,
         "numchild": 0,
-        "placeholder": 3,
-        "parent": 146,
-        "position": 0,
+        "placeholder": 20,
+        "parent": 315,
+        "position": 1,
         "language": "en",
         "plugin_type": "PollPluginPublisher",
         "creation_date": "2018-07-03T12:24:58.098Z",
-        "changed_date": "2018-07-03T12:41:03.307Z"
+        "changed_date": "2018-07-05T08:28:34.286Z"
     }
 },
 {
@@ -2425,7 +2745,7 @@
         "published": true,
         "publisher_is_draft": false,
         "publisher_public": 1,
-        "publisher_state": 1
+        "publisher_state": 0
     }
 },
 {
@@ -2509,7 +2829,133 @@
         "published": true,
         "publisher_is_draft": false,
         "publisher_public": 3,
-        "publisher_state": 1
+        "publisher_state": 0
+    }
+},
+{
+    "model": "cms.title",
+    "pk": 7,
+    "fields": {
+        "language": "en",
+        "title": "Footer",
+        "page_title": "",
+        "menu_title": "",
+        "meta_description": "",
+        "slug": "footer",
+        "path": "footer",
+        "has_url_overwrite": false,
+        "redirect": null,
+        "page": 7,
+        "creation_date": "2018-07-05T06:19:20.323Z",
+        "published": true,
+        "publisher_is_draft": true,
+        "publisher_public": 10,
+        "publisher_state": 0
+    }
+},
+{
+    "model": "cms.title",
+    "pk": 8,
+    "fields": {
+        "language": "en",
+        "title": "Terms of Service",
+        "page_title": "",
+        "menu_title": "",
+        "meta_description": "",
+        "slug": "terms-service",
+        "path": "footer/terms-service",
+        "has_url_overwrite": false,
+        "redirect": null,
+        "page": 8,
+        "creation_date": "2018-07-05T06:19:37.824Z",
+        "published": true,
+        "publisher_is_draft": true,
+        "publisher_public": 12,
+        "publisher_state": 0
+    }
+},
+{
+    "model": "cms.title",
+    "pk": 9,
+    "fields": {
+        "language": "en",
+        "title": "Contact",
+        "page_title": "",
+        "menu_title": "",
+        "meta_description": "",
+        "slug": "contact",
+        "path": "footer/contact",
+        "has_url_overwrite": false,
+        "redirect": null,
+        "page": 9,
+        "creation_date": "2018-07-05T06:19:43.694Z",
+        "published": true,
+        "publisher_is_draft": true,
+        "publisher_public": 11,
+        "publisher_state": 0
+    }
+},
+{
+    "model": "cms.title",
+    "pk": 10,
+    "fields": {
+        "language": "en",
+        "title": "Footer",
+        "page_title": "",
+        "menu_title": "",
+        "meta_description": "",
+        "slug": "footer",
+        "path": "footer",
+        "has_url_overwrite": false,
+        "redirect": null,
+        "page": 10,
+        "creation_date": "2018-07-05T06:19:20.323Z",
+        "published": true,
+        "publisher_is_draft": false,
+        "publisher_public": 7,
+        "publisher_state": 0
+    }
+},
+{
+    "model": "cms.title",
+    "pk": 11,
+    "fields": {
+        "language": "en",
+        "title": "Contact",
+        "page_title": "",
+        "menu_title": "",
+        "meta_description": "",
+        "slug": "contact",
+        "path": "footer/contact",
+        "has_url_overwrite": false,
+        "redirect": null,
+        "page": 11,
+        "creation_date": "2018-07-05T06:19:43.694Z",
+        "published": true,
+        "publisher_is_draft": false,
+        "publisher_public": 9,
+        "publisher_state": 0
+    }
+},
+{
+    "model": "cms.title",
+    "pk": 12,
+    "fields": {
+        "language": "en",
+        "title": "Terms of Service",
+        "page_title": "",
+        "menu_title": "",
+        "meta_description": "",
+        "slug": "terms-service",
+        "path": "footer/terms-service",
+        "has_url_overwrite": false,
+        "redirect": null,
+        "page": 12,
+        "creation_date": "2018-07-05T06:19:37.824Z",
+        "published": true,
+        "publisher_is_draft": false,
+        "publisher_public": 8,
+        "publisher_state": 0
     }
 },
 {
@@ -2521,7 +2967,7 @@
 },
 {
     "model": "menus.cachekey",
-    "pk": 11,
+    "pk": 30,
     "fields": {
         "language": "en",
         "site": 1,
@@ -2529,182 +2975,178 @@
     }
 },
 {
-    "model": "menus.cachekey",
-    "pk": 12,
-    "fields": {
-        "language": "en",
-        "site": 1,
-        "key": "cms_3.5.2_menu_nodes_en_1:public"
-    }
-},
-{
-    "model": "menus.cachekey",
-    "pk": 13,
-    "fields": {
-        "language": "en",
-        "site": 1,
-        "key": "cms_3.5.2_menu_nodes_en_1_1_user:draft"
-    }
-},
-{
-    "model": "djangocms_text_ckeditor.text",
-    "pk": 2,
-    "fields": {
-        "body": "<p>Because everyone has an opinion (and wants to share it)</p>"
-    }
-},
-{
-    "model": "djangocms_text_ckeditor.text",
-    "pk": 9,
-    "fields": {
-        "body": "<h2>We all need opinions</h2>"
-    }
-},
-{
-    "model": "djangocms_text_ckeditor.text",
-    "pk": 10,
-    "fields": {
-        "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis ipsum. Duis tincidunt aliquam lacus at pretium. Sed ultricies purus non dui suscipit egestas. Integer sed laoreet nisl.\u00a0</p>"
-    }
-},
-{
-    "model": "djangocms_text_ckeditor.text",
-    "pk": 18,
-    "fields": {
-        "body": "<h2>We have the best opinions</h2>"
-    }
-},
-{
-    "model": "djangocms_text_ckeditor.text",
-    "pk": 20,
-    "fields": {
-        "body": "<p>They're totally great, you'll love them.\u00a0Nunc fringilla venenatis purus eu efficitur. Pellentesque at malesuada nisl. Maecenas a velit vitae justo gravida fringilla a quis massa.</p>"
-    }
-},
-{
-    "model": "djangocms_text_ckeditor.text",
-    "pk": 30,
-    "fields": {
-        "body": "<h2>Poll of the day</h2>"
-    }
-},
-{
-    "model": "djangocms_text_ckeditor.text",
-    "pk": 42,
-    "fields": {
-        "body": "<h2>Best question ever</h2>"
-    }
-},
-{
-    "model": "djangocms_text_ckeditor.text",
-    "pk": 48,
-    "fields": {
-        "body": "<h2>What next?</h2>"
-    }
-},
-{
-    "model": "djangocms_text_ckeditor.text",
-    "pk": 51,
-    "fields": {
-        "body": "<p>Maecenas nec ex non nulla cursus fringilla ut quis justo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>\n\n<p>Nunc sit amet purus porta, sodales nulla quis, dignissim orci. Praesent auctor euismod erat sed vulputate.</p>\n\n<p>Donec vulputate hendrerit neque eu eleifend. Mauris porta condimentum dui, non ullamcorper ante. Sed pretium massa enim, at vehicula augue sagittis vel. Pellentesque ultrices, eros eu semper vulputate, metus orci luctus justo, eget tempor ipsum libero nec odio. Maecenas a tellus mauris. Vivamus luctus sapien ex, eu molestie lacus tincidunt et. Integer volutpat massa enim, a varius arcu semper sit amet.</p>\n\n<p>Pellentesque purus nulla, commodo vel est in, tempus suscipit libero.</p>"
-    }
-},
-{
     "model": "djangocms_text_ckeditor.text",
     "pk": 99,
     "fields": {
-        "body": "<h2>About poles</h2>"
-    }
-},
-{
-    "model": "djangocms_text_ckeditor.text",
-    "pk": 100,
-    "fields": {
-        "body": "<h2>About poles</h2>"
+        "body": "<h2 class=\"section-heading text-uppercase\">Our amazing polls</h2>\n\n<h3 class=\"section-subheading text-muted\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</h3>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
     "pk": 101,
     "fields": {
-        "body": "<h2>About polls</h2>"
+        "body": "<h2 class=\"section-heading text-uppercase\">About polls</h2>\n\n<h3 class=\"section-subheading text-muted\">Maecenas nec ex non nulla cursus fringilla ut quis justo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</h3>\n\n<p>Nunc sit amet purus porta, sodales nulla quis, dignissim orci. Praesent auctor euismod erat sed vulputate.</p>\n\n<p>Donec vulputate hendrerit neque eu eleifend. Mauris porta condimentum dui, non ullamcorper ante. Sed pretium massa enim, at vehicula augue sagittis vel. Pellentesque ultrices, eros eu semper vulputate, metus orci luctus justo, eget tempor ipsum libero nec odio. Maecenas a tellus mauris. Vivamus luctus sapien ex, eu molestie lacus tincidunt et. Integer volutpat massa enim, a varius arcu semper sit amet.</p>\n\n<p>Pellentesque purus nulla, commodo vel est in, tempus suscipit libero.</p>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 102,
+    "pk": 152,
     "fields": {
-        "body": "<p>Maecenas nec ex non nulla cursus fringilla ut quis justo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>\n\n<p>Nunc sit amet purus porta, sodales nulla quis, dignissim orci. Praesent auctor euismod erat sed vulputate.</p>\n\n<p>Donec vulputate hendrerit neque eu eleifend. Mauris porta condimentum dui, non ullamcorper ante. Sed pretium massa enim, at vehicula augue sagittis vel. Pellentesque ultrices, eros eu semper vulputate, metus orci luctus justo, eget tempor ipsum libero nec odio. Maecenas a tellus mauris. Vivamus luctus sapien ex, eu molestie lacus tincidunt et. Integer volutpat massa enim, a varius arcu semper sit amet.</p>\n\n<p>Pellentesque purus nulla, commodo vel est in, tempus suscipit libero.</p>"
+        "body": "<h2 class=\"section-heading text-uppercase\">Our opinions</h2>\n\n<h3 class=\"section-subheading text-muted\">Because everyone has an opinion (and wants to share it)</h3>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 112,
+    "pk": 154,
     "fields": {
-        "body": "<h2>About poles</h2>"
+        "body": "<h4 class=\"service-heading\">We all need opinions</h4>\n\n<p class=\"text-muted\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis ipsum. Duis tincidunt aliquam lacus at pretium. Sed ultricies purus non dui suscipit egestas. Integer sed laoreet nisl.\u00a0</p>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 113,
+    "pk": 158,
     "fields": {
-        "body": "<h2>About polls</h2>"
+        "body": "<h4 class=\"service-heading\">We have the best opinions</h4>\n\n<p class=\"text-muted\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 115,
+    "pk": 160,
     "fields": {
-        "body": "<p>Because everyone has an opinion (and wants to share it)</p>"
+        "body": "<h4 class=\"service-heading\">We use our opinions wisely</h4>\n\n<p class=\"text-muted\">They're totally great, you'll love them.\u00a0Nunc fringilla venenatis purus eu efficitur. Pellentesque at malesuada nisl. Maecenas a velit vitae justo gravida fringilla a quis massa.</p>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 120,
+    "pk": 175,
     "fields": {
-        "body": "<h2>We all need opinions</h2>"
+        "body": "<h4 class=\"service-heading\">Poll of the day</h4>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 122,
+    "pk": 177,
     "fields": {
-        "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis ipsum. Duis tincidunt aliquam lacus at pretium. Sed ultricies purus non dui suscipit egestas. Integer sed laoreet nisl.\u00a0</p>"
+        "body": "<h4 class=\"service-heading\">Best question ever</h4>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 126,
+    "pk": 179,
     "fields": {
-        "body": "<h2>We have the best opinions</h2>"
+        "body": "<h4 class=\"service-heading\">What next?</h4>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 128,
+    "pk": 206,
     "fields": {
-        "body": "<p>They're totally great, you'll love them.\u00a0Nunc fringilla venenatis purus eu efficitur. Pellentesque at malesuada nisl. Maecenas a velit vitae justo gravida fringilla a quis massa.</p>"
+        "body": "<h1 class=\"intro-lead-in\">Welcome to our company!</h1>\n\n<p class=\"intro-heading text-uppercase\">It's nice to meet you</p>\n\n<p><a class=\"btn btn-primary btn-xl text-uppercase js-scroll-trigger\" href=\"#start\">Our opinions</a></p>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 133,
+    "pk": 249,
     "fields": {
-        "body": "<h2>Poll of the day</h2>"
+        "body": "<h2 class=\"section-heading text-uppercase\">About polls</h2>\n\n<h3 class=\"section-subheading text-muted\">Maecenas nec ex non nulla cursus fringilla ut quis justo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</h3>\n\n<p>Nunc sit amet purus porta, sodales nulla quis, dignissim orci. Praesent auctor euismod erat sed vulputate.</p>\n\n<p>Donec vulputate hendrerit neque eu eleifend. Mauris porta condimentum dui, non ullamcorper ante. Sed pretium massa enim, at vehicula augue sagittis vel. Pellentesque ultrices, eros eu semper vulputate, metus orci luctus justo, eget tempor ipsum libero nec odio. Maecenas a tellus mauris. Vivamus luctus sapien ex, eu molestie lacus tincidunt et. Integer volutpat massa enim, a varius arcu semper sit amet.</p>\n\n<p>Pellentesque purus nulla, commodo vel est in, tempus suscipit libero.</p>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 139,
+    "pk": 261,
     "fields": {
-        "body": "<h2>Best question ever</h2>"
+        "body": "<h2 class=\"section-heading text-uppercase\">Our amazing polls</h2>\n\n<h3 class=\"section-subheading text-muted\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</h3>"
     }
 },
 {
     "model": "djangocms_text_ckeditor.text",
-    "pk": 145,
+    "pk": 286,
     "fields": {
-        "body": "<h2>What next?</h2>"
+        "body": "<h2 class=\"section-heading text-uppercase\">About polls</h2>\n\n<h3 class=\"section-subheading text-muted\">Maecenas nec ex non nulla cursus fringilla ut quis justo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</h3>\n\n<p>Nunc sit amet purus porta, sodales nulla quis, dignissim orci. Praesent auctor euismod erat sed vulputate.</p>\n\n<p>Donec vulputate hendrerit neque eu eleifend. Mauris porta condimentum dui, non ullamcorper ante. Sed pretium massa enim, at vehicula augue sagittis vel. Pellentesque ultrices, eros eu semper vulputate, metus orci luctus justo, eget tempor ipsum libero nec odio. Maecenas a tellus mauris. Vivamus luctus sapien ex, eu molestie lacus tincidunt et. Integer volutpat massa enim, a varius arcu semper sit amet.</p>\n\n<p>Pellentesque purus nulla, commodo vel est in, tempus suscipit libero.</p>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 288,
+    "fields": {
+        "body": "<h2 class=\"section-heading text-uppercase\">Contact</h2>\n\n<h3 class=\"section-subheading text-muted\">Maecenas nec ex non nulla cursus fringilla ut quis justo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</h3>\n\n<p>Nunc sit amet purus porta, sodales nulla quis, dignissim orci. Praesent auctor euismod erat sed vulputate.</p>\n\n<p>Donec vulputate hendrerit neque eu eleifend. Mauris porta condimentum dui, non ullamcorper ante. Sed pretium massa enim, at vehicula augue sagittis vel. Pellentesque ultrices, eros eu semper vulputate, metus orci luctus justo, eget tempor ipsum libero nec odio. Maecenas a tellus mauris. Vivamus luctus sapien ex, eu molestie lacus tincidunt et. Integer volutpat massa enim, a varius arcu semper sit amet.</p>\n\n<p>Pellentesque purus nulla, commodo vel est in, tempus suscipit libero.</p>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 290,
+    "fields": {
+        "body": "<h2 class=\"section-heading text-uppercase\">Contact</h2>\n\n<h3 class=\"section-subheading text-muted\">Maecenas nec ex non nulla cursus fringilla ut quis justo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</h3>\n\n<p>Nunc sit amet purus porta, sodales nulla quis, dignissim orci. Praesent auctor euismod erat sed vulputate.</p>\n\n<p>Donec vulputate hendrerit neque eu eleifend. Mauris porta condimentum dui, non ullamcorper ante. Sed pretium massa enim, at vehicula augue sagittis vel. Pellentesque ultrices, eros eu semper vulputate, metus orci luctus justo, eget tempor ipsum libero nec odio. Maecenas a tellus mauris. Vivamus luctus sapien ex, eu molestie lacus tincidunt et. Integer volutpat massa enim, a varius arcu semper sit amet.</p>\n\n<p>Pellentesque purus nulla, commodo vel est in, tempus suscipit libero.</p>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 292,
+    "fields": {
+        "body": "<h2 class=\"section-heading text-uppercase\">Terms of Service</h2>\n\n<h3 class=\"section-subheading text-muted\">Maecenas nec ex non nulla cursus fringilla ut quis justo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</h3>\n\n<p>Nunc sit amet purus porta, sodales nulla quis, dignissim orci. Praesent auctor euismod erat sed vulputate.</p>\n\n<p>Donec vulputate hendrerit neque eu eleifend. Mauris porta condimentum dui, non ullamcorper ante. Sed pretium massa enim, at vehicula augue sagittis vel. Pellentesque ultrices, eros eu semper vulputate, metus orci luctus justo, eget tempor ipsum libero nec odio. Maecenas a tellus mauris. Vivamus luctus sapien ex, eu molestie lacus tincidunt et. Integer volutpat massa enim, a varius arcu semper sit amet.</p>\n\n<p>Pellentesque purus nulla, commodo vel est in, tempus suscipit libero.</p>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 294,
+    "fields": {
+        "body": "<h2 class=\"section-heading text-uppercase\">Terms of Service</h2>\n\n<h3 class=\"section-subheading text-muted\">Maecenas nec ex non nulla cursus fringilla ut quis justo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</h3>\n\n<p>Nunc sit amet purus porta, sodales nulla quis, dignissim orci. Praesent auctor euismod erat sed vulputate.</p>\n\n<p>Donec vulputate hendrerit neque eu eleifend. Mauris porta condimentum dui, non ullamcorper ante. Sed pretium massa enim, at vehicula augue sagittis vel. Pellentesque ultrices, eros eu semper vulputate, metus orci luctus justo, eget tempor ipsum libero nec odio. Maecenas a tellus mauris. Vivamus luctus sapien ex, eu molestie lacus tincidunt et. Integer volutpat massa enim, a varius arcu semper sit amet.</p>\n\n<p>Pellentesque purus nulla, commodo vel est in, tempus suscipit libero.</p>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 297,
+    "fields": {
+        "body": "<h4 class=\"service-heading\">We all need opinions</h4>\n\n<p class=\"text-muted\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis ipsum. Duis tincidunt aliquam lacus at pretium. Sed ultricies purus non dui suscipit egestas. Integer sed laoreet nisl.\u00a0</p>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 299,
+    "fields": {
+        "body": "<h4 class=\"service-heading\">We have the best opinions</h4>\n\n<p class=\"text-muted\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 301,
+    "fields": {
+        "body": "<h4 class=\"service-heading\">We use our opinions wisely</h4>\n\n<p class=\"text-muted\">They're totally great, you'll love them.\u00a0Nunc fringilla venenatis purus eu efficitur. Pellentesque at malesuada nisl. Maecenas a velit vitae justo gravida fringilla a quis massa.</p>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 303,
+    "fields": {
+        "body": "<h2 class=\"section-heading text-uppercase\">Our opinions</h2>\n\n<h3 class=\"section-subheading text-muted\">Because everyone has an opinion (and wants to share it)</h3>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 305,
+    "fields": {
+        "body": "<h1 class=\"intro-lead-in\">Welcome to our company!</h1>\n\n<p class=\"intro-heading text-uppercase\">It's nice to meet you</p>\n\n<p><a class=\"btn btn-primary btn-xl text-uppercase js-scroll-trigger\" href=\"#start\">Our opinions</a></p>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 310,
+    "fields": {
+        "body": "<h4 class=\"service-heading\">Poll of the day</h4>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 313,
+    "fields": {
+        "body": "<h4 class=\"service-heading\">Best question ever</h4>"
+    }
+},
+{
+    "model": "djangocms_text_ckeditor.text",
+    "pk": 316,
+    "fields": {
+        "body": "<h4 class=\"service-heading\">What next?</h4>"
     }
 },
 {
@@ -2713,7 +3155,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public/b8/fe/b8feffdf-e63f-4160-a90b-5a1cc9b758ae/arctic_ocean.png",
-        "modified": "2018-07-03T12:35:46.416Z"
+        "modified": "2018-07-05T08:19:57.191Z"
     }
 },
 {
@@ -2722,7 +3164,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public/46/26/4626b447-95a0-44a8-abd2-fc833435b441/mercator_north_pole_1595.jpg",
-        "modified": "2018-07-03T12:36:00.465Z"
+        "modified": "2018-07-05T08:20:20.651Z"
     }
 },
 {
@@ -2731,7 +3173,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public/83/67/8367547b-d331-4e88-93e8-df80bf03eecc/pole-south.gif",
-        "modified": "2018-07-03T12:36:51.273Z"
+        "modified": "2018-07-05T06:37:00.279Z"
     }
 },
 {
@@ -2740,7 +3182,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public/cc/d1/ccd1570b-1adb-4240-b4f5-fba7626613bc/660px-antarctica_6400px_from_blue_marble.jpg",
-        "modified": "2018-07-03T12:37:03.869Z"
+        "modified": "2018-07-05T08:20:25.147Z"
     }
 },
 {
@@ -2959,7 +3401,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/cc/d1/ccd1570b-1adb-4240-b4f5-fba7626613bc/660px-antarctica_6400px_from_blue_marble.jpg__16x16_q85_crop_subject_location-330,330_subsampling-2_upscale.jpg",
-        "modified": "2018-07-03T12:31:51.523Z",
+        "modified": "2018-07-05T08:20:25.149Z",
         "source": 4
     }
 },
@@ -2969,7 +3411,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/cc/d1/ccd1570b-1adb-4240-b4f5-fba7626613bc/660px-antarctica_6400px_from_blue_marble.jpg__32x32_q85_crop_subject_location-330,330_subsampling-2_upscale.jpg",
-        "modified": "2018-07-03T12:31:51.547Z",
+        "modified": "2018-07-05T08:20:25.170Z",
         "source": 4
     }
 },
@@ -2979,7 +3421,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/cc/d1/ccd1570b-1adb-4240-b4f5-fba7626613bc/660px-antarctica_6400px_from_blue_marble.jpg__48x48_q85_crop_subject_location-330,330_subsampling-2_upscale.jpg",
-        "modified": "2018-07-03T12:31:51.570Z",
+        "modified": "2018-07-05T08:20:25.196Z",
         "source": 4
     }
 },
@@ -2989,7 +3431,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/cc/d1/ccd1570b-1adb-4240-b4f5-fba7626613bc/660px-antarctica_6400px_from_blue_marble.jpg__64x64_q85_crop_subject_location-330,330_subsampling-2_upscale.jpg",
-        "modified": "2018-07-03T12:31:51.592Z",
+        "modified": "2018-07-05T08:20:25.224Z",
         "source": 4
     }
 },
@@ -3009,7 +3451,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/46/26/4626b447-95a0-44a8-abd2-fc833435b441/mercator_north_pole_1595.jpg__16x16_q85_crop_subject_location-0,0_subsampling-2_upscale.jpg",
-        "modified": "2018-07-03T12:32:02.991Z",
+        "modified": "2018-07-05T08:20:20.655Z",
         "source": 2
     }
 },
@@ -3019,7 +3461,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/46/26/4626b447-95a0-44a8-abd2-fc833435b441/mercator_north_pole_1595.jpg__32x32_q85_crop_subject_location-0,0_subsampling-2_upscale.jpg",
-        "modified": "2018-07-03T12:32:03.016Z",
+        "modified": "2018-07-05T08:20:20.687Z",
         "source": 2
     }
 },
@@ -3029,7 +3471,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/46/26/4626b447-95a0-44a8-abd2-fc833435b441/mercator_north_pole_1595.jpg__48x48_q85_crop_subject_location-0,0_subsampling-2_upscale.jpg",
-        "modified": "2018-07-03T12:32:03.043Z",
+        "modified": "2018-07-05T08:20:20.715Z",
         "source": 2
     }
 },
@@ -3039,7 +3481,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/46/26/4626b447-95a0-44a8-abd2-fc833435b441/mercator_north_pole_1595.jpg__64x64_q85_crop_subject_location-0,0_subsampling-2_upscale.jpg",
-        "modified": "2018-07-03T12:32:03.067Z",
+        "modified": "2018-07-05T08:20:20.753Z",
         "source": 2
     }
 },
@@ -3119,7 +3561,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/b8/fe/b8feffdf-e63f-4160-a90b-5a1cc9b758ae/arctic_ocean.png__16x16_q85_crop_subject_location-165,165_subsampling-2_upscale.jpg",
-        "modified": "2018-07-03T12:32:28.352Z",
+        "modified": "2018-07-05T08:19:57.193Z",
         "source": 1
     }
 },
@@ -3129,7 +3571,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/b8/fe/b8feffdf-e63f-4160-a90b-5a1cc9b758ae/arctic_ocean.png__32x32_q85_crop_subject_location-165,165_subsampling-2_upscale.jpg",
-        "modified": "2018-07-03T12:32:28.360Z",
+        "modified": "2018-07-05T08:19:57.203Z",
         "source": 1
     }
 },
@@ -3139,7 +3581,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/b8/fe/b8feffdf-e63f-4160-a90b-5a1cc9b758ae/arctic_ocean.png__48x48_q85_crop_subject_location-165,165_subsampling-2_upscale.jpg",
-        "modified": "2018-07-03T12:32:28.366Z",
+        "modified": "2018-07-05T08:19:57.210Z",
         "source": 1
     }
 },
@@ -3149,7 +3591,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/b8/fe/b8feffdf-e63f-4160-a90b-5a1cc9b758ae/arctic_ocean.png__64x64_q85_crop_subject_location-165,165_subsampling-2_upscale.jpg",
-        "modified": "2018-07-03T12:32:28.373Z",
+        "modified": "2018-07-05T08:19:57.219Z",
         "source": 1
     }
 },
@@ -3159,7 +3601,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/b8/fe/b8feffdf-e63f-4160-a90b-5a1cc9b758ae/arctic_ocean.png__329x330_q85_subject_location-165,165_subsampling-2.jpg",
-        "modified": "2018-07-03T12:35:46.423Z",
+        "modified": "2018-07-05T06:37:00.163Z",
         "source": 1
     }
 },
@@ -3169,7 +3611,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/46/26/4626b447-95a0-44a8-abd2-fc833435b441/mercator_north_pole_1595.jpg__600x567_q85_subject_location-0,0_subsampling-2.jpg",
-        "modified": "2018-07-03T12:36:00.468Z",
+        "modified": "2018-07-05T06:37:00.252Z",
         "source": 2
     }
 },
@@ -3179,7 +3621,7 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/83/67/8367547b-d331-4e88-93e8-df80bf03eecc/pole-south.gif__330x330_q85_subject_location-165,165_subsampling-2.png",
-        "modified": "2018-07-03T12:36:51.276Z",
+        "modified": "2018-07-05T06:37:00.282Z",
         "source": 3
     }
 },
@@ -3189,340 +3631,407 @@
     "fields": {
         "storage_hash": "f9bde26a1556cd667f742bd34ec7c55e",
         "name": "filer_public_thumbnails/filer_public/cc/d1/ccd1570b-1adb-4240-b4f5-fba7626613bc/660px-antarctica_6400px_from_blue_marble.jpg__660x660_q85_subject_location-330,330_subsampling-2.jpg",
-        "modified": "2018-07-03T12:37:03.872Z",
+        "modified": "2018-07-05T06:37:00.348Z",
         "source": 4
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4card",
-    "pk": 6,
+    "model": "djangocms_style.style",
+    "pk": 153,
     "fields": {
-        "card_type": "card",
-        "card_context": "primary",
-        "card_alignment": "",
-        "card_outline": false,
-        "card_text_color": "",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
+        "class_name": "",
+        "additional_classes": "text-center",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4card",
-    "pk": 16,
+    "model": "djangocms_style.style",
+    "pk": 180,
     "fields": {
-        "card_type": "card",
-        "card_context": "danger",
-        "card_alignment": "",
-        "card_outline": false,
-        "card_text_color": "",
-        "tag_type": "div",
-        "attributes": {}
+        "template": "default",
+        "label": "",
+        "tag_type": "section",
+        "class_name": "",
+        "additional_classes": "bg-light",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4card",
-    "pk": 28,
+    "model": "djangocms_style.style",
+    "pk": 181,
     "fields": {
-        "card_type": "card",
-        "card_context": "warning",
-        "card_alignment": "",
-        "card_outline": false,
-        "card_text_color": "white",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
+        "class_name": "container",
+        "additional_classes": "",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4card",
-    "pk": 40,
+    "model": "djangocms_style.style",
+    "pk": 207,
     "fields": {
-        "card_type": "card",
-        "card_context": "success",
-        "card_alignment": "",
-        "card_outline": false,
-        "card_text_color": "",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
+        "class_name": "",
+        "additional_classes": "intro-text",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4card",
-    "pk": 46,
+    "model": "djangocms_style.style",
+    "pk": 209,
     "fields": {
-        "card_type": "card",
-        "card_context": "info",
-        "card_alignment": "",
-        "card_outline": false,
-        "card_text_color": "",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
+        "class_name": "",
+        "additional_classes": "text-center",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4card",
-    "pk": 118,
+    "model": "djangocms_style.style",
+    "pk": 222,
     "fields": {
-        "card_type": "card",
-        "card_context": "primary",
-        "card_alignment": "",
-        "card_outline": false,
-        "card_text_color": "",
-        "tag_type": "div",
-        "attributes": {}
+        "template": "default",
+        "label": "",
+        "tag_type": "section",
+        "class_name": "",
+        "additional_classes": "bg-light",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4card",
-    "pk": 124,
+    "model": "djangocms_style.style",
+    "pk": 223,
     "fields": {
-        "card_type": "card",
-        "card_context": "danger",
-        "card_alignment": "",
-        "card_outline": false,
-        "card_text_color": "",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
+        "class_name": "container",
+        "additional_classes": "text-center",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4card",
-    "pk": 131,
+    "model": "djangocms_style.style",
+    "pk": 248,
     "fields": {
-        "card_type": "card",
-        "card_context": "warning",
-        "card_alignment": "",
-        "card_outline": false,
-        "card_text_color": "white",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
+        "class_name": "",
+        "additional_classes": "text-center",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4card",
-    "pk": 137,
+    "model": "djangocms_style.style",
+    "pk": 250,
     "fields": {
-        "card_type": "card",
-        "card_context": "success",
-        "card_alignment": "",
-        "card_outline": false,
-        "card_text_color": "",
-        "tag_type": "div",
-        "attributes": {}
+        "template": "default",
+        "label": "",
+        "tag_type": "section",
+        "class_name": "",
+        "additional_classes": "bg-light",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4card",
-    "pk": 143,
+    "model": "djangocms_style.style",
+    "pk": 251,
     "fields": {
-        "card_type": "card",
-        "card_context": "info",
-        "card_alignment": "",
-        "card_outline": false,
-        "card_text_color": "",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
+        "class_name": "container",
+        "additional_classes": "text-center",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 7,
+    "model": "djangocms_style.style",
+    "pk": 285,
     "fields": {
-        "inner_type": "card-header",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
+        "class_name": "",
+        "additional_classes": "text-center",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 8,
+    "model": "djangocms_style.style",
+    "pk": 287,
     "fields": {
-        "inner_type": "card-body",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
+        "class_name": "",
+        "additional_classes": "text-center",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 17,
+    "model": "djangocms_style.style",
+    "pk": 289,
     "fields": {
-        "inner_type": "card-header",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
+        "class_name": "",
+        "additional_classes": "text-center",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 19,
+    "model": "djangocms_style.style",
+    "pk": 291,
     "fields": {
-        "inner_type": "card-body",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
+        "class_name": "",
+        "additional_classes": "text-center",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 29,
+    "model": "djangocms_style.style",
+    "pk": 293,
     "fields": {
-        "inner_type": "card-header",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
+        "class_name": "",
+        "additional_classes": "text-center",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 31,
+    "model": "djangocms_style.style",
+    "pk": 302,
     "fields": {
-        "inner_type": "card-body",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
+        "class_name": "",
+        "additional_classes": "text-center",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 41,
+    "model": "djangocms_style.style",
+    "pk": 304,
     "fields": {
-        "inner_type": "card-header",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
+        "class_name": "",
+        "additional_classes": "intro-text",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 43,
+    "model": "djangocms_style.style",
+    "pk": 306,
     "fields": {
-        "inner_type": "card-body",
-        "tag_type": "div",
-        "attributes": {}
+        "template": "default",
+        "label": "",
+        "tag_type": "section",
+        "class_name": "",
+        "additional_classes": "bg-light",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 47,
+    "model": "djangocms_style.style",
+    "pk": 307,
     "fields": {
-        "inner_type": "card-header",
+        "template": "default",
+        "label": "",
         "tag_type": "div",
-        "attributes": {}
-    }
-},
-{
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 49,
-    "fields": {
-        "inner_type": "card-body",
-        "tag_type": "div",
-        "attributes": {}
-    }
-},
-{
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 119,
-    "fields": {
-        "inner_type": "card-header",
-        "tag_type": "div",
-        "attributes": {}
-    }
-},
-{
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 121,
-    "fields": {
-        "inner_type": "card-body",
-        "tag_type": "div",
-        "attributes": {}
-    }
-},
-{
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 125,
-    "fields": {
-        "inner_type": "card-header",
-        "tag_type": "div",
-        "attributes": {}
-    }
-},
-{
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 127,
-    "fields": {
-        "inner_type": "card-body",
-        "tag_type": "div",
-        "attributes": {}
-    }
-},
-{
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 132,
-    "fields": {
-        "inner_type": "card-header",
-        "tag_type": "div",
-        "attributes": {}
-    }
-},
-{
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 134,
-    "fields": {
-        "inner_type": "card-body",
-        "tag_type": "div",
-        "attributes": {}
-    }
-},
-{
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 138,
-    "fields": {
-        "inner_type": "card-header",
-        "tag_type": "div",
-        "attributes": {}
-    }
-},
-{
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 140,
-    "fields": {
-        "inner_type": "card-body",
-        "tag_type": "div",
-        "attributes": {}
-    }
-},
-{
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 144,
-    "fields": {
-        "inner_type": "card-header",
-        "tag_type": "div",
-        "attributes": {}
-    }
-},
-{
-    "model": "bootstrap4_card.bootstrap4cardinner",
-    "pk": 146,
-    "fields": {
-        "inner_type": "card-body",
-        "tag_type": "div",
-        "attributes": {}
-    }
-},
-{
-    "model": "bootstrap4_grid.bootstrap4gridrow",
-    "pk": 3,
-    "fields": {
-        "vertical_alignment": "",
-        "horizontal_alignment": "",
-        "gutters": false,
-        "tag_type": "div",
-        "attributes": {}
-    }
-},
-{
-    "model": "bootstrap4_grid.bootstrap4gridrow",
-    "pk": 21,
-    "fields": {
-        "vertical_alignment": "",
-        "horizontal_alignment": "",
-        "gutters": false,
-        "tag_type": "div",
-        "attributes": {}
+        "class_name": "container",
+        "additional_classes": "",
+        "id_name": "",
+        "attributes": {},
+        "padding_top": null,
+        "padding_right": null,
+        "padding_bottom": null,
+        "padding_left": null,
+        "margin_top": null,
+        "margin_right": null,
+        "margin_bottom": null,
+        "margin_left": null
     }
 },
 {
@@ -3538,7 +4047,7 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridrow",
-    "pk": 103,
+    "pk": 148,
     "fields": {
         "vertical_alignment": "",
         "horizontal_alignment": "",
@@ -3549,7 +4058,7 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridrow",
-    "pk": 116,
+    "pk": 173,
     "fields": {
         "vertical_alignment": "",
         "horizontal_alignment": "",
@@ -3560,7 +4069,7 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridrow",
-    "pk": 129,
+    "pk": 252,
     "fields": {
         "vertical_alignment": "",
         "horizontal_alignment": "",
@@ -3570,158 +4079,25 @@
     }
 },
 {
-    "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 4,
+    "model": "bootstrap4_grid.bootstrap4gridrow",
+    "pk": 295,
     "fields": {
-        "column_type": "col",
-        "column_size": 12,
-        "column_alignment": "",
+        "vertical_alignment": "",
+        "horizontal_alignment": "",
+        "gutters": false,
         "tag_type": "div",
-        "attributes": {},
-        "xs_col": null,
-        "xs_order": null,
-        "xs_ml": false,
-        "xs_mr": false,
-        "sm_col": null,
-        "sm_order": null,
-        "sm_ml": false,
-        "sm_mr": false,
-        "md_col": 6,
-        "md_order": null,
-        "md_ml": false,
-        "md_mr": false,
-        "lg_col": null,
-        "lg_order": null,
-        "lg_ml": false,
-        "lg_mr": false,
-        "xl_col": null,
-        "xl_order": null,
-        "xl_ml": false,
-        "xl_mr": false
+        "attributes": {}
     }
 },
 {
-    "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 5,
+    "model": "bootstrap4_grid.bootstrap4gridrow",
+    "pk": 308,
     "fields": {
-        "column_type": "col",
-        "column_size": 12,
-        "column_alignment": "",
+        "vertical_alignment": "",
+        "horizontal_alignment": "",
+        "gutters": false,
         "tag_type": "div",
-        "attributes": {},
-        "xs_col": null,
-        "xs_order": null,
-        "xs_ml": false,
-        "xs_mr": false,
-        "sm_col": null,
-        "sm_order": null,
-        "sm_ml": false,
-        "sm_mr": false,
-        "md_col": 6,
-        "md_order": null,
-        "md_ml": false,
-        "md_mr": false,
-        "lg_col": null,
-        "lg_order": null,
-        "lg_ml": false,
-        "lg_mr": false,
-        "xl_col": null,
-        "xl_order": null,
-        "xl_ml": false,
-        "xl_mr": false
-    }
-},
-{
-    "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 22,
-    "fields": {
-        "column_type": "col",
-        "column_size": 12,
-        "column_alignment": "",
-        "tag_type": "div",
-        "attributes": {},
-        "xs_col": null,
-        "xs_order": null,
-        "xs_ml": false,
-        "xs_mr": false,
-        "sm_col": null,
-        "sm_order": null,
-        "sm_ml": false,
-        "sm_mr": false,
-        "md_col": null,
-        "md_order": null,
-        "md_ml": false,
-        "md_mr": false,
-        "lg_col": 4,
-        "lg_order": null,
-        "lg_ml": false,
-        "lg_mr": false,
-        "xl_col": null,
-        "xl_order": null,
-        "xl_ml": false,
-        "xl_mr": false
-    }
-},
-{
-    "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 39,
-    "fields": {
-        "column_type": "col",
-        "column_size": 12,
-        "column_alignment": "",
-        "tag_type": "div",
-        "attributes": {},
-        "xs_col": null,
-        "xs_order": null,
-        "xs_ml": false,
-        "xs_mr": false,
-        "sm_col": null,
-        "sm_order": null,
-        "sm_ml": false,
-        "sm_mr": false,
-        "md_col": null,
-        "md_order": null,
-        "md_ml": false,
-        "md_mr": false,
-        "lg_col": 4,
-        "lg_order": null,
-        "lg_ml": false,
-        "lg_mr": false,
-        "xl_col": null,
-        "xl_order": null,
-        "xl_ml": false,
-        "xl_mr": false
-    }
-},
-{
-    "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 45,
-    "fields": {
-        "column_type": "col",
-        "column_size": 12,
-        "column_alignment": "",
-        "tag_type": "div",
-        "attributes": {},
-        "xs_col": null,
-        "xs_order": null,
-        "xs_ml": false,
-        "xs_mr": false,
-        "sm_col": null,
-        "sm_order": null,
-        "sm_ml": false,
-        "sm_mr": false,
-        "md_col": null,
-        "md_order": null,
-        "md_ml": false,
-        "md_mr": false,
-        "lg_col": 4,
-        "lg_order": null,
-        "lg_ml": false,
-        "lg_mr": false,
-        "xl_col": null,
-        "xl_order": null,
-        "xl_ml": false,
-        "xl_mr": false
+        "attributes": {}
     }
 },
 {
@@ -3850,7 +4226,205 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 104,
+    "pk": 149,
+    "fields": {
+        "column_type": "col",
+        "column_size": 6,
+        "column_alignment": "",
+        "tag_type": "div",
+        "attributes": {
+            "class": "text-center"
+        },
+        "xs_col": null,
+        "xs_order": null,
+        "xs_ml": false,
+        "xs_mr": false,
+        "sm_col": null,
+        "sm_order": null,
+        "sm_ml": false,
+        "sm_mr": false,
+        "md_col": 4,
+        "md_order": null,
+        "md_ml": false,
+        "md_mr": false,
+        "lg_col": null,
+        "lg_order": null,
+        "lg_ml": false,
+        "lg_mr": false,
+        "xl_col": null,
+        "xl_order": null,
+        "xl_ml": false,
+        "xl_mr": false
+    }
+},
+{
+    "model": "bootstrap4_grid.bootstrap4gridcolumn",
+    "pk": 157,
+    "fields": {
+        "column_type": "col",
+        "column_size": 6,
+        "column_alignment": "",
+        "tag_type": "div",
+        "attributes": {
+            "class": "text-center"
+        },
+        "xs_col": null,
+        "xs_order": null,
+        "xs_ml": false,
+        "xs_mr": false,
+        "sm_col": null,
+        "sm_order": null,
+        "sm_ml": false,
+        "sm_mr": false,
+        "md_col": 4,
+        "md_order": null,
+        "md_ml": false,
+        "md_mr": false,
+        "lg_col": null,
+        "lg_order": null,
+        "lg_ml": false,
+        "lg_mr": false,
+        "xl_col": null,
+        "xl_order": null,
+        "xl_ml": false,
+        "xl_mr": false
+    }
+},
+{
+    "model": "bootstrap4_grid.bootstrap4gridcolumn",
+    "pk": 159,
+    "fields": {
+        "column_type": "col",
+        "column_size": 6,
+        "column_alignment": "",
+        "tag_type": "div",
+        "attributes": {
+            "class": "text-center"
+        },
+        "xs_col": null,
+        "xs_order": null,
+        "xs_ml": false,
+        "xs_mr": false,
+        "sm_col": null,
+        "sm_order": null,
+        "sm_ml": false,
+        "sm_mr": false,
+        "md_col": 4,
+        "md_order": null,
+        "md_ml": false,
+        "md_mr": false,
+        "lg_col": null,
+        "lg_order": null,
+        "lg_ml": false,
+        "lg_mr": false,
+        "xl_col": null,
+        "xl_order": null,
+        "xl_ml": false,
+        "xl_mr": false
+    }
+},
+{
+    "model": "bootstrap4_grid.bootstrap4gridcolumn",
+    "pk": 174,
+    "fields": {
+        "column_type": "col",
+        "column_size": 6,
+        "column_alignment": "",
+        "tag_type": "div",
+        "attributes": {
+            "class": "text-center"
+        },
+        "xs_col": null,
+        "xs_order": null,
+        "xs_ml": false,
+        "xs_mr": false,
+        "sm_col": null,
+        "sm_order": null,
+        "sm_ml": false,
+        "sm_mr": false,
+        "md_col": 4,
+        "md_order": null,
+        "md_ml": false,
+        "md_mr": false,
+        "lg_col": null,
+        "lg_order": null,
+        "lg_ml": false,
+        "lg_mr": false,
+        "xl_col": null,
+        "xl_order": null,
+        "xl_ml": false,
+        "xl_mr": false
+    }
+},
+{
+    "model": "bootstrap4_grid.bootstrap4gridcolumn",
+    "pk": 176,
+    "fields": {
+        "column_type": "col",
+        "column_size": 6,
+        "column_alignment": "",
+        "tag_type": "div",
+        "attributes": {
+            "class": "text-center"
+        },
+        "xs_col": null,
+        "xs_order": null,
+        "xs_ml": false,
+        "xs_mr": false,
+        "sm_col": null,
+        "sm_order": null,
+        "sm_ml": false,
+        "sm_mr": false,
+        "md_col": 4,
+        "md_order": null,
+        "md_ml": false,
+        "md_mr": false,
+        "lg_col": null,
+        "lg_order": null,
+        "lg_ml": false,
+        "lg_mr": false,
+        "xl_col": null,
+        "xl_order": null,
+        "xl_ml": false,
+        "xl_mr": false
+    }
+},
+{
+    "model": "bootstrap4_grid.bootstrap4gridcolumn",
+    "pk": 178,
+    "fields": {
+        "column_type": "col",
+        "column_size": 6,
+        "column_alignment": "",
+        "tag_type": "div",
+        "attributes": {
+            "class": "text-center"
+        },
+        "xs_col": null,
+        "xs_order": null,
+        "xs_ml": false,
+        "xs_mr": false,
+        "sm_col": null,
+        "sm_order": null,
+        "sm_ml": false,
+        "sm_mr": false,
+        "md_col": 4,
+        "md_order": null,
+        "md_ml": false,
+        "md_mr": false,
+        "lg_col": null,
+        "lg_order": null,
+        "lg_ml": false,
+        "lg_mr": false,
+        "xl_col": null,
+        "xl_order": null,
+        "xl_ml": false,
+        "xl_mr": false
+    }
+},
+{
+    "model": "bootstrap4_grid.bootstrap4gridcolumn",
+    "pk": 253,
     "fields": {
         "column_type": "col",
         "column_size": 12,
@@ -3881,7 +4455,7 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 106,
+    "pk": 255,
     "fields": {
         "column_type": "col",
         "column_size": 12,
@@ -3912,7 +4486,7 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 108,
+    "pk": 257,
     "fields": {
         "column_type": "col",
         "column_size": 12,
@@ -3943,7 +4517,7 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 110,
+    "pk": 259,
     "fields": {
         "column_type": "col",
         "column_size": 12,
@@ -3974,13 +4548,15 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 117,
+    "pk": 296,
     "fields": {
         "column_type": "col",
-        "column_size": 12,
+        "column_size": 6,
         "column_alignment": "",
         "tag_type": "div",
-        "attributes": {},
+        "attributes": {
+            "class": "text-center"
+        },
         "xs_col": null,
         "xs_order": null,
         "xs_ml": false,
@@ -3989,7 +4565,7 @@
         "sm_order": null,
         "sm_ml": false,
         "sm_mr": false,
-        "md_col": 6,
+        "md_col": 4,
         "md_order": null,
         "md_ml": false,
         "md_mr": false,
@@ -4005,13 +4581,15 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 123,
+    "pk": 298,
     "fields": {
         "column_type": "col",
-        "column_size": 12,
+        "column_size": 6,
         "column_alignment": "",
         "tag_type": "div",
-        "attributes": {},
+        "attributes": {
+            "class": "text-center"
+        },
         "xs_col": null,
         "xs_order": null,
         "xs_ml": false,
@@ -4020,7 +4598,7 @@
         "sm_order": null,
         "sm_ml": false,
         "sm_mr": false,
-        "md_col": 6,
+        "md_col": 4,
         "md_order": null,
         "md_ml": false,
         "md_mr": false,
@@ -4036,13 +4614,15 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 130,
+    "pk": 300,
     "fields": {
         "column_type": "col",
-        "column_size": 12,
+        "column_size": 6,
         "column_alignment": "",
         "tag_type": "div",
-        "attributes": {},
+        "attributes": {
+            "class": "text-center"
+        },
         "xs_col": null,
         "xs_order": null,
         "xs_ml": false,
@@ -4051,11 +4631,11 @@
         "sm_order": null,
         "sm_ml": false,
         "sm_mr": false,
-        "md_col": null,
+        "md_col": 4,
         "md_order": null,
         "md_ml": false,
         "md_mr": false,
-        "lg_col": 4,
+        "lg_col": null,
         "lg_order": null,
         "lg_ml": false,
         "lg_mr": false,
@@ -4067,13 +4647,15 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 136,
+    "pk": 309,
     "fields": {
         "column_type": "col",
-        "column_size": 12,
+        "column_size": 6,
         "column_alignment": "",
         "tag_type": "div",
-        "attributes": {},
+        "attributes": {
+            "class": "text-center"
+        },
         "xs_col": null,
         "xs_order": null,
         "xs_ml": false,
@@ -4082,11 +4664,11 @@
         "sm_order": null,
         "sm_ml": false,
         "sm_mr": false,
-        "md_col": null,
+        "md_col": 4,
         "md_order": null,
         "md_ml": false,
         "md_mr": false,
-        "lg_col": 4,
+        "lg_col": null,
         "lg_order": null,
         "lg_ml": false,
         "lg_mr": false,
@@ -4098,13 +4680,15 @@
 },
 {
     "model": "bootstrap4_grid.bootstrap4gridcolumn",
-    "pk": 142,
+    "pk": 312,
     "fields": {
         "column_type": "col",
-        "column_size": 12,
+        "column_size": 6,
         "column_alignment": "",
         "tag_type": "div",
-        "attributes": {},
+        "attributes": {
+            "class": "text-center"
+        },
         "xs_col": null,
         "xs_order": null,
         "xs_ml": false,
@@ -4113,11 +4697,11 @@
         "sm_order": null,
         "sm_ml": false,
         "sm_mr": false,
-        "md_col": null,
+        "md_col": 4,
         "md_order": null,
         "md_ml": false,
         "md_mr": false,
-        "lg_col": 4,
+        "lg_col": null,
         "lg_order": null,
         "lg_ml": false,
         "lg_mr": false,
@@ -4128,21 +4712,36 @@
     }
 },
 {
-    "model": "bootstrap4_jumbotron.bootstrap4jumbotron",
-    "pk": 1,
+    "model": "bootstrap4_grid.bootstrap4gridcolumn",
+    "pk": 315,
     "fields": {
-        "fluid": false,
+        "column_type": "col",
+        "column_size": 6,
+        "column_alignment": "",
         "tag_type": "div",
-        "attributes": {}
-    }
-},
-{
-    "model": "bootstrap4_jumbotron.bootstrap4jumbotron",
-    "pk": 114,
-    "fields": {
-        "fluid": false,
-        "tag_type": "div",
-        "attributes": {}
+        "attributes": {
+            "class": "text-center"
+        },
+        "xs_col": null,
+        "xs_order": null,
+        "xs_ml": false,
+        "xs_mr": false,
+        "sm_col": null,
+        "sm_order": null,
+        "sm_ml": false,
+        "sm_mr": false,
+        "md_col": 4,
+        "md_order": null,
+        "md_ml": false,
+        "md_mr": false,
+        "lg_col": null,
+        "lg_order": null,
+        "lg_ml": false,
+        "lg_mr": false,
+        "xl_col": null,
+        "xl_order": null,
+        "xl_ml": false,
+        "xl_mr": false
     }
 },
 {
@@ -4193,7 +4792,7 @@
         "use_upscale": false,
         "thumbnail_options": null,
         "picture_fluid": true,
-        "picture_rounded": false,
+        "picture_rounded": true,
         "picture_thumbnail": false
     }
 },
@@ -4245,13 +4844,13 @@
         "use_upscale": false,
         "thumbnail_options": null,
         "picture_fluid": true,
-        "picture_rounded": false,
+        "picture_rounded": true,
         "picture_thumbnail": false
     }
 },
 {
     "model": "bootstrap4_picture.bootstrap4picture",
-    "pk": 105,
+    "pk": 254,
     "fields": {
         "template": "default",
         "picture": 1,
@@ -4277,7 +4876,7 @@
 },
 {
     "model": "bootstrap4_picture.bootstrap4picture",
-    "pk": 107,
+    "pk": 256,
     "fields": {
         "template": "default",
         "picture": 2,
@@ -4297,13 +4896,13 @@
         "use_upscale": false,
         "thumbnail_options": null,
         "picture_fluid": true,
-        "picture_rounded": false,
+        "picture_rounded": true,
         "picture_thumbnail": false
     }
 },
 {
     "model": "bootstrap4_picture.bootstrap4picture",
-    "pk": 109,
+    "pk": 258,
     "fields": {
         "template": "default",
         "picture": 3,
@@ -4329,7 +4928,7 @@
 },
 {
     "model": "bootstrap4_picture.bootstrap4picture",
-    "pk": 111,
+    "pk": 260,
     "fields": {
         "template": "default",
         "picture": 4,
@@ -4349,7 +4948,7 @@
         "use_upscale": false,
         "thumbnail_options": null,
         "picture_fluid": true,
-        "picture_rounded": false,
+        "picture_rounded": true,
         "picture_thumbnail": false
     }
 },
@@ -4376,21 +4975,21 @@
 },
 {
     "model": "polls_cms_integration.pollpluginmodel",
-    "pk": 135,
+    "pk": 311,
     "fields": {
         "poll": 3
     }
 },
 {
     "model": "polls_cms_integration.pollpluginmodel",
-    "pk": 141,
+    "pk": 314,
     "fields": {
         "poll": 1
     }
 },
 {
     "model": "polls_cms_integration.pollpluginmodel",
-    "pk": 147,
+    "pk": 317,
     "fields": {
         "poll": 6
     }
@@ -4461,7 +5060,7 @@
     "fields": {
         "poll": 1,
         "choice_text": "Lynx",
-        "votes": 256266
+        "votes": 256268
     }
 },
 {
@@ -4497,7 +5096,7 @@
     "fields": {
         "poll": 3,
         "choice_text": "Western",
-        "votes": 26256
+        "votes": 26257
     }
 },
 {
@@ -6665,7 +7264,7 @@
     "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$36000$aOJqAjuZ6gv1$zwBCs6l3AP1OJjOi7qiEC4GMzt5yriLsLFm0PdbJ4GY=",
-        "last_login": "2018-07-04T13:27:20.200Z",
+        "last_login": "2018-07-04T16:07:03.013Z",
         "is_superuser": true,
         "username": "admin",
         "first_name": "",
@@ -7040,6 +7639,331 @@
         "object_repr": "example.com",
         "action_flag": 2,
         "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2018-07-05T06:19:20.341Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "7",
+        "object_repr": "Footer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2018-07-05T06:19:25.741Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "7",
+        "object_repr": "Footer",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"reverse_id\", \"xframe_options\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2018-07-05T06:19:37.839Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "8",
+        "object_repr": "Terms of Service",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2018-07-05T06:19:43.711Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "9",
+        "object_repr": "Contact",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2018-07-05T06:19:52.791Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "7",
+        "object_repr": "Footer",
+        "action_flag": 2,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2018-07-05T06:19:54.886Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "9",
+        "object_repr": "Contact",
+        "action_flag": 2,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2018-07-05T06:19:56.647Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "8",
+        "object_repr": "Terms of Service",
+        "action_flag": 2,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2018-07-05T06:20:01.667Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "7",
+        "object_repr": "Footer",
+        "action_flag": 2,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2018-07-05T06:37:42.583Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "example.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2018-07-05T06:52:19.048Z",
+        "user": 1,
+        "content_type": 61,
+        "object_id": "150",
+        "object_repr": "150",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2018-07-05T06:52:22.302Z",
+        "user": 1,
+        "content_type": 61,
+        "object_id": "151",
+        "object_repr": "151",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2018-07-05T07:39:37.544Z",
+        "user": 1,
+        "content_type": 64,
+        "object_id": "1",
+        "object_repr": "1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2018-07-05T07:40:36.455Z",
+        "user": 1,
+        "content_type": 63,
+        "object_id": "3",
+        "object_repr": "3",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2018-07-05T07:45:48.664Z",
+        "user": 1,
+        "content_type": 63,
+        "object_id": "21",
+        "object_repr": "21",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2018-07-05T07:53:54.218Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "1",
+        "object_repr": "The Opinions Company",
+        "action_flag": 2,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2018-07-05T07:55:36.736Z",
+        "user": 1,
+        "content_type": 24,
+        "object_id": "203",
+        "object_repr": "asdfasdf",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2018-07-05T08:16:11.243Z",
+        "user": 1,
+        "content_type": 24,
+        "object_id": "51",
+        "object_repr": "Maecenas nec ex...",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2018-07-05T08:17:24.698Z",
+        "user": 1,
+        "content_type": 73,
+        "object_id": "208",
+        "object_repr": "208",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2018-07-05T08:18:08.380Z",
+        "user": 1,
+        "content_type": 63,
+        "object_id": "224",
+        "object_repr": "224",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2018-07-05T08:19:38.442Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "3",
+        "object_repr": "Our methods",
+        "action_flag": 2,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2018-07-05T08:20:33.070Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "3",
+        "object_repr": "Our methods",
+        "action_flag": 2,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2018-07-05T08:25:55.361Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "1",
+        "object_repr": "The Opinions Company",
+        "action_flag": 2,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2018-07-05T08:27:32.140Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "9",
+        "object_repr": "Contact",
+        "action_flag": 2,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2018-07-05T08:28:00.744Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "8",
+        "object_repr": "Terms of Service",
+        "action_flag": 2,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2018-07-05T08:28:34.312Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "1",
+        "object_repr": "The Opinions Company",
+        "action_flag": 2,
+        "change_message": ""
     }
 },
 {
