@@ -21,7 +21,7 @@ Install the project's dependencies into the virtual environment::
 
 Run migrations to create the empty database tables::
 
-    databasepython manage.py migrate
+    python manage.py migrate
 
 Load the database content from the ``database.json`` file::
 

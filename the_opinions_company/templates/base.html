@@ -1,27 +1,138 @@
 {% load staticfiles cms_tags menu_tags sekizai_tags %}
 <!doctype html>
 <html lang="{{ LANGUAGE_CODE }}">
-    <head>
-        <title>{% block title %}{% page_attribute page_title %} - {{ request.site.name }}{% endblock title %}</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <!-- Bootstrap -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-        <link href="{% static 'css/seminar.css' %}" rel="stylesheet">
+  <head>
 
-        {% render_block "css" %}
-    </head>
-    <body>
-        {% cms_toolbar %}
-        <div class="container">
-            <ul class="nav">
-                {% show_menu 0 100 100 100 %}
-            </ul>
-            {% block content %}{% endblock content %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{% page_attribute 'meta_description' %}">
+    <meta name="author" content="">
+
+    <title>
+        {% block title %}
+            {% page_attribute "page_title" %} - {{ request.site.name }}
+        {% endblock title %}
+    </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/agency.min.css' %}" rel="stylesheet">
+
+    <!-- django CMS -->
+    {% render_block "css" %}
+
+    <!-- Divio Cloud -->
+    {{ ALDRYN_SNAKE.render_head }}
+
+    <!-- django CMS toolbar adjustment -->
+    {% if request.toolbar %}
+    <style>
+        .cms-toolbar-expanded .navbar-custom {
+            margin-top: 45px;
+        }
+    </style>
+    {% endif %}
+  </head>
+
+<body id="top">
+    {% cms_toolbar %}
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="/">{{ request.site.name }}</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            {% show_menu 0 0 100 100 "includes/menu_header.html" %}
+          </ul>
         </div>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        {% render_block "js" %}
-    </body>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        {% placeholder "Feature" or %}
+        <div class="intro-text py-5"></div>
+        {% endplaceholder %}
+      </div>
+    </header>
+
+    <section class="container" id="start">
+        {% block content %}{% endblock content %}
+    </section>
+
+    {% block outside %}
+        {% placeholder "Fullwidth" %}
+    {% endblock %}
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; {{ request.site.name }} {% now "Y" %}</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/divio">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/divio.ch">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/divio">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              {% show_menu_below_id "footer" 0 0 100 100 "includes/menu_footer.html" %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="{% static 'js/jqBootstrapValidation.js' %}"></script>
+    <script src="{% static 'js/contact_me.js' %}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{% static 'js/agency.min.js' %}"></script>
+
+    {% render_block "js" %}
+
+    <!-- Divio Cloud -->
+    {{ ALDRYN_SNAKE.render_tail }}
+
+</body>
+
 </html>
