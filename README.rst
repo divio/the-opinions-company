@@ -31,9 +31,8 @@ Start the runserver::
 
     python manage.py runserver
 
-You can now open the site at http://localhost:8000
-
-Username and password: ``admin``/``admin``.
+You can now open the site at http://localhost:8000. The username and password are
+``admin``/``admin``. Check that you can log in and use the site and its admin.
 
 
 Dump database to a JSON file (if required)
@@ -58,9 +57,11 @@ On the Divio Cloud control panel, `create a new project
 * django CMS
 * Blank boilerplate
 
-Once the new project has been provisioned, check its Addons. You need to ensure that the version of
-django CMS installed matches that in your project. You also need to install django CMS Bootstrap 4
-(again, check that the versions match).
+Once the new project has been provisioned, see its *Addons* view.
+
+You need to ensure that the version of django CMS installed matches that in your project (3.5.3).
+
+You also need to *install* django CMS Bootstrap 4 (version 1.0.1).
 
 
 Set the project up locally
@@ -107,6 +108,8 @@ Some may or may not be explicitly listed amongst the project's addons, but can b
 you're looking at the right version), so once again, they won't need to be included, though you
 should still check that the version numbers are compatible.
 
+::
+
     # Django dependencies (specified in django CMS's setup.py)
 
     Django<2.0                          # Already installed by Aldryn Django
@@ -130,9 +133,9 @@ need to be listed manually::
     six                                 #
     easy_thumbnails                     #
 
-    # polls
-
 Finally, there is the Polls application, installed via pip from GitHub::
+
+    # polls
 
     -e git+git@github.com:divio/django-polls.git#egg=django-polls
 
@@ -143,7 +146,10 @@ format
 ackage-or-version-control-system>`_. Instead, you need to provide the URL of an archive, in this
 case::
 
-    https://github.com/divio/django-polls/archive/master.zip
+    https://github.com/divio/django-polls/archive/b89f59b933113b82c49062830912c42a8fc15c77.zip
+
+We use the commit, because otherwise `our pip system could cache an older version
+<http://docs.divio.com/en/latest/how-to/install-python-dependencies.html#pinning-dependencies>`_.
 
 And that is the only requirement you need to add manually to the ``requirements.in`` file.
 
@@ -233,20 +239,23 @@ The best way to maintain the ``CMS_TEMPLATES`` setting in a Divio project is via
 local version of the project, the form values are stored in
 ``addons/aldryn-djangocms/settings.json``.
 
-Amend the dictionary to include the template::
+However, for now it's easiest to include the setting in the ``settings.py`` file temporarily, so
+add::
 
-    "cms_templates": "[('content.html', 'Content')]",
+    CMS_TEMPLATES = (
+        ('content.html', 'Content'),
+    )
+
+(Later we will do this another way.)
 
 
 Prepare the Postgres database of the Divio project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Run migrations::
+The database has so far been migrated, but that's all.
 
-    docker-compose run --rm web python manage.py migrate
-
-Note that if you have done anything else to this database, you will need to restore it to its
-newly-migrated state::
+If you have done anything else to this database, you will need to restore it to its newly-migrated
+state::
 
     docker exec <database container id> dropdb -U postgres db --if-exists
     docker exec <database container id> createdb -U postgres db
@@ -285,3 +294,71 @@ Start the runserver
 
     docker-compose up
 
+
+Check the site
+~~~~~~~~~~~~~~
+
+Once again, check that the site works as expected.
+
+Now you're ready to push your work to the Cloud.
+
+
+Push your changes to the Divio Cloud environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Code
+^^^^
+
+Earlier, we added::
+
+    CMS_TEMPLATES = (
+        ('content.html', 'Content'),
+    )
+
+to the ``settings.py``. That was only a temporary expedient - remove that now, because you don't
+want to push that.
+
+Instead, in your project in the Control Panel, go to the *Addons* > *Aldryn django CMS* >
+*Configure*, and in the *CMS Templates* field apply::
+
+    [["content.html", "Content"]]
+
+Now you can push the rest of your code. Run ``git status`` to see what has been changed. ``git
+add`` the changes you want to push::
+
+    git add requirements.in settings.py polls_cms_integration static templates
+
+And::
+
+    git commit -m "Set up The Opinions Company as a Divio project"
+
+Finally::
+
+    git push origin develop
+
+
+Database
+^^^^^^^^
+
+Push the database::
+
+    divio project push db
+
+
+Media
+^^^^^
+
+And the media files::
+
+    divio project push media
+
+
+Deploy the new Divio Cloud project
+----------------------------------
+
+On the Control Panel, you see that there are now a number of undeployed commits, representing the
+work you have done.
+
+You can hit **Deploy** on the Control Panel, or run::
+
+    divio project deploy
