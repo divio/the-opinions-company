@@ -1,16 +1,18 @@
-<h1>{{ instance.poll.question }}</h1>
+<div class="portfolio-item">
+    <div class="portfolio-caption">
+        <h3 class="h56">{{ instance.poll.question }}</h3>
 
-<form action="{% url 'polls:vote' instance.poll.id %}" method="post">
-    {% csrf_token %}
-    <div class="form-group">
-        {% for choice in instance.poll.choice_set.all %}
-            <div class="radio">
-                <label>
-                    <input type="radio" name="choice" value="{{ choice.id }}">
-                    {{ choice.choice_text }}
-                </label>
+        <form action="{% url 'polls:vote' instance.poll.id %}" method="post" class="form">
+            {% csrf_token %}
+            <div class="form-group">
+                {% for choice in instance.poll.choice_set.all %}
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="radio-{{ choice.id }}" name="choice" value="{{ choice.id }}" class="custom-control-input">
+                        <label for="radio-{{ choice.id }}" class="custom-control-label">{{ choice.choice_text }}</label>
+                    </div>
+                {% endfor %}
             </div>
-        {% endfor %}
+            <input type="submit" value="Vote" class="btn btn-primary" />
+        </form>
     </div>
-    <input type="submit" value="Vote" />
-</form>
+</div>

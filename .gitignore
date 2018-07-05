@@ -49,3 +49,4 @@ screenshots
 .idea
 .better_test.db
 media/filer_public_thumbnails
+project.db
