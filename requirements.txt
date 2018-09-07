@@ -1,7 +1,9 @@
 # django CMS
 
-django-cms==3.5.2
-#-e git+git@github.com:divio/django-cms.git#egg=django-cms
+#django-cms==3.5.2
+
+# Temporarily installing from Git because there is an issue in 3.5.2 affecting loading from JSON
+-e git+git@github.com:divio/django-cms.git#egg=django-cms
 
 # django CMS plugins and addons
 
